@@ -3,12 +3,6 @@
 		<unsigned id="id" value="1919706994"/>
 		<integer id="nation" value="390"/>
 		<integer id="version" value="3506"/>
-		<list id="verf">
-			<string value="22.1.0"/>
-			<string value="22.3.0"/>
-			<string value="22.4.0"/>
-			<string value="23.0.0"/>
-		</list>
 		<list id="required_teams">
 			<record>
 				<integer id="competition" value="40"/>
@@ -1399,33 +1393,22 @@
 			<list id="division_levels">
 				<record>
 					<record id="competition">
-						<unsigned id="id" value="1668246896"/>
 						<large id="competition" value="171798691880"/>
 						<list id="verf">
-							<string value="22.1.0"/>
-							<string value="22.3.0"/>
-							<string value="22.4.0"/>
 							<string value="23.0.0"/>
 						</list>
 						<integer id="DBID" value="40"/>
 					</record>
 					<list id="verf">
-						<string value="22.1.0"/>
-						<string value="22.3.0"/>
-						<string value="22.4.0"/>
-						<string value="23.0.0"/>
+					<string value="23.0.0"/>
 					</list>
 				</record>
 				<record>
 					<record id="competition">
-						<unsigned id="id" value="1668246896"/>
 						<large id="competition" value="318780093981332030"/>
 						<integer id="DBID" value="2000228926"/>
 					</record>
 					<list id="verf">
-						<string value="22.1.0"/>
-						<string value="22.3.0"/>
-						<string value="22.4.0"/>
 						<string value="23.0.0"/>
 					</list>
 				</record>
@@ -1445,7 +1428,6 @@
 					<boolean id="use_min_or_max" value="false"/>
 					<boolean id="next_season" value="false"/>
 					<record id="competition">
-						<unsigned id="id" value="1668246896"/>
 						<large id="competition" value="318780093981332030"/>
 						<integer id="DBID" value="2000228926"/>
 					</record>
@@ -1612,7 +1594,6 @@
 				</record>
 				<record>
 					<record id="competition">
-						<unsigned id="id" value="1668246896"/>
 						<large id="competition" value="318780093981332030"/>
 						<integer id="DBID" value="2000228926"/>
 					</record>
@@ -1658,7 +1639,6 @@
 			<boolean id="comp_inactive" value="false"/>
 			<integer id="base_year" value="2000"/>
 			<record id="date_range">
-				<unsigned id="id" value="1685353070"/>
 				<string id="start_month" value="jan"/>
 				<integer id="start_year_offset" value="0"/>
 				<string id="end_month" value="jan"/>
@@ -1666,12 +1646,10 @@
 			</record>
 			<string id="description" value="Major League Soccer"/>
 			<record id="competition">
-				<unsigned id="id" value="1668246896"/>
 				<large id="competition" value="171798691880"/>
 				<integer id="DBID" value="40"/>
 			</record>
 			<integer id="level" value="0"/>
-			<boolean id="use_default_discipline_rules" value="true"/>
 		</record>
 		<record>
 			<string id="file_type" value="comp"/>
@@ -1684,7 +1662,6 @@
 			<boolean id="comp_inactive" value="false"/>
 			<integer id="base_year" value="2000"/>
 			<record id="date_range">
-				<unsigned id="id" value="1685353070"/>
 				<string id="start_month" value="jan"/>
 				<integer id="start_year_offset" value="0"/>
 				<string id="end_month" value="jan"/>
@@ -1692,12 +1669,10 @@
 			</record>
 			<string id="description" value="Verizon Premier League"/>
 			<record id="competition">
-				<unsigned id="id" value="1668246896"/>
 				<large id="competition" value="318780093981332030"/>
 				<integer id="DBID" value="2000228926"/>
 			</record>
 			<integer id="starting_level" value="1"/>
-			<boolean id="use_default_discipline_rules" value="true"/>
 		</record>
 		<record>
 			<integer id="version" value="1000"/>
@@ -1709,7 +1684,6 @@
 			<integer id="base_year" value="2000"/>
 			<integer id="discipline_index" value="0"/>
 			<record id="date_range">
-				<unsigned id="id" value="1685353070"/>
 				<string id="start_month" value="feb"/>
 				<integer id="start_year_offset" value="0"/>
 				<string id="end_month" value="nov"/>
@@ -1757,7 +1731,6 @@
 			<string id="EdBr" value="main"/>
 			<date id="EdDt" day="16" month="2" year="2021" time="1530"/>
 			<string id="SubF" value=".\northamerica\usa\"/>
-			<boolean id="use_default_discipline_rules" value="true"/>
 		</record>
 		<record>
 			<integer id="version" value="1000"/>
@@ -1769,7 +1742,6 @@
 			<integer id="base_year" value="2000"/>
 			<integer id="discipline_index" value="0"/>
 			<record id="date_range">
-				<unsigned id="id" value="1685353070"/>
 				<string id="start_month" value="feb"/>
 				<integer id="start_year_offset" value="0"/>
 				<string id="end_month" value="nov"/>
@@ -3677,14 +3649,11 @@
 	<integer id="EDvb" value="1"/>
 	<string id="EDfb" value=""/>
 	<list id="verf">
-		<string value="22.1.0"/>
-		<string value="22.3.0"/>
-		<string value="22.4.0"/>
 		<string value="23.0.0"/>
 	</list>
-	<integer id="XSvC" value="31"/>
+	<integer id="XSvC" value="28"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="13" month="11" year="2022" time="1215"/>
+	<date id="EdDt" day="13" month="11" year="2022" time="1115"/>
 	<integer id="version" value="3506"/>
 	<integer id="rule_group_version" value="1488"/>
 	<boolean id="beta" value="false"/>
@@ -3694,7 +3663,6 @@
 			<large id="db_unique_id" value="4294967297"/>
 			<unsigned id="property" value="1094992978"/>
 			<record id="new_value">
-				<unsigned id="id" value="1853322860"/>
 				<integer id="database_table_type" value="25"/>
 				<integer id="dcty" value="0"/>
 				<large id="db_unique_id" value="318780093981332030"/>
@@ -3739,7 +3707,6 @@
 			<large id="db_unique_id" value="318780093981332030"/>
 			<unsigned id="property" value="1668183145"/>
 			<record id="new_value">
-				<unsigned id="id" value="1853322860"/>
 				<large id="Nnat" value="1675037245830"/>
 				<integer id="DBID" value="390"/>
 			</record>
@@ -3753,10 +3720,8 @@
 			<large id="db_unique_id" value="318780093981332030"/>
 			<unsigned id="property" value="1668574579"/>
 			<record id="new_value">
-				<unsigned id="id" value="1853322860"/>
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<unsigned id="id" value="1986096245"/>
 					<large id="Ttea" value="8203387537270"/>
 				</record>
 			</record>
@@ -3768,10 +3733,8 @@
 			<large id="db_unique_id" value="318780093981332030"/>
 			<unsigned id="property" value="1668574579"/>
 			<record id="new_value">
-				<unsigned id="id" value="1853322860"/>
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<unsigned id="id" value="1986096245"/>
 					<large id="Ttea" value="8216272439161"/>
 				</record>
 			</record>
@@ -3783,10 +3746,8 @@
 			<large id="db_unique_id" value="318780093981332030"/>
 			<unsigned id="property" value="1668574579"/>
 			<record id="new_value">
-				<unsigned id="id" value="1853322860"/>
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<unsigned id="id" value="1986096245"/>
 					<large id="Ttea" value="467691873872221"/>
 				</record>
 			</record>
@@ -3798,10 +3759,8 @@
 			<large id="db_unique_id" value="318780093981332030"/>
 			<unsigned id="property" value="1668574579"/>
 			<record id="new_value">
-				<unsigned id="id" value="1853322860"/>
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<unsigned id="id" value="1986096245"/>
 					<large id="Ttea" value="309238126420337264"/>
 				</record>
 			</record>
@@ -3813,10 +3772,8 @@
 			<large id="db_unique_id" value="318780093981332030"/>
 			<unsigned id="property" value="1668574579"/>
 			<record id="new_value">
-				<unsigned id="id" value="1853322860"/>
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<unsigned id="id" value="1986096245"/>
 					<large id="Ttea" value="309440780157278912"/>
 				</record>
 			</record>
@@ -3828,10 +3785,8 @@
 			<large id="db_unique_id" value="318780093981332030"/>
 			<unsigned id="property" value="1668574579"/>
 			<record id="new_value">
-				<unsigned id="id" value="1853322860"/>
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<unsigned id="id" value="1986096245"/>
 					<large id="Ttea" value="8199092569973"/>
 				</record>
 			</record>
@@ -3843,10 +3798,8 @@
 			<large id="db_unique_id" value="318780093981332030"/>
 			<unsigned id="property" value="1668574579"/>
 			<record id="new_value">
-				<unsigned id="id" value="1853322860"/>
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<unsigned id="id" value="1986096245"/>
 					<large id="Ttea" value="8173322766191"/>
 				</record>
 			</record>
@@ -3858,10 +3811,8 @@
 			<large id="db_unique_id" value="318780093981332030"/>
 			<unsigned id="property" value="1668574579"/>
 			<record id="new_value">
-				<unsigned id="id" value="1853322860"/>
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<unsigned id="id" value="1986096245"/>
 					<large id="Ttea" value="309297800695961782"/>
 				</record>
 			</record>
@@ -3873,10 +3824,8 @@
 			<large id="db_unique_id" value="171798691880"/>
 			<unsigned id="property" value="1668183149"/>
 			<record id="new_value">
-				<unsigned id="id" value="1853322860"/>
 				<integer id="lsop" value="2"/>
 				<record id="olvl">
-					<unsigned id="id" value="1869379180"/>
 					<large id="Ttea" value="8590594867912502404"/>
 				</record>
 			</record>
@@ -3945,7 +3894,6 @@
 			<large id="db_unique_id" value="171798691880"/>
 			<unsigned id="property" value="1097092197"/>
 			<record id="new_value">
-				<unsigned id="id" value="1853322860"/>
 				<integer id="lsop" value="0"/>
 			</record>
 			<integer id="version" value="3506"/>
@@ -3956,7 +3904,6 @@
 			<large id="db_unique_id" value="171798691880"/>
 			<unsigned id="property" value="1097092197"/>
 			<record id="new_value">
-				<unsigned id="id" value="1853322860"/>
 				<integer id="lsop" value="3"/>
 			</record>
 			<integer id="version" value="3506"/>
@@ -3997,7 +3944,6 @@
 			<large id="db_unique_id" value="318780093981332030"/>
 			<unsigned id="property" value="1097092197"/>
 			<record id="new_value">
-				<unsigned id="id" value="1853322860"/>
 				<integer id="lsop" value="0"/>
 			</record>
 			<integer id="version" value="3506"/>
@@ -4012,7 +3958,6 @@
 				<integer id="value" value="20"/>
 				<integer id="lsop" value="1"/>
 				<record id="olvl">
-					<unsigned id="id" value="1869379180"/>
 					<null id="aLdL"/>
 					<integer id="dLsY" value="1900"/>
 					<integer id="dLeY" value="1900"/>
@@ -4026,7 +3971,6 @@
 			<large id="db_unique_id" value="318780093981332030"/>
 			<unsigned id="property" value="1097092197"/>
 			<record id="new_value">
-				<unsigned id="id" value="1853322860"/>
 				<integer id="lsop" value="3"/>
 			</record>
 			<integer id="version" value="3506"/>

@@ -1,0 +1,8 @@
+<record>
+	<list id="db_changes"/>
+	<integer id="version" value="3506"/>
+	<integer id="rule_group_version" value="1488"/>
+	<boolean id="beta" value="false"/>
+	<string id="orvs" value="2300"/>
+	<string id="svvs" value="2300"/>
+</record>
