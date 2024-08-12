@@ -1,0 +1,28 @@
+<record>
+	<list id="verf"/>
+	<list id="files"/>
+	<string id="description" value=""/>
+	<string id="author" value=""/>
+	<string id="orvs" value=""/>
+	<string id="svvs" value="2430"/>
+	<string id="EDvb" value="1"/>
+	<string id="EDfb" value=""/>
+	<record id="rule_group">
+		<boolean id="use_game_rules" value="false"/>
+		<record id="season_update_day">
+			<integer id="day_of_month" value="20"/>
+			<string id="month" value="jun"/>
+		</record>
+		<date id="start_date" day="1" month="8" year="2023" time="0"/>
+		<date id="end_date" day="31" month="5" year="2024" time="0"/>
+		<integer id="bosman_number_days" value="183"/>
+		<unsigned id="nation" value="390"/>
+	</record>
+	<integer id="XSvC" value="2"/>
+	<string id="EdBr" value="main"/>
+	<date id="EdDt" day="11" month="8" year="2024" time="1745"/>
+	<list id="db_changes"/>
+	<integer id="version" value="3569"/>
+	<integer id="rule_group_version" value="1536"/>
+	<boolean id="beta" value="false"/>
+</record>
