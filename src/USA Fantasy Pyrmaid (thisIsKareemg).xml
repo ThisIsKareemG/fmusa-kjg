@@ -11,6 +11,7 @@
 				</record>
 				<record>
 					<large id="competition" value="43"/>
+					<list id="verf"/>
 				</record>
 			</list>
 			<list id="competitions">
@@ -94,10 +95,18 @@
 					<record id="red_card_info">
 						<integer id="games_banned" value="1"/>
 						<string id="red_card_rule" value="x_match_per_red_card"/>
+						<string id="ban_scope" value="all_comps_in_nation"/>
 					</record>
 					<record id="serious_red_card_info">
 						<string id="decision_date" value="next_week"/>
 						<string id="ban_scope" value="all_comps_in_nation"/>
+						<boolean id="use_for_straight_red" value="false"/>
+					</record>
+					<boolean id="two_yellows_as_red" value="true"/>
+					<boolean id="transfer_red_card_bans_to_league_at_end_of_comp" value="true"/>
+					<record id="season_comp_ban_info">
+						<integer id="red_card_info" value="3"/>
+						<integer id="yellow_card_info" value="10"/>
 					</record>
 				</record>
 			</list>
@@ -106,11 +115,17 @@
 					<integer id="minimum_number_teams" value="20"/>
 					<integer id="maximum_number_teams" value="20"/>
 					<large id="competition" value="40"/>
+					<boolean id="ignore_minor_teams" value="true"/>
+					<boolean id="use_min_or_max" value="false"/>
+					<boolean id="next_season" value="false"/>
 				</record>
 				<record>
 					<integer id="minimum_number_teams" value="24"/>
 					<integer id="maximum_number_teams" value="24"/>
 					<large id="competition" value="43"/>
+					<boolean id="ignore_minor_teams" value="true"/>
+					<boolean id="use_min_or_max" value="false"/>
+					<boolean id="next_season" value="false"/>
 				</record>
 			</list>
 			<integer id="version" value="1000"/>
@@ -135,29 +150,265 @@
 			</list>
 			<record id="season_update_day">
 				<unsigned id="id" value="1970300025"/>
-				<integer id="day_of_month" value="20"/>
+				<integer id="day_of_month" value="15"/>
 				<string id="month" value="jun"/>
 			</record>
 			<record id="transfer_rules">
 				<boolean id="uses_bosman_rules" value="true"/>
 				<integer id="bosman_number_days" value="183"/>
 				<boolean id="free_transfers_can_join_outside_window" value="true"/>
-				<boolean id="loan_players_can_join_outside_window" value="false"/>
+				<boolean id="loan_players_can_join_outside_window" value="true"/>
+				<boolean id="has_trial_day" value="false"/>
+				<string id="loan_players_can_be_recalled" value="always"/>
+				<boolean id="amateur_players_can_join_outside_window" value="true"/>
+				<boolean id="cannot_move_registered_over_23_player_to_main_club" value="true"/>
+				<boolean id="cannot_move_over_23_professional_player_to_main_club_outside_window" value="true"/>
+				<boolean id="maximum_3_players_can_be_moved_to_other_club_per_match" value="true"/>
+				<integer id="youth_regen_min_age" value="16"/>
+				<integer id="developmental_contract_max_age" value="22"/>
+				<boolean id="disable_min_release_fee_rules" value="true"/>
+				<list id="release_fee_rules">
+					<record>
+						<real id="cash" value="800428.000000"/>
+						<string id="type" value="min_release_fee"/>
+						<record id="competition">
+							<large id="competition" value="171798691880"/>
+							<integer id="DBID" value="40"/>
+						</record>
+					</record>
+					<record>
+						<real id="cash" value="600321.000000"/>
+						<string id="type" value="min_release_fee"/>
+						<record id="competition">
+							<large id="competition" value="184683593771"/>
+							<integer id="DBID" value="43"/>
+						</record>
+					</record>
+					<record>
+						<real id="cash" value="400214.000000"/>
+						<string id="type" value="min_release_fee"/>
+						<record id="competition">
+							<large id="competition" value="86103391246345876"/>
+							<integer id="DBID" value="20047508"/>
+						</record>
+					</record>
+				</list>
 			</record>
-			<null id="loan_rules"/>
-			<string id="reserve_teams" value=""/>
+			<list id="loan_rules">
+				<record>
+					<string id="type" value="max_players"/>
+					<string id="player_type" value="any_player"/>
+					<record id="competition">
+						<large id="competition" value="171798691880"/>
+						<integer id="DBID" value="40"/>
+					</record>
+					<string id="subtype" value="max_players_on_loan_at_one_time"/>
+					<integer id="value" value="3"/>
+				</record>
+				<record>
+					<string id="type" value="division"/>
+					<string id="subtype" value="no_loans_between_teams_in_same_division"/>
+					<string id="player_type" value="any_player"/>
+				</record>
+				<record>
+					<string id="type" value="max_players"/>
+					<string id="player_type" value="any_player"/>
+					<string id="subtype" value="max_players_on_loan_at_one_time"/>
+					<integer id="value" value="4"/>
+					<record id="competition">
+						<large id="competition" value="184683593771"/>
+						<integer id="DBID" value="43"/>
+					</record>
+				</record>
+			</list>
 			<list id="reserve_leagues"/>
-			<list id="transfer_windows"/>
+			<list id="transfer_windows">
+				<record>
+					<record id="start_date">
+						<string id="day_of_week" value="sat"/>
+						<integer id="day_of_month" value="1"/>
+						<string id="month" value="jul"/>
+						<integer id="year" value="2000"/>
+					</record>
+					<record id="end_date">
+						<string id="day_of_week" value="tue"/>
+						<integer id="day_of_month" value="1"/>
+						<string id="month" value="aug"/>
+						<integer id="year" value="2000"/>
+					</record>
+					<string id="description" value="Summer Transfer Window"/>
+					<string id="id" value="sum"/>
+					<string id="squad_window_id" value="sum"/>
+					<string id="window_close_time" value="2345"/>
+					<boolean id="allow_transfer_window_closure_on_saturday" value="true"/>
+					<string id="window_type" value="normal"/>
+					<integer id="highest_division_level" value="0"/>
+					<integer id="lowest_division_level" value="1"/>
+					<boolean id="send_news_start" value="true"/>
+					<boolean id="send_news_end" value="true"/>
+					<boolean id="send_news_media_speculation" value="true"/>
+					<boolean id="does_use_transfer_deadline_day_activity" value="false"/>
+					<boolean id="allow_replacement_player_for_national_team_injury" value="true"/>
+					<boolean id="allow_replacement_player_for_goalkeeper_injury" value="true"/>
+					<boolean id="use_for_squad_selection_window" value="true"/>
+				</record>
+				<record>
+					<record id="start_date">
+						<string id="day_of_week" value="mon"/>
+						<integer id="day_of_month" value="1"/>
+						<string id="month" value="jan"/>
+						<integer id="year" value="2001"/>
+					</record>
+					<record id="end_date">
+						<string id="day_of_week" value="wed"/>
+						<integer id="day_of_month" value="31"/>
+						<string id="month" value="jan"/>
+						<integer id="year" value="2001"/>
+					</record>
+					<string id="description" value="Winter Transfer Window"/>
+					<string id="id" value="win"/>
+					<string id="squad_window_id" value="win"/>
+					<string id="window_close_time" value="2345"/>
+					<boolean id="allow_transfer_window_closure_on_saturday" value="true"/>
+					<string id="window_type" value="normal"/>
+					<integer id="highest_division_level" value="0"/>
+					<integer id="lowest_division_level" value="1"/>
+					<boolean id="send_news_start" value="true"/>
+					<boolean id="send_news_end" value="true"/>
+					<boolean id="send_news_media_speculation" value="true"/>
+					<boolean id="does_use_transfer_deadline_day_activity" value="false"/>
+					<boolean id="allow_replacement_player_for_national_team_injury" value="true"/>
+					<boolean id="allow_replacement_player_for_goalkeeper_injury" value="true"/>
+					<boolean id="use_for_squad_selection_window" value="true"/>
+				</record>
+			</list>
 			<list id="start_date_rules">
 				<record>
 					<string id="type" value="start_of_season_for_selected_division"/>
 					<large id="competition" value="40"/>
+					<integer id="base_year_offset" value="0"/>
+					<boolean id="base_year_interval" value="false"/>
 				</record>
 				<record>
 					<string id="type" value="start_of_season_for_selected_division"/>
 					<large id="competition" value="43"/>
+					<integer id="base_year_offset" value="0"/>
+					<boolean id="base_year_interval" value="false"/>
 				</record>
 			</list>
+			<record id="newgen_intake_day">
+				<integer id="day_of_month" value="1"/>
+				<string id="month" value="jan"/>
+			</record>
+			<integer id="branch" value="0"/>
+			<integer id="newgen_intake_variance" value="7"/>
+			<integer id="weekend_default_fixture_time" value="1500"/>
+			<string id="midweek_default_fixture_time" value="1900"/>
+			<string id="sunday_default_fixture_time" value="1400"/>
+			<integer id="preseason_max_days_for_friendlies" value="30"/>
+			<integer id="preseason_preparation_days" value="28"/>
+			<integer id="late_preseason_preparation_days" value="14"/>
+			<record id="preseason_preparation_date">
+				<integer id="day_of_month" value="1"/>
+				<string id="month" value="jul"/>
+			</record>
+			<record id="training_start_day">
+				<integer id="day_of_month" value="1"/>
+				<string id="month" value="jul"/>
+			</record>
+			<list id="invalid_fixture_special_date">
+				<record>
+					<string id="type" value="all_competitive_domestic_matches"/>
+					<string id="special_date" value="new_years_day"/>
+					<integer id="start_day_offset" value="0"/>
+					<integer id="end_day_offset" value="0"/>
+				</record>
+			</list>
+			<list id="mid_season_windows">
+				<record>
+					<record id="start_date">
+						<string id="day_of_week" value="mon"/>
+						<integer id="day_of_month" value="25"/>
+						<string id="month" value="dec"/>
+						<integer id="year" value="2000"/>
+					</record>
+					<record id="end_date">
+						<string id="day_of_week" value="mon"/>
+						<integer id="day_of_month" value="1"/>
+						<string id="month" value="jan"/>
+						<integer id="year" value="2001"/>
+					</record>
+					<string id="window_type" value="mind_season_break_period"/>
+				</record>
+			</list>
+			<list id="training_camp_windows">
+				<record>
+					<record id="start_date">
+						<string id="day_of_week" value="sat"/>
+						<integer id="day_of_month" value="1"/>
+						<string id="month" value="jul"/>
+						<integer id="year" value="2000"/>
+					</record>
+					<record id="end_date">
+						<string id="day_of_week" value="mon"/>
+						<integer id="day_of_month" value="31"/>
+						<string id="month" value="jul"/>
+						<integer id="year" value="2000"/>
+					</record>
+					<integer id="highest_division_level" value="0"/>
+					<integer id="lowest_division_level" value="1"/>
+				</record>
+				<record>
+					<record id="start_date">
+						<string id="day_of_week" value="tue"/>
+						<integer id="day_of_month" value="26"/>
+						<string id="month" value="dec"/>
+						<integer id="year" value="2000"/>
+					</record>
+					<record id="end_date">
+						<string id="day_of_week" value="tue"/>
+						<integer id="day_of_month" value="2"/>
+						<string id="month" value="jan"/>
+						<integer id="year" value="2001"/>
+					</record>
+					<integer id="highest_division_level" value="0"/>
+					<integer id="lowest_division_level" value="1"/>
+				</record>
+			</list>
+			<record id="contract_rules">
+				<list id="contract_durations">
+					<record>
+						<string id="type" value="max_years_for_playing_contract"/>
+						<integer id="info_1" value="4"/>
+						<string id="contract_durations_players_effected_type" value="all_players"/>
+						<integer id="highest_division_level" value="1"/>
+						<integer id="lowest_division_level" value="1"/>
+					</record>
+					<record>
+						<string id="type" value="max_years_for_playing_contract"/>
+						<integer id="info_1" value="5"/>
+						<string id="contract_durations_players_effected_type" value="all_players"/>
+						<integer id="highest_division_level" value="0"/>
+						<integer id="lowest_division_level" value="0"/>
+					</record>
+					<record>
+						<string id="type" value="min_years_for_playing_contract"/>
+						<integer id="info_1" value="1"/>
+						<string id="contract_durations_players_effected_type" value="all_players"/>
+						<integer id="highest_division_level" value="0"/>
+						<integer id="lowest_division_level" value="3"/>
+					</record>
+					<record>
+						<string id="type" value="weekly_wage_for_youth_contract"/>
+						<string id="contract_durations_players_effected_type" value="youth_players"/>
+						<integer id="cash" value="500"/>
+					</record>
+					<record>
+						<string id="type" value="expired_contracts"/>
+						<string id="contract_expiry_type" value="expired_agreement_needed"/>
+					</record>
+				</list>
+			</record>
 		</record>
 		<record>
 			<integer id="version" value="1000"/>
@@ -331,6 +582,8 @@
 							<integer id="number_winning_playoff_teams" value="2"/>
 						</record>
 					</list>
+					<list id="requirements"/>
+					<list id="ranking_levels"/>
 				</record>
 				<record>
 					<unsigned id="id" value="1919709292"/>
@@ -353,7 +606,6 @@
 							<string id="seeding_method" value="using_position_in_stage"/>
 							<boolean id="reverse_teams" value="false"/>
 							<large id="competition" value="43"/>
-							<integer id="seeding" value="10"/>
 						</record>
 						<record>
 							<string id="id" value="get_inactive_lower_division_playoff_teams"/>
@@ -365,10 +617,12 @@
 					<list id="requirements">
 						<record>
 							<unsigned id="stage" value="1818583399"/>
+							<boolean id="process_early_finish" value="false"/>
 						</record>
 						<record>
 							<unsigned id="stage" value="1818583399"/>
 							<large id="competition" value="43"/>
+							<boolean id="process_early_finish" value="false"/>
 						</record>
 					</list>
 					<integer id="number_rounds" value="1"/>
@@ -424,12 +678,14 @@
 							<string id="fate" value="none"/>
 							<string id="new_fate" value="none"/>
 							<unsigned id="stage" value="1818583399"/>
+							<boolean id="search_child_comps" value="true"/>
 						</record>
 						<record>
 							<string id="type" value="set_league_fate"/>
 							<string id="fate" value="relegated"/>
 							<string id="new_fate" value="relegated"/>
 							<unsigned id="stage" value="1818583399"/>
+							<boolean id="search_child_comps" value="true"/>
 						</record>
 						<record>
 							<string id="type" value="set_league_fate"/>
@@ -437,6 +693,7 @@
 							<string id="new_fate" value="promoted"/>
 							<unsigned id="stage" value="1818583399"/>
 							<large id="competition" value="43"/>
+							<boolean id="search_child_comps" value="true"/>
 						</record>
 						<record>
 							<string id="type" value="set_league_fate"/>
@@ -444,6 +701,7 @@
 							<string id="new_fate" value="none"/>
 							<unsigned id="stage" value="1818583399"/>
 							<large id="competition" value="43"/>
+							<boolean id="search_child_comps" value="true"/>
 						</record>
 					</list>
 					<list id="add_virtual_stage">
@@ -452,8 +710,11 @@
 							<integer id="stage_name" value="117"/>
 						</record>
 					</list>
+					<list id="ranking_levels"/>
 				</record>
 			</list>
+			<integer id="branch" value="0"/>
+			<boolean id="comp_inactive" value="false"/>
 		</record>
 		<record>
 			<integer id="version" value="1000"/>
@@ -486,6 +747,7 @@
 					<large id="competition" value="40"/>
 					<integer id="index" value="1"/>
 					<boolean id="optional_stage" value="false"/>
+					<string id="id" value="????"/>
 				</record>
 			</list>
 			<list id="stages">
@@ -608,8 +870,12 @@
 						<large id="competition" value="40"/>
 					</record>
 					<list id="prize_money"/>
+					<list id="requirements"/>
+					<list id="ranking_levels"/>
 				</record>
 			</list>
+			<integer id="branch" value="0"/>
+			<boolean id="comp_inactive" value="false"/>
 		</record>
 	</list>
 	<string id="description" value=""/>
@@ -858,9 +1124,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="41"/>
+	<integer id="XSvC" value="48"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="12" month="8" year="2024" time="1430"/>
+	<date id="EdDt" day="12" month="8" year="2024" time="1530"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
@@ -19769,6 +20035,10 @@
 	</list>
 	<list id="Coms">
 		<string value="database_record/crep"/>
+		<string value="Comment"/>
+		<string value="files/0/contract_rules/contract_durations/3/cash"/>
+		<string value="Comment"/>
+		<string value="files/0/mid_season_windows/mid_season_windows"/>
 		<string value="Comment"/>
 	</list>
 </record>
