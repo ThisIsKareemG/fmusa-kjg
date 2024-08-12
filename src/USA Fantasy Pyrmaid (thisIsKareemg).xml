@@ -247,9 +247,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="31"/>
+	<integer id="XSvC" value="33"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="12" month="8" year="2024" time="1245"/>
+	<date id="EdDt" day="12" month="8" year="2024" time="1300"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
@@ -17415,6 +17415,418 @@
 			<integer id="version" value="3569"/>
 			<integer id="db_random_id" value="439025819"/>
 			<integer id="odvl" value="0"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="86112857354268464"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="ASL Championship Most Valuable Player"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="414233298"/>
+			<string id="odvl" value="USSL Championship Most Valuable Player"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="86112857354268464"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="ASC Most Valuable Player"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="271374217"/>
+			<string id="odvl" value="USSL Championship Most Valuable Player"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="8590214604392927915"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="American Soccer League Championship Head Coach of the Year"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="398275649"/>
+			<string id="odvl" value="USSL Championship Head Coach of the Year"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="8590237311885027154"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="American Soccer League Championship Referee of the Year"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="474974010"/>
+			<string id="odvl" value="USSL Championship Referee of the Year"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="8590237311885027154"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="ASC"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="535920234"/>
+			<string id="odvl" value="USSL Championship Referee of the Year"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="8590237311885027154"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="ASC Referee of the Year"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="182828436"/>
+			<string id="odvl" value="ASC"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="8590214582918091430"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="American Soccer League Championship Assists Champion"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="706218706"/>
+			<string id="odvl" value="USSL Championship Assists Champion"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="8590214582918091430"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="ASC Assists Champion"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="580530822"/>
+			<string id="odvl" value="USSL Championship Assists Champion"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="8590214591508026024"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="American Soccer League Championship Golden Gloves"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="521192050"/>
+			<string id="odvl" value="USSL Championship Golden Gloves"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="8590214591508026024"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="ASC Golden Gloves"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="793707173"/>
+			<string id="odvl" value="USSL Championship Golden Gloves"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="86112857354268464"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="American Soccer League Championship Most Valuable Player"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="169158102"/>
+			<string id="odvl" value="ASL Championship Most Valuable Player"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="86112865944203058"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="American Soccer League Championship Defender of the Year"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="495271983"/>
+			<string id="odvl" value="USSL Championship Defender of the Year"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="86112865944203058"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="ASC Defender of the Year"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="723996791"/>
+			<string id="odvl" value="USSL Championship Defender of the Year"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="86112874534137652"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="American Soccer League Championship Young Player of the Year"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="132402402"/>
+			<string id="odvl" value="USSL Championship Young Player of the Year"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="86112874534137652"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="ASC Young Player of the Y"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="853808209"/>
+			<string id="odvl" value="USSL Championship Young Player of the Year"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="86112883124072246"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="American Soccer League Championship Goalkeeper of the Year"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="54888347"/>
+			<string id="odvl" value="USSL Championship Goalkeeper of the Year"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="86112883124072246"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="ASC Goalkeeper of the Yea"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="215458955"/>
+			<string id="odvl" value="USSL Championship Goalkeeper of the Year"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="86112891714006840"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="American Soccer League Championship Golden Boot"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="954384894"/>
+			<string id="odvl" value="USSL Championship Golden Boot"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="86112891714006840"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="ASC Golden Boot"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="264737986"/>
+			<string id="odvl" value="USSL Championship Golden Boot"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="86112900303941434"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="American Soccer League Championship All-League Team"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="122185466"/>
+			<string id="odvl" value="USSL Championship All-League Team"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="86112900303941434"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="ASC All-League Team"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="167826457"/>
+			<string id="odvl" value="USSL Championship All-League Team"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="8590214651637568182"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="American Soccer League Championship Player of the Month"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="923814473"/>
+			<string id="odvl" value="USSL Championship Player of the Month"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="8590214651637568182"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="ASC Player of the Month"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="278788207"/>
+			<string id="odvl" value="USSL Championship Player of the Month"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="8590214617277829806"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="American Soccer League Championship Goal of the Year"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="680277786"/>
+			<string id="odvl" value="USSL Championship Goal of the Year"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="8590214617277829806"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="ASC Goal of the Year"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="398411466"/>
+			<string id="odvl" value="USSL Championship Goal of the Year"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="8590214655932535479"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="American Soccer League Championship Goal of the Month"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="678051226"/>
+			<string id="odvl" value="USSL Championship Goal of the Month"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="8590214655932535479"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="ASC Goal of the Month"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="768191764"/>
+			<string id="odvl" value="USSL Championship Goal of the Month"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="8590214660227502776"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="American Soccer League Championship Head Coach of the Month"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="518028183"/>
+			<string id="odvl" value="USSL Championship Head Coach of the Month"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="8590214621572797103"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="American Soccer League  Championship Player of the Week"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="601615684"/>
+			<string id="odvl" value="USSL Championship Player of the Week"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="8590214621572797103"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="ASC Player of the Week"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="76838356"/>
+			<string id="odvl" value="USSL Championship Player of the Week"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="8590214630162731697"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="American Soccer League Championship Goal of the Week"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="337298050"/>
+			<string id="odvl" value="USSL Championship Goal of the Week"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="8590214630162731697"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="ASC Goal of the Week"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="559681862"/>
+			<string id="odvl" value="USSL Championship Goal of the Week"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="8590214638752666291"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="American Soccer League Championship Team of the Week"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="458497965"/>
+			<string id="odvl" value="USSL Championship Team of the Week"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="8590214638752666291"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="ASC Team of the Week"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="891760932"/>
+			<string id="odvl" value="USSL Championship Team of the Week"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="85965243623237871"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="American Soccer League Championship Head Coach of the Year"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="90979872"/>
+			<string id="odvl" value="American Third Division Head Coach of the Year"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="85965243623237871"/>
+			<unsigned id="property" value="1145392197"/>
+			<boolean id="new_value" value="true"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="62999190"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="85965252213172465"/>
+			<unsigned id="property" value="1145392197"/>
+			<boolean id="new_value" value="true"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="866013471"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="85965247918205168"/>
+			<unsigned id="property" value="1145392197"/>
+			<boolean id="new_value" value="true"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="520163267"/>
 			<boolean id="is_client_field" value="true"/>
 		</record>
 	</list>
