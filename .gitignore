@@ -1,3 +1,7 @@
 # Ignore Football Manager editor files
 *.fmf
 *.bak
+
+
+# Ignore the _old directory
+_old/
