@@ -531,18 +531,16 @@
 									<unsigned id="id" value="1836344441"/>
 									<string id="day_of_week" value="sat"/>
 									<integer id="time" value="1500"/>
-								</record>
-								<record>
-									<string id="day_of_week" value="sat"/>
-									<string id="time" value="1930"/>
+									<string id="new_day_of_week" value="sat"/>
+									<string id="new_time" value="1930"/>
+									<integer id="percentage" value="30"/>
 								</record>
 								<record>
 									<string id="day_of_week" value="sun"/>
 									<string id="time" value="1500"/>
-								</record>
-								<record>
-									<string id="day_of_week" value="sun"/>
-									<string id="time" value="1930"/>
+									<string id="new_day_of_week" value="sun"/>
+									<string id="new_time" value="1930"/>
+									<integer id="percentage" value="30"/>
 								</record>
 							</list>
 							<list id="tv_dates">
@@ -555,7 +553,7 @@
 									<integer id="new_time" value="1930"/>
 								</record>
 								<record>
-									<string id="day_of_week" value="sun"/>
+									<string id="day_of_week" value="sat"/>
 									<integer id="number_matches" value="2"/>
 									<string id="new_day_of_week" value="sun"/>
 									<string id="tv_type" value="national"/>
@@ -579,7 +577,7 @@
 									<integer id="new_time" value="1500"/>
 								</record>
 								<record>
-									<string id="day_of_week" value="fri"/>
+									<string id="day_of_week" value="sat"/>
 									<integer id="number_matches" value="1"/>
 									<string id="new_day_of_week" value="fri"/>
 									<string id="tv_type" value="satellite"/>
@@ -589,10 +587,20 @@
 								<record>
 									<string id="day_of_week" value="sat"/>
 									<integer id="number_matches" value="1"/>
-									<string id="new_day_of_week" value="sat"/>
+									<string id="new_day_of_week" value="thu"/>
 									<string id="tv_type" value="satellite"/>
 									<string id="matches_type" value="minor"/>
 									<integer id="new_time" value="1230"/>
+								</record>
+								<record>
+									<integer id="number_matches" value="10"/>
+									<string id="tv_type" value="pay_per_view"/>
+									<string id="matches_type" value="minor"/>
+									<string id="day_of_week" value="sat"/>
+									<string id="new_day_of_week" value="sat"/>
+									<string id="new_time" value="1500"/>
+									<string id="backup_time" value="1930"/>
+									<string id="date_flags" value="dont_send_news"/>
 								</record>
 							</list>
 						</record>
@@ -607,7 +615,6 @@
 						<integer id="max_places" value="2"/>
 						<large id="competition" value="43"/>
 					</record>
-					<list id="prize_money"/>
 					<list id="fate_actions">
 						<record>
 							<string id="type" value="lower_division_top_playoff_teams"/>
@@ -635,60 +642,142 @@
 					</record>
 					<list id="tv_decision_dates">
 						<record>
-							<integer id="days_to_look_ahead" value="21"/>
+							<integer id="days_to_look_ahead" value="15"/>
 							<record id="start_date">
 								<string id="day_of_week" value="thu"/>
 								<integer id="day_of_month" value="1"/>
 								<string id="month" value="jun"/>
 								<integer id="year" value="2000"/>
 							</record>
+							<integer id="tv_decision_period" value="7"/>
 						</record>
 						<record>
-							<integer id="days_to_look_ahead" value="21"/>
+							<integer id="days_to_look_ahead" value="15"/>
 							<record id="start_date">
-								<string id="day_of_week" value="fri"/>
-								<integer id="day_of_month" value="15"/>
-								<string id="month" value="sep"/>
-								<integer id="year" value="2000"/>
-							</record>
-						</record>
-						<record>
-							<integer id="days_to_look_ahead" value="14"/>
-							<record id="start_date">
-								<string id="day_of_week" value="wed"/>
-								<integer id="day_of_month" value="15"/>
-								<string id="month" value="nov"/>
-								<integer id="year" value="2000"/>
-							</record>
-						</record>
-						<record>
-							<integer id="days_to_look_ahead" value="21"/>
-							<record id="start_date">
-								<string id="day_of_week" value="fri"/>
-								<integer id="day_of_month" value="5"/>
-								<string id="month" value="jan"/>
-								<integer id="year" value="2001"/>
-							</record>
-						</record>
-						<record>
-							<integer id="days_to_look_ahead" value="14"/>
-							<record id="start_date">
-								<string id="day_of_week" value="thu"/>
+								<string id="day_of_week" value="sun"/>
 								<integer id="day_of_month" value="1"/>
-								<string id="month" value="mar"/>
+								<string id="month" value="apr"/>
 								<integer id="year" value="2001"/>
 							</record>
+							<integer id="tv_decision_period" value="7"/>
 						</record>
 						<record>
-							<integer id="days_to_look_ahead" value="7"/>
+							<integer id="days_to_look_ahead" value="15"/>
 							<record id="start_date">
-								<string id="day_of_week" value="tue"/>
-								<integer id="day_of_month" value="1"/>
-								<string id="month" value="may"/>
+								<string id="day_of_week" value="sun"/>
+								<integer id="day_of_month" value="15"/>
+								<string id="month" value="apr"/>
 								<integer id="year" value="2001"/>
 							</record>
+							<integer id="tv_decision_period" value="7"/>
 						</record>
 					</list>
+					<list id="prize_money">
+						<record>
+							<integer id="position" value="0"/>
+							<real id="cash" value="30000000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="1"/>
+							<real id="cash" value="22500000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="2"/>
+							<real id="cash" value="22500000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="3"/>
+							<real id="cash" value="22500000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="4"/>
+							<real id="cash" value="22500000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="5"/>
+							<real id="cash" value="15000000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="6"/>
+							<real id="cash" value="15000000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="7"/>
+							<real id="cash" value="15000000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="8"/>
+							<real id="cash" value="15000000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="9"/>
+							<real id="cash" value="15000000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="10"/>
+							<real id="cash" value="7500000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="11"/>
+							<real id="cash" value="7500000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="12"/>
+							<real id="cash" value="7500000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="13"/>
+							<real id="cash" value="7500000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="14"/>
+							<real id="cash" value="7500000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="15"/>
+							<real id="cash" value="3000000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="16"/>
+							<real id="cash" value="3000000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="17"/>
+							<real id="cash" value="3000000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="18"/>
+							<real id="cash" value="3000000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="19"/>
+							<real id="cash" value="3000000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+					</list>
+					<record id="appearance_money">
+						<real id="cash" value="30000000.000000"/>
+						<unsigned id="currency" value="24"/>
+					</record>
 				</record>
 				<record>
 					<string id="id" value="rlpl"/>
@@ -837,34 +926,27 @@
 			<boolean id="check_for_finals_comp_finish" value="true"/>
 			<boolean id="individual_tv_deal_overrides_competition_tv_money" value="true"/>
 			<integer id="percentage_initial_tv_money" value="25"/>
-			<boolean id="final_rankings_use_average_ranking" value="true"/>
-			<list id="final_rankings">
-				<record>
-					<integer id="id" value="0"/>
-					<record id="prize_money">
-						<real id="cash" value="30000000.000000"/>
-						<unsigned id="currency" value="24"/>
-					</record>
-				</record>
-			</list>
 			<list id="match_tv_money">
 				<record>
-					<real id="cash" value="937500.000000"/>
-					<unsigned id="currency" value="24"/>
 					<string id="tv_type" value="national"/>
 					<integer id="percentage" value="60"/>
+					<integer id="index" value="0"/>
+					<real id="cash" value="1406250.000000"/>
+					<unsigned id="currency" value="24"/>
 				</record>
 				<record>
 					<real id="cash" value="656250.000000"/>
 					<unsigned id="currency" value="24"/>
 					<string id="tv_type" value="satellite"/>
 					<integer id="percentage" value="60"/>
+					<integer id="index" value="0"/>
 				</record>
 				<record>
-					<real id="cash" value="1406250.000000"/>
-					<unsigned id="currency" value="24"/>
 					<string id="tv_type" value="pay_per_view"/>
 					<integer id="percentage" value="60"/>
+					<integer id="index" value="0"/>
+					<real id="cash" value="500000.000000"/>
+					<unsigned id="currency" value="24"/>
 				</record>
 			</list>
 			<list id="gate_receipts">
@@ -887,6 +969,17 @@
 			<integer id="minimum_stadium_seating_capacity" value="15000"/>
 			<string id="minimum_stadium_condition" value="very_good"/>
 			<integer id="dispensation_period" value="2"/>
+			<list id="final_rankings">
+				<record>
+					<integer id="id" value="0"/>
+					<record id="prize_money">
+						<real id="cash" value="30000000.000000"/>
+						<unsigned id="currency" value="24"/>
+					</record>
+				</record>
+			</list>
+			<boolean id="final_rankings_use_average_ranking" value="true"/>
+			<integer id="final_rankings_use_cash_per_place" value="100000"/>
 		</record>
 		<record>
 			<integer id="version" value="1000"/>
@@ -1296,9 +1389,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="63"/>
+	<integer id="XSvC" value="84"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="12" month="8" year="2024" time="1630"/>
+	<date id="EdDt" day="12" month="8" year="2024" time="2100"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
@@ -18624,7 +18717,7 @@
 			<integer id="database_table_type" value="0"/>
 			<large id="db_unique_id" value="86112874534137652"/>
 			<unsigned id="property" value="1096250222"/>
-			<string id="new_value" value="ASC Young Player of the Y"/>
+			<string id="new_value" value="ASC Young Player of the Year"/>
 			<integer id="version" value="3569"/>
 			<integer id="db_random_id" value="853808209"/>
 			<string id="odvl" value="USSL Championship Young Player of the Year"/>
@@ -18646,7 +18739,7 @@
 			<integer id="database_table_type" value="0"/>
 			<large id="db_unique_id" value="86112883124072246"/>
 			<unsigned id="property" value="1096250222"/>
-			<string id="new_value" value="ASC Goalkeeper of the Yea"/>
+			<string id="new_value" value="ASC Goalkeeper of the Year"/>
 			<integer id="version" value="3569"/>
 			<integer id="db_random_id" value="215458955"/>
 			<string id="odvl" value="USSL Championship Goalkeeper of the Year"/>
@@ -18940,7 +19033,7 @@
 			<integer id="database_table_type" value="0"/>
 			<large id="db_unique_id" value="8590195843975774619"/>
 			<unsigned id="property" value="1096250222"/>
-			<string id="new_value" value="MLS Young Player of the Y"/>
+			<string id="new_value" value="MLS Young Player of the Year"/>
 			<integer id="version" value="3569"/>
 			<integer id="db_random_id" value="463496461"/>
 			<string id="odvl" value="VPL Young Player of the Year"/>
@@ -19031,7 +19124,7 @@
 			<integer id="database_table_type" value="0"/>
 			<large id="db_unique_id" value="459398292021714"/>
 			<unsigned id="property" value="1096250222"/>
-			<string id="new_value" value="MLS Goalkeeper of the Yea"/>
+			<string id="new_value" value="MLS Goalkeeper of the Year"/>
 			<integer id="version" value="3569"/>
 			<integer id="db_random_id" value="711071694"/>
 			<string id="odvl" value="VPL Goalkeeper of the Year"/>
@@ -19409,7 +19502,7 @@
 			<integer id="database_table_type" value="0"/>
 			<large id="db_unique_id" value="8591300376420576812"/>
 			<unsigned id="property" value="1096250222"/>
-			<string id="new_value" value="MLS Assistant Referee of "/>
+			<string id="new_value" value="MLS Assistant Referee of the Year "/>
 			<integer id="version" value="3569"/>
 			<integer id="db_random_id" value="402217717"/>
 			<string id="odvl" value="VPL Assistant Referee of the Year"/>
@@ -19565,7 +19658,7 @@
 			<integer id="database_table_type" value="0"/>
 			<large id="db_unique_id" value="4220316470410843"/>
 			<unsigned id="property" value="1096250222"/>
-			<string id="new_value" value="MLS Comeback Player of th"/>
+			<string id="new_value" value="MLS Comeback Player of the Year"/>
 			<integer id="version" value="3569"/>
 			<integer id="db_random_id" value="166467098"/>
 			<string id="odvl" value="VPL Comeback Player of the Year"/>
@@ -19761,7 +19854,7 @@
 			<integer id="database_table_type" value="0"/>
 			<large id="db_unique_id" value="459419766858199"/>
 			<unsigned id="property" value="1096250222"/>
-			<string id="new_value" value="MLS Player of the Matchda"/>
+			<string id="new_value" value="MLS Player of the Matchday"/>
 			<integer id="version" value="3569"/>
 			<integer id="db_random_id" value="618456503"/>
 			<string id="odvl" value="VPL Player of the Matchday"/>
