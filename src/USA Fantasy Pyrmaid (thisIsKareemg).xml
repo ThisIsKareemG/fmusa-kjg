@@ -1446,7 +1446,7 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="88"/>
+	<integer id="XSvC" value="91"/>
 	<string id="EdBr" value="main"/>
 	<date id="EdDt" day="16" month="8" year="2024" time="1030"/>
 	<integer id="version" value="3569"/>
