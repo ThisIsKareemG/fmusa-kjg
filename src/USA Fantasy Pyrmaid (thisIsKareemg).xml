@@ -1,5 +1,7 @@
 <record>
-	<list id="verf"/>
+	<list id="verf">
+		<string value="24.3.0"/>
+	</list>
 	<list id="files">
 		<record>
 			<string id="file_type" value="nation"/>
@@ -7,11 +9,15 @@
 			<list id="division_levels">
 				<record>
 					<large id="competition" value="40"/>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<large id="competition" value="43"/>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 			</list>
 			<list id="competitions">
@@ -1440,9 +1446,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="97"/>
+	<integer id="XSvC" value="100"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="16" month="8" year="2024" time="1245"/>
+	<date id="EdDt" day="16" month="8" year="2024" time="1300"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
