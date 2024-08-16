@@ -1069,7 +1069,7 @@
 				<record>
 					<string id="id" value="leag"/>
 					<integer id="index" value="0"/>
-					<string id="type" value="league"/>
+					<string id="type" value="group"/>
 					<integer id="number_rounds" value="2"/>
 					<list id="sort_rules">
 						<string value="goal_difference"/>
@@ -1193,6 +1193,56 @@
 					<list id="prize_money"/>
 					<list id="requirements"/>
 					<list id="ranking_levels"/>
+					<integer id="number_groups" value="2"/>
+					<string id="group_rules" value="regional_groups"/>
+					<string id="group_name_type" value="east_west_region"/>
+					<list id="group_data"/>
+					<boolean id="store_results" value="true"/>
+					<list id="child_region_limits_new">
+						<record>
+							<integer id="group_index" value="0"/>
+							<record id="city">
+								<large id="city" value="442871257862858"/>
+								<integer id="DBID" value="103114"/>
+							</record>
+							<string id="type" value="4"/>
+						</record>
+						<record>
+							<integer id="group_index" value="1"/>
+							<record id="city">
+								<large id="city" value="3023656977088"/>
+								<integer id="DBID" value="704"/>
+							</record>
+							<string id="type" value="4"/>
+						</record>
+					</list>
+					<integer id="number_group_teams" value="12"/>
+					<list id="group_custom_fixture_plan">
+						<record>
+							<integer id="group_index" value="0"/>
+							<integer id="other_group_index" value="0"/>
+							<integer id="number_rounds" value="2"/>
+							<integer id="number_teams" value="12"/>
+						</record>
+						<record>
+							<integer id="group_index" value="1"/>
+							<integer id="other_group_index" value="1"/>
+							<integer id="number_rounds" value="2"/>
+							<integer id="number_teams" value="12"/>
+						</record>
+						<record>
+							<integer id="group_index" value="0"/>
+							<integer id="other_group_index" value="1"/>
+							<integer id="number_rounds" value="1"/>
+							<integer id="number_teams" value="4"/>
+						</record>
+						<record>
+							<integer id="group_index" value="1"/>
+							<integer id="other_group_index" value="0"/>
+							<integer id="number_rounds" value="1"/>
+							<integer id="number_teams" value="4"/>
+						</record>
+					</list>
 				</record>
 			</list>
 			<integer id="branch" value="0"/>
@@ -1446,9 +1496,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="100"/>
+	<integer id="XSvC" value="111"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="16" month="8" year="2024" time="1300"/>
+	<date id="EdDt" day="16" month="8" year="2024" time="1430"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
