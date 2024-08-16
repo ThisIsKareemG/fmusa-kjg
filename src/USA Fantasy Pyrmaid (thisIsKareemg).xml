@@ -1,7 +1,5 @@
 <record>
-	<list id="verf">
-		<string value="24.3.0"/>
-	</list>
+	<list id="verf"/>
 	<list id="files">
 		<record>
 			<string id="file_type" value="nation"/>
@@ -9,15 +7,11 @@
 			<list id="division_levels">
 				<record>
 					<large id="competition" value="40"/>
-					<list id="verf">
-						<string value="24.3.0"/>
-					</list>
+					<list id="verf"/>
 				</record>
 				<record>
 					<large id="competition" value="43"/>
-					<list id="verf">
-						<string value="24.3.0"/>
-					</list>
+					<list id="verf"/>
 				</record>
 			</list>
 			<list id="competitions">
@@ -1446,9 +1440,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="91"/>
+	<integer id="XSvC" value="92"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="16" month="8" year="2024" time="1030"/>
+	<date id="EdDt" day="16" month="8" year="2024" time="1115"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
@@ -20518,6 +20512,43 @@
 			<string id="odvl" value="MLS Coach of the Year"/>
 			<boolean id="is_client_field" value="true"/>
 			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="184683593771"/>
+			<unsigned id="property" value="1667654508"/>
+			<colour id="new_value" red="255" green="255" blue="255" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="740403449"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="184683593771"/>
+			<unsigned id="property" value="1667392364"/>
+			<colour id="new_value" red="0" green="102" blue="204" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="929640584"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="184683593771"/>
+			<unsigned id="property" value="1668572012"/>
+			<colour id="new_value" red="255" green="215" blue="0" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="921458547"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="184683593771"/>
+			<unsigned id="property" value="1129608313"/>
+			<integer id="new_value" value="6"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="596358115"/>
+			<integer id="odvl" value="0"/>
+			<boolean id="is_client_field" value="true"/>
 		</record>
 	</list>
 	<list id="Coms">
