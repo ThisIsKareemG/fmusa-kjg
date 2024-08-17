@@ -66,7 +66,7 @@
 						<list id="appearance_money">
 							<record>
 								<record id="cash">
-									<real id="cash" value="50000.000000"/>
+									<integer id="cash" value="50000"/>
 									<unsigned id="currency" value="24"/>
 								</record>
 								<integer id="number_matches" value="10"/>
@@ -75,15 +75,15 @@
 						</list>
 						<string id="type" value="domestic_u21_fund"/>
 						<record id="cash">
-							<real id="cash" value="50000.000000"/>
+							<integer id="cash" value="50000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 					</record>
 					<list id="financial_fair_play">
 						<record>
 							<string id="period" value="financial_year"/>
-							<string id="income" value="tv_revenue, sponsorship, season_tickets, merchandising, gate_receipts"/>
-							<string id="expenditure" value="player_wages, bonuses, loyalty_bonuses, football_staff_wages, agent_fees, ground_maintenance, scouting_costs"/>
+							<string id="income" value="tv_revenue, sponsorship"/>
+							<string id="expenditure" value="player_wages, bonuses"/>
 							<list id="sanctions">
 								<record>
 									<string id="type" value="point_deduction"/>
@@ -99,26 +99,14 @@
 									<string id="type" value="fine"/>
 									<string id="start_date" value="immediate"/>
 									<record id="cash">
-										<real id="cash" value="5000000.000000"/>
+										<real id="cash" value="2000000.000000"/>
 										<unsigned id="currency" value="24"/>
 									</record>
-									<integer id="fine_percentage_overspend" value="50"/>
+									<integer id="fine_percentage_overspend" value="60"/>
 								</record>
 							</list>
-							<integer id="income_percentage" value="70"/>
+							<integer id="income_percentage" value="60"/>
 							<integer id="lowest_percentage_of_income" value="60"/>
-							<record id="investment_max">
-								<real id="cash" value="150000000.000000"/>
-								<unsigned id="currency" value="24"/>
-							</record>
-							<record id="expenditure_cap">
-								<real id="cash" value="200000000.000000"/>
-								<unsigned id="currency" value="24"/>
-							</record>
-							<record id="lowest_income_minus_expenditure">
-								<integer id="cash" value="0"/>
-								<unsigned id="currency" value="24"/>
-							</record>
 						</record>
 					</list>
 				</record>
@@ -162,7 +150,7 @@
 						<list id="appearance_money">
 							<record>
 								<record id="cash">
-									<real id="cash" value="40000.000000"/>
+									<integer id="cash" value="40000"/>
 									<unsigned id="currency" value="24"/>
 								</record>
 								<integer id="number_matches" value="8"/>
@@ -171,45 +159,38 @@
 						</list>
 						<string id="type" value="domestic_u21_fund"/>
 						<record id="cash">
-							<real id="cash" value="40000.000000"/>
+							<integer id="cash" value="40000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 					</record>
 					<list id="financial_fair_play">
 						<record>
 							<string id="period" value="financial_year"/>
-							<string id="income" value="tv_revenue, sponsorship, gate_receipts"/>
-							<string id="expenditure" value="player_wages, bonuses, loyalty_bonuses, football_staff_wages, agent_fees, ground_maintenance, scouting_costs, youth_scheme"/>
+							<string id="income" value="tv_revenue, sponsorship"/>
+							<string id="expenditure" value="player_wages, bonuses"/>
 							<list id="sanctions">
 								<record>
 									<string id="type" value="point_deduction"/>
 									<string id="start_date" value="next_season"/>
-									<integer id="points" value="5"/>
+									<integer id="points" value="4"/>
 								</record>
 								<record>
 									<string id="type" value="fine"/>
 									<string id="start_date" value="immediate"/>
 									<record id="cash">
-										<real id="cash" value="2500000.000000"/>
+										<real id="cash" value="1500000.000000"/>
 										<unsigned id="currency" value="24"/>
 									</record>
-									<integer id="fine_percentage_overspend" value="40"/>
+									<integer id="fine_percentage_overspend" value="50"/>
+								</record>
+								<record>
+									<string id="type" value="embargo"/>
+									<string id="start_date" value="immediate"/>
+									<string id="embargo_duration" value="ongoing"/>
 								</record>
 							</list>
-							<integer id="income_percentage" value="60"/>
-							<record id="investment_max">
-								<real id="cash" value="75000000.000000"/>
-								<unsigned id="currency" value="24"/>
-							</record>
-							<integer id="lowest_percentage_of_income" value="60"/>
-							<record id="expenditure_cap">
-								<real id="cash" value="100000000.000000"/>
-								<unsigned id="currency" value="24"/>
-							</record>
-							<record id="lowest_income_minus_expenditure">
-								<integer id="cash" value="0"/>
-								<unsigned id="currency" value="24"/>
-							</record>
+							<integer id="income_percentage" value="50"/>
+							<integer id="lowest_percentage_of_income" value="50"/>
 						</record>
 					</list>
 				</record>
@@ -313,7 +294,7 @@
 				<boolean id="disable_min_release_fee_rules" value="true"/>
 				<list id="release_fee_rules">
 					<record>
-						<real id="cash" value="800428.000000"/>
+						<integer id="cash" value="800428"/>
 						<string id="type" value="min_release_fee"/>
 						<record id="competition">
 							<unsigned id="id" value="1668246896"/>
@@ -322,7 +303,7 @@
 						</record>
 					</record>
 					<record>
-						<real id="cash" value="600321.000000"/>
+						<integer id="cash" value="600321"/>
 						<string id="type" value="min_release_fee"/>
 						<record id="competition">
 							<unsigned id="id" value="1668246896"/>
@@ -331,7 +312,7 @@
 						</record>
 					</record>
 					<record>
-						<real id="cash" value="400214.000000"/>
+						<integer id="cash" value="400214"/>
 						<string id="type" value="min_release_fee"/>
 						<record id="competition">
 							<unsigned id="id" value="1668246896"/>
@@ -390,7 +371,7 @@
 					<string id="description" value="Summer Transfer Window"/>
 					<string id="id" value="sum "/>
 					<string id="squad_window_id" value="sum "/>
-					<string id="window_close_time" value="2345"/>
+					<integer id="window_close_time" value="2345"/>
 					<boolean id="allow_transfer_window_closure_on_saturday" value="true"/>
 					<string id="window_type" value="normal"/>
 					<integer id="highest_division_level" value="0"/>
@@ -421,7 +402,7 @@
 					<string id="description" value="Winter Transfer Window"/>
 					<string id="id" value="win "/>
 					<string id="squad_window_id" value="win "/>
-					<string id="window_close_time" value="2345"/>
+					<integer id="window_close_time" value="2345"/>
 					<boolean id="allow_transfer_window_closure_on_saturday" value="true"/>
 					<string id="window_type" value="normal"/>
 					<integer id="highest_division_level" value="0"/>
@@ -457,8 +438,8 @@
 			<integer id="branch" value="0"/>
 			<integer id="newgen_intake_variance" value="7"/>
 			<integer id="weekend_default_fixture_time" value="1500"/>
-			<string id="midweek_default_fixture_time" value="1900"/>
-			<string id="sunday_default_fixture_time" value="1400"/>
+			<integer id="midweek_default_fixture_time" value="1900"/>
+			<integer id="sunday_default_fixture_time" value="1400"/>
 			<integer id="preseason_max_days_for_friendlies" value="30"/>
 			<integer id="preseason_preparation_days" value="28"/>
 			<integer id="late_preseason_preparation_days" value="14"/>
@@ -695,14 +676,14 @@
 									<string id="day_of_week" value="sat"/>
 									<integer id="time" value="1500"/>
 									<string id="new_day_of_week" value="sat"/>
-									<string id="new_time" value="1930"/>
+									<integer id="new_time" value="1930"/>
 									<integer id="percentage" value="30"/>
 								</record>
 								<record>
 									<string id="day_of_week" value="sun"/>
-									<string id="time" value="1500"/>
+									<integer id="time" value="1500"/>
 									<string id="new_day_of_week" value="sun"/>
-									<string id="new_time" value="1930"/>
+									<integer id="new_time" value="1930"/>
 									<integer id="percentage" value="30"/>
 								</record>
 							</list>
@@ -761,8 +742,8 @@
 									<string id="matches_type" value="minor"/>
 									<string id="day_of_week" value="sat"/>
 									<string id="new_day_of_week" value="sat"/>
-									<string id="new_time" value="1500"/>
-									<string id="backup_time" value="1930"/>
+									<integer id="new_time" value="1500"/>
+									<integer id="backup_time" value="1930"/>
 									<string id="date_flags" value="dont_send_news"/>
 								</record>
 							</list>
@@ -844,108 +825,108 @@
 					<list id="prize_money">
 						<record>
 							<integer id="position" value="0"/>
-							<real id="cash" value="30000000.000000"/>
+							<integer id="cash" value="30000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="1"/>
-							<real id="cash" value="22500000.000000"/>
+							<integer id="cash" value="22500000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="2"/>
-							<real id="cash" value="22500000.000000"/>
+							<integer id="cash" value="22500000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="3"/>
-							<real id="cash" value="22500000.000000"/>
+							<integer id="cash" value="22500000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="4"/>
-							<real id="cash" value="22500000.000000"/>
+							<integer id="cash" value="22500000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="5"/>
-							<real id="cash" value="15000000.000000"/>
+							<integer id="cash" value="15000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="6"/>
-							<real id="cash" value="15000000.000000"/>
+							<integer id="cash" value="15000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="7"/>
-							<real id="cash" value="15000000.000000"/>
+							<integer id="cash" value="15000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="8"/>
-							<real id="cash" value="15000000.000000"/>
+							<integer id="cash" value="15000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="9"/>
-							<real id="cash" value="15000000.000000"/>
+							<integer id="cash" value="15000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="10"/>
-							<real id="cash" value="7500000.000000"/>
+							<integer id="cash" value="7500000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="11"/>
-							<real id="cash" value="7500000.000000"/>
+							<integer id="cash" value="7500000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="12"/>
-							<real id="cash" value="7500000.000000"/>
+							<integer id="cash" value="7500000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="13"/>
-							<real id="cash" value="7500000.000000"/>
+							<integer id="cash" value="7500000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="14"/>
-							<real id="cash" value="7500000.000000"/>
+							<integer id="cash" value="7500000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="15"/>
-							<real id="cash" value="3000000.000000"/>
+							<integer id="cash" value="3000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="16"/>
-							<real id="cash" value="3000000.000000"/>
+							<integer id="cash" value="3000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="17"/>
-							<real id="cash" value="3000000.000000"/>
+							<integer id="cash" value="3000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="18"/>
-							<real id="cash" value="3000000.000000"/>
+							<integer id="cash" value="3000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="19"/>
-							<real id="cash" value="3000000.000000"/>
+							<integer id="cash" value="3000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 					</list>
 					<record id="appearance_money">
 						<unsigned id="id" value="1634757998"/>
-						<real id="cash" value="30000000.000000"/>
+						<integer id="cash" value="30000000"/>
 						<unsigned id="currency" value="24"/>
 					</record>
 				</record>
@@ -1029,15 +1010,15 @@
 								<record>
 									<unsigned id="id" value="1836344441"/>
 									<string id="day_of_week" value="sat"/>
-									<string id="time" value="1730"/>
+									<integer id="time" value="1730"/>
 								</record>
 								<record>
 									<string id="day_of_week" value="wed"/>
-									<string id="time" value="1945"/>
+									<integer id="time" value="1945"/>
 								</record>
 								<record>
 									<string id="day_of_week" value="sun"/>
-									<string id="time" value="1500"/>
+									<integer id="time" value="1500"/>
 								</record>
 							</list>
 						</record>
@@ -1104,11 +1085,11 @@
 					<string id="tv_type" value="national"/>
 					<integer id="percentage" value="60"/>
 					<integer id="index" value="0"/>
-					<real id="cash" value="1406250.000000"/>
+					<integer id="cash" value="1406250"/>
 					<unsigned id="currency" value="24"/>
 				</record>
 				<record>
-					<real id="cash" value="656250.000000"/>
+					<integer id="cash" value="656250"/>
 					<unsigned id="currency" value="24"/>
 					<string id="tv_type" value="satellite"/>
 					<integer id="percentage" value="60"/>
@@ -1118,7 +1099,7 @@
 					<string id="tv_type" value="pay_per_view"/>
 					<integer id="percentage" value="60"/>
 					<integer id="index" value="0"/>
-					<real id="cash" value="500000.000000"/>
+					<integer id="cash" value="500000"/>
 					<unsigned id="currency" value="24"/>
 				</record>
 			</list>
@@ -1147,7 +1128,7 @@
 					<integer id="id" value="0"/>
 					<record id="prize_money">
 						<unsigned id="id" value="1886550637"/>
-						<real id="cash" value="30000000.000000"/>
+						<integer id="cash" value="30000000"/>
 						<unsigned id="currency" value="24"/>
 					</record>
 				</record>
@@ -1274,36 +1255,7 @@
 									<integer id="number_matches" value="1"/>
 									<string id="new_day_of_week" value="sat"/>
 									<string id="tv_type" value="national"/>
-									<record id="matches_type">
-										<real id="cash" value="0.000000"/>
-										<unsigned id="currency" value="24"/>
-										<integer id="lowest_percentage_of_income" value="60"/>
-										<record id="expenditure_cap">
-											<real id="cash" value="0.000000"/>
-											<unsigned id="currency" value="24"/>
-										</record>
-										<list id="sanctions">
-											<record>
-												<string id="type" value="point_deduction"/>
-												<string id="start_date" value="next_season"/>
-												<integer id="points" value="5"/>
-											</record>
-											<record>
-												<string id="type" value="embargo"/>
-												<string id="start_date" value="next_window"/>
-												<string id="embargo_duration" value="1_season"/>
-											</record>
-											<record>
-												<string id="type" value="fine"/>
-												<string id="start_date" value="immediate"/>
-												<record id="cash">
-													<real id="cash" value="5000000.000000"/>
-													<unsigned id="currency" value="24"/>
-												</record>
-												<integer id="fine_percentage_overspend" value="50"/>
-											</record>
-										</list>
-									</record>
+									<string id="matches_type" value="shared"/>
 									<integer id="new_time" value="1700"/>
 								</record>
 								<record>
@@ -1361,7 +1313,7 @@
 								<large id="city" value="442871257862858"/>
 								<integer id="DBID" value="103114"/>
 							</record>
-							<string id="type" value="4"/>
+							<integer id="type" value="4"/>
 						</record>
 						<record>
 							<integer id="group_index" value="0"/>
@@ -1370,7 +1322,7 @@
 								<large id="city" value="3023656977088"/>
 								<integer id="DBID" value="704"/>
 							</record>
-							<string id="type" value="4"/>
+							<integer id="type" value="4"/>
 						</record>
 					</list>
 					<integer id="number_group_teams" value="12"/>
@@ -1653,9 +1605,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="124"/>
+	<integer id="XSvC" value="130"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="16" month="8" year="2024" time="2100"/>
+	<date id="EdDt" day="17" month="8" year="2024" time="1430"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
