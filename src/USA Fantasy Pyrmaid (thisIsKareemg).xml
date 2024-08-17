@@ -38,12 +38,13 @@
 					<string id="squad_selection_value" value="domestic_division"/>
 					<record id="squad_number_registration_periods">
 						<unsigned id="id" value="1936618096"/>
-						<integer id="squad_numbers_date_ranges_for_transfer_windows" value="0"/>
+						<integer id="squad_numbers_date_ranges_for_transfer_windows" value="1"/>
 						<record id="squad_numbers_start_date_auto">
 							<unsigned id="id" value="1936614497"/>
 							<integer id="max_squad_size" value="25"/>
 							<string id="squad_number_flags" value="allow_any_numbers"/>
 						</record>
+						<string id="squad_number_flags" value="free_transfers_can_be_registered, long_term_injured_players_can_be_replaced_in_squad_min_two_months"/>
 					</record>
 					<list id="squad_selection_rules">
 						<record>
@@ -55,6 +56,69 @@
 							<string id="type" value="max_squad_size"/>
 							<string id="compare_type" value="less_than"/>
 							<integer id="value" value="25"/>
+						</record>
+					</list>
+					<string id="name" value="MLSP"/>
+					<list id="squad_selection_eligibility_new">
+						<string value="under_23_players_are_always_selected"/>
+					</list>
+					<record id="squad_reward_rules">
+						<list id="appearance_money">
+							<record>
+								<record id="cash">
+									<real id="cash" value="50000.000000"/>
+									<unsigned id="currency" value="24"/>
+								</record>
+								<integer id="number_matches" value="10"/>
+								<string id="type" value="u21_same_nation"/>
+							</record>
+						</list>
+						<string id="type" value="domestic_u21_fund"/>
+						<record id="cash">
+							<real id="cash" value="50000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+					</record>
+					<list id="financial_fair_play">
+						<record>
+							<string id="period" value="financial_year"/>
+							<string id="income" value="tv_revenue, sponsorship, season_tickets, merchandising, gate_receipts"/>
+							<string id="expenditure" value="player_wages, bonuses, loyalty_bonuses, football_staff_wages, agent_fees, ground_maintenance, scouting_costs"/>
+							<list id="sanctions">
+								<record>
+									<string id="type" value="point_deduction"/>
+									<string id="start_date" value="next_season"/>
+									<integer id="points" value="5"/>
+								</record>
+								<record>
+									<string id="type" value="embargo"/>
+									<string id="start_date" value="next_window"/>
+									<string id="embargo_duration" value="1_season"/>
+								</record>
+								<record>
+									<string id="type" value="fine"/>
+									<string id="start_date" value="immediate"/>
+									<record id="cash">
+										<real id="cash" value="5000000.000000"/>
+										<unsigned id="currency" value="24"/>
+									</record>
+									<integer id="fine_percentage_overspend" value="50"/>
+								</record>
+							</list>
+							<integer id="income_percentage" value="70"/>
+							<integer id="lowest_percentage_of_income" value="60"/>
+							<record id="investment_max">
+								<real id="cash" value="150000000.000000"/>
+								<unsigned id="currency" value="24"/>
+							</record>
+							<record id="expenditure_cap">
+								<real id="cash" value="200000000.000000"/>
+								<unsigned id="currency" value="24"/>
+							</record>
+							<record id="lowest_income_minus_expenditure">
+								<integer id="cash" value="0"/>
+								<unsigned id="currency" value="24"/>
+							</record>
 						</record>
 					</list>
 				</record>
@@ -73,6 +137,7 @@
 							<integer id="max_squad_size" value="25"/>
 							<string id="squad_number_flags" value="allow_any_numbers"/>
 						</record>
+						<string id="squad_number_flags" value="allow_any_numbers, free_foreign_transfers_can_be_registered, long_term_injured_players_can_be_replaced_in_squad"/>
 					</record>
 					<list id="squad_selection_rules">
 						<record>
@@ -84,6 +149,67 @@
 							<string id="type" value="max_squad_size"/>
 							<string id="compare_type" value="less_than"/>
 							<integer id="value" value="25"/>
+						</record>
+					</list>
+					<string id="name" value="ASC"/>
+					<integer id="max_matches_allowed_for_youth_contract_players" value="10"/>
+					<integer id="max_matches_allowed_for_amateur_contract_players" value="10"/>
+					<boolean id="players_below_min_age_cannot_play_in_senior_fixtures" value="true"/>
+					<list id="squad_selection_eligibility_new">
+						<string value="under_23_players_are_always_selected"/>
+					</list>
+					<record id="squad_reward_rules">
+						<list id="appearance_money">
+							<record>
+								<record id="cash">
+									<real id="cash" value="40000.000000"/>
+									<unsigned id="currency" value="24"/>
+								</record>
+								<integer id="number_matches" value="8"/>
+								<string id="type" value="u21_same_nation"/>
+							</record>
+						</list>
+						<string id="type" value="domestic_u21_fund"/>
+						<record id="cash">
+							<real id="cash" value="40000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+					</record>
+					<list id="financial_fair_play">
+						<record>
+							<string id="period" value="financial_year"/>
+							<string id="income" value="tv_revenue, sponsorship, gate_receipts"/>
+							<string id="expenditure" value="player_wages, bonuses, loyalty_bonuses, football_staff_wages, agent_fees, ground_maintenance, scouting_costs, youth_scheme"/>
+							<list id="sanctions">
+								<record>
+									<string id="type" value="point_deduction"/>
+									<string id="start_date" value="next_season"/>
+									<integer id="points" value="5"/>
+								</record>
+								<record>
+									<string id="type" value="fine"/>
+									<string id="start_date" value="immediate"/>
+									<record id="cash">
+										<real id="cash" value="2500000.000000"/>
+										<unsigned id="currency" value="24"/>
+									</record>
+									<integer id="fine_percentage_overspend" value="40"/>
+								</record>
+							</list>
+							<integer id="income_percentage" value="60"/>
+							<record id="investment_max">
+								<real id="cash" value="75000000.000000"/>
+								<unsigned id="currency" value="24"/>
+							</record>
+							<integer id="lowest_percentage_of_income" value="60"/>
+							<record id="expenditure_cap">
+								<real id="cash" value="100000000.000000"/>
+								<unsigned id="currency" value="24"/>
+							</record>
+							<record id="lowest_income_minus_expenditure">
+								<integer id="cash" value="0"/>
+								<unsigned id="currency" value="24"/>
+							</record>
 						</record>
 					</list>
 				</record>
@@ -1148,7 +1274,36 @@
 									<integer id="number_matches" value="1"/>
 									<string id="new_day_of_week" value="sat"/>
 									<string id="tv_type" value="national"/>
-									<string id="matches_type" value="big"/>
+									<record id="matches_type">
+										<real id="cash" value="0.000000"/>
+										<unsigned id="currency" value="24"/>
+										<integer id="lowest_percentage_of_income" value="60"/>
+										<record id="expenditure_cap">
+											<real id="cash" value="0.000000"/>
+											<unsigned id="currency" value="24"/>
+										</record>
+										<list id="sanctions">
+											<record>
+												<string id="type" value="point_deduction"/>
+												<string id="start_date" value="next_season"/>
+												<integer id="points" value="5"/>
+											</record>
+											<record>
+												<string id="type" value="embargo"/>
+												<string id="start_date" value="next_window"/>
+												<string id="embargo_duration" value="1_season"/>
+											</record>
+											<record>
+												<string id="type" value="fine"/>
+												<string id="start_date" value="immediate"/>
+												<record id="cash">
+													<real id="cash" value="5000000.000000"/>
+													<unsigned id="currency" value="24"/>
+												</record>
+												<integer id="fine_percentage_overspend" value="50"/>
+											</record>
+										</list>
+									</record>
 									<integer id="new_time" value="1700"/>
 								</record>
 								<record>
@@ -1498,9 +1653,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="114"/>
+	<integer id="XSvC" value="124"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="16" month="8" year="2024" time="1730"/>
+	<date id="EdDt" day="16" month="8" year="2024" time="2100"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
@@ -21511,6 +21666,8 @@
 		<string value="database_record/crep"/>
 		<string value="Comment"/>
 		<string value="files/0/contract_rules/contract_durations/3/cash"/>
+		<string value="Comment"/>
+		<string value="files/0/fixture_rules/0/squad_reward_rules/cash"/>
 		<string value="Comment"/>
 		<string value="files/0/mid_season_windows/mid_season_windows"/>
 		<string value="Comment"/>
