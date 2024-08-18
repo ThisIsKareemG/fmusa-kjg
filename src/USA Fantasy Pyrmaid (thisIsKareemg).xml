@@ -532,20 +532,6 @@
 				<unsigned id="id" value="1131303532"/>
 				<list id="contract_durations">
 					<record>
-						<string id="type" value="max_years_for_playing_contract"/>
-						<integer id="info_1" value="4"/>
-						<string id="contract_durations_players_effected_type" value="all_players"/>
-						<integer id="highest_division_level" value="1"/>
-						<integer id="lowest_division_level" value="1"/>
-					</record>
-					<record>
-						<string id="type" value="max_years_for_playing_contract"/>
-						<integer id="info_1" value="5"/>
-						<string id="contract_durations_players_effected_type" value="all_players"/>
-						<integer id="highest_division_level" value="0"/>
-						<integer id="lowest_division_level" value="0"/>
-					</record>
-					<record>
 						<string id="type" value="min_years_for_playing_contract"/>
 						<integer id="info_1" value="1"/>
 						<string id="contract_durations_players_effected_type" value="all_players"/>
@@ -553,13 +539,26 @@
 						<integer id="lowest_division_level" value="3"/>
 					</record>
 					<record>
-						<string id="type" value="weekly_wage_for_youth_contract"/>
-						<string id="contract_durations_players_effected_type" value="youth_players"/>
-						<integer id="cash" value="500"/>
-					</record>
-					<record>
 						<string id="type" value="expired_contracts"/>
 						<string id="contract_expiry_type" value="expired_agreement_needed"/>
+						<integer id="max_age" value="28"/>
+						<integer id="min_age" value="20"/>
+					</record>
+					<record>
+						<string id="type" value="max_years_for_playing_contract"/>
+						<integer id="info_1" value="5"/>
+						<string id="contract_durations_players_effected_type" value="all_players"/>
+					</record>
+					<record>
+						<string id="type" value="max_years_for_playing_contract"/>
+						<integer id="info_1" value="3"/>
+						<string id="contract_durations_players_effected_type" value="players_under_specified_age"/>
+						<integer id="contract_durations_players_effected_age" value="18"/>
+					</record>
+					<record>
+						<string id="type" value="max_years_for_playing_contract"/>
+						<string id="contract_durations_players_effected_type" value="foreign_players"/>
+						<integer id="info_1" value="3"/>
 					</record>
 				</list>
 			</record>
@@ -1765,9 +1764,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="168"/>
+	<integer id="XSvC" value="172"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="18" month="8" year="2024" time="1515"/>
+	<date id="EdDt" day="18" month="8" year="2024" time="1600"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
@@ -21777,7 +21776,7 @@
 	<list id="Coms">
 		<string value="database_record/crep"/>
 		<string value="Comment"/>
-		<string value="files/0/contract_rules/contract_durations/3/cash"/>
+		<string value="files/0/contract_rules/contract_durations/1/cash"/>
 		<string value="Comment"/>
 		<string value="files/0/fixture_rules/0/squad_reward_rules/cash"/>
 		<string value="Comment"/>
