@@ -63,9 +63,11 @@
 						<string value="under_23_players_are_always_selected"/>
 					</list>
 					<record id="squad_reward_rules">
+						<unsigned id="id" value="1936814711"/>
 						<list id="appearance_money">
 							<record>
 								<record id="cash">
+									<unsigned id="id" value="1667330920"/>
 									<integer id="cash" value="50000"/>
 									<unsigned id="currency" value="24"/>
 								</record>
@@ -75,6 +77,7 @@
 						</list>
 						<string id="type" value="domestic_u21_fund"/>
 						<record id="cash">
+							<unsigned id="id" value="1667330920"/>
 							<integer id="cash" value="50000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
@@ -99,6 +102,7 @@
 									<string id="type" value="fine"/>
 									<string id="start_date" value="immediate"/>
 									<record id="cash">
+										<unsigned id="id" value="1667330920"/>
 										<integer id="cash" value="2000000"/>
 										<unsigned id="currency" value="24"/>
 									</record>
@@ -138,6 +142,10 @@
 							<string id="compare_type" value="less_than"/>
 							<integer id="value" value="25"/>
 						</record>
+						<record>
+							<string id="type" value="over_33_players_in_match_squad"/>
+							<string id="compare_type" value="less_than"/>
+						</record>
 					</list>
 					<string id="name" value="ASC"/>
 					<boolean id="players_below_min_age_cannot_play_in_senior_fixtures" value="true"/>
@@ -145,9 +153,11 @@
 						<string value="under_23_players_are_always_selected"/>
 					</list>
 					<record id="squad_reward_rules">
+						<unsigned id="id" value="1936814711"/>
 						<list id="appearance_money">
 							<record>
 								<record id="cash">
+									<unsigned id="id" value="1667330920"/>
 									<integer id="cash" value="40000"/>
 									<unsigned id="currency" value="24"/>
 								</record>
@@ -157,6 +167,7 @@
 						</list>
 						<string id="type" value="domestic_u21_fund"/>
 						<record id="cash">
+							<unsigned id="id" value="1667330920"/>
 							<integer id="cash" value="40000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
@@ -176,6 +187,7 @@
 									<string id="type" value="fine"/>
 									<string id="start_date" value="immediate"/>
 									<record id="cash">
+										<unsigned id="id" value="1667330920"/>
 										<integer id="cash" value="1500000"/>
 										<unsigned id="currency" value="24"/>
 									</record>
@@ -789,6 +801,7 @@
 						<record>
 							<integer id="days_to_look_ahead" value="83"/>
 							<record id="start_date">
+								<unsigned id="id" value="1937007732"/>
 								<string id="day_of_week" value="fri"/>
 								<integer id="day_of_month" value="7"/>
 								<string id="month" value="jul"/>
@@ -1125,13 +1138,16 @@
 			<integer id="fixture_rules_index" value="1"/>
 			<list id="initial_tv_money">
 				<record>
-					<integer id="cash" value="8004277"/>
+					<real id="cash" value="10000000.000000"/>
+					<unsigned id="currency" value="24"/>
+					<string id="type" value="each_team"/>
 				</record>
 			</list>
 			<record id="parachute_money">
 				<unsigned id="id" value="1886544749"/>
-				<integer id="cash" value="3201711"/>
 				<integer id="year" value="1"/>
+				<real id="cash" value="4000000.000000"/>
+				<unsigned id="currency" value="24"/>
 			</record>
 			<string id="file_type" value="comp"/>
 			<large id="competition" value="43"/>
@@ -1223,7 +1239,7 @@
 									<integer id="percentage" value="40"/>
 								</record>
 								<record>
-									<integer id="day_of_week" value="7"/>
+									<string id="day_of_week" value="sat"/>
 									<string id="time" value="1700"/>
 								</record>
 							</list>
@@ -1417,6 +1433,7 @@
 					<string id="tv_money_pooled" value="stage"/>
 					<integer id="points_to_deduct_for_administration" value="8"/>
 					<record id="administration_cut_off_date">
+						<unsigned id="id" value="1633906532"/>
 						<string id="day_of_week" value="sat"/>
 						<integer id="day_of_month" value="15"/>
 						<string id="month" value="apr"/>
@@ -1431,6 +1448,7 @@
 						<record>
 							<integer id="days_to_look_ahead" value="83"/>
 							<record id="start_date">
+								<unsigned id="id" value="1937007732"/>
 								<string id="day_of_week" value="fri"/>
 								<integer id="day_of_month" value="7"/>
 								<string id="month" value="jul"/>
@@ -1439,6 +1457,7 @@
 							<integer id="tv_decision_period" value="31"/>
 						</record>
 					</list>
+					<string id="tv_type" value="pay_per_view"/>
 				</record>
 			</list>
 			<integer id="branch" value="0"/>
@@ -1476,16 +1495,27 @@
 				<record>
 					<integer id="id" value="0"/>
 					<record id="prize_money">
+						<unsigned id="id" value="1886550637"/>
 						<real id="cash" value="15000000.000000"/>
 						<unsigned id="currency" value="24"/>
 					</record>
 				</record>
 			</list>
 			<boolean id="final_rankings_use_average_ranking" value="true"/>
-			<integer id="final_rankings_use_cash_per_place" value="10000"/>
+			<integer id="final_rankings_use_cash_per_place" value="100000"/>
 			<list id="gate_receipts">
-				<record/>
+				<record>
+					<integer id="home_team" value="80"/>
+					<integer id="away_team" value="20"/>
+				</record>
 			</list>
+			<integer id="minimum_stadium_capacity" value="15000"/>
+			<integer id="minimum_stadium_seating_capacity" value="10000"/>
+			<string id="minimum_stadium_condition" value="good"/>
+			<boolean id="requires_undersoil_heating" value="true"/>
+			<boolean id="requires_grass_pitch" value="true"/>
+			<boolean id="is_terracing_allowed" value="false"/>
+			<integer id="dispensation_period" value="2"/>
 		</record>
 	</list>
 	<string id="description" value=""/>
@@ -1735,9 +1765,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="160"/>
+	<integer id="XSvC" value="168"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="17" month="8" year="2024" time="2300"/>
+	<date id="EdDt" day="18" month="8" year="2024" time="1515"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
