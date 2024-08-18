@@ -1,7 +1,5 @@
 <record>
-	<list id="verf">
-		<string value="24.3.0"/>
-	</list>
+	<list id="verf"/>
 	<list id="files">
 		<record>
 			<string id="file_type" value="nation"/>
@@ -9,15 +7,11 @@
 			<list id="division_levels">
 				<record>
 					<large id="competition" value="40"/>
-					<list id="verf">
-						<string value="24.3.0"/>
-					</list>
+					<list id="verf"/>
 				</record>
 				<record>
 					<large id="competition" value="43"/>
-					<list id="verf">
-						<string value="24.3.0"/>
-					</list>
+					<list id="verf"/>
 				</record>
 			</list>
 			<list id="competitions">
@@ -33,7 +27,7 @@
 					<integer id="highest_division_level" value="0"/>
 					<integer id="lowest_division_level" value="0"/>
 					<boolean id="use_squad_numbers" value="true"/>
-					<boolean id="trialists_can_play_in_competitive_fixtures" value="false"/>
+					<boolean id="trialists_can_play_in_competitive_fixtures" value="true"/>
 					<unsigned id="competition" value="40"/>
 					<string id="squad_selection_value" value="domestic_division"/>
 					<record id="squad_number_registration_periods">
@@ -99,14 +93,14 @@
 									<string id="type" value="fine"/>
 									<string id="start_date" value="immediate"/>
 									<record id="cash">
-										<real id="cash" value="2000000.000000"/>
+										<integer id="cash" value="2000000"/>
 										<unsigned id="currency" value="24"/>
 									</record>
 									<integer id="fine_percentage_overspend" value="60"/>
 								</record>
 							</list>
 							<integer id="income_percentage" value="60"/>
-							<integer id="lowest_percentage_of_income" value="60"/>
+							<integer id="lowest_percentage_of_income" value="100"/>
 						</record>
 					</list>
 				</record>
@@ -140,8 +134,6 @@
 						</record>
 					</list>
 					<string id="name" value="ASC"/>
-					<integer id="max_matches_allowed_for_youth_contract_players" value="10"/>
-					<integer id="max_matches_allowed_for_amateur_contract_players" value="10"/>
 					<boolean id="players_below_min_age_cannot_play_in_senior_fixtures" value="true"/>
 					<list id="squad_selection_eligibility_new">
 						<string value="under_23_players_are_always_selected"/>
@@ -178,10 +170,10 @@
 									<string id="type" value="fine"/>
 									<string id="start_date" value="immediate"/>
 									<record id="cash">
-										<real id="cash" value="1500000.000000"/>
+										<integer id="cash" value="1500000"/>
 										<unsigned id="currency" value="24"/>
 									</record>
-									<integer id="fine_percentage_overspend" value="50"/>
+									<integer id="fine_percentage_overspend" value="55"/>
 								</record>
 								<record>
 									<string id="type" value="embargo"/>
@@ -189,8 +181,8 @@
 									<string id="embargo_duration" value="ongoing"/>
 								</record>
 							</list>
-							<integer id="income_percentage" value="50"/>
-							<integer id="lowest_percentage_of_income" value="50"/>
+							<integer id="income_percentage" value="55"/>
+							<integer id="lowest_percentage_of_income" value="95"/>
 						</record>
 					</list>
 				</record>
@@ -1605,9 +1597,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="130"/>
+	<integer id="XSvC" value="132"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="17" month="8" year="2024" time="1430"/>
+	<date id="EdDt" day="17" month="8" year="2024" time="2045"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
