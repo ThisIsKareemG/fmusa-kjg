@@ -145,6 +145,7 @@
 						<record>
 							<string id="type" value="over_33_players_in_match_squad"/>
 							<string id="compare_type" value="less_than"/>
+							<integer id="value" value="6"/>
 						</record>
 					</list>
 					<string id="name" value="ASC"/>
@@ -1764,9 +1765,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="172"/>
+	<integer id="XSvC" value="175"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="18" month="8" year="2024" time="1600"/>
+	<date id="EdDt" day="18" month="8" year="2024" time="1630"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
