@@ -1,5 +1,7 @@
 <record>
-	<list id="verf"/>
+	<list id="verf">
+		<string value="24.3.0"/>
+	</list>
 	<list id="files">
 		<record>
 			<string id="file_type" value="nation"/>
@@ -7,11 +9,15 @@
 			<list id="division_levels">
 				<record>
 					<large id="competition" value="40"/>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<large id="competition" value="43"/>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 			</list>
 			<list id="competitions">
@@ -75,7 +81,7 @@
 					</record>
 					<list id="financial_fair_play">
 						<record>
-							<string id="period" value="financial_year"/>
+							<string id="period" value="season"/>
 							<string id="income" value="tv_revenue, sponsorship"/>
 							<string id="expenditure" value="player_wages, bonuses"/>
 							<list id="sanctions">
@@ -157,7 +163,7 @@
 					</record>
 					<list id="financial_fair_play">
 						<record>
-							<string id="period" value="financial_year"/>
+							<string id="period" value="season"/>
 							<string id="income" value="tv_revenue, sponsorship"/>
 							<string id="expenditure" value="player_wages, bonuses"/>
 							<list id="sanctions">
@@ -1597,7 +1603,7 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="132"/>
+	<integer id="XSvC" value="139"/>
 	<string id="EdBr" value="main"/>
 	<date id="EdDt" day="17" month="8" year="2024" time="2045"/>
 	<integer id="version" value="3569"/>
