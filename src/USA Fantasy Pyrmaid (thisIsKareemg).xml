@@ -1074,7 +1074,7 @@
 			<boolean id="comp_inactive" value="false"/>
 			<integer id="min_clash_days_for_tv_date" value="3"/>
 			<integer id="max_days_for_checking_tv_dates" value="14"/>
-			<integer id="minimum_training_facilities_level" value="4"/>
+			<integer id="minimum_training_facilities_level" value="15"/>
 			<boolean id="check_for_finals_comp_finish" value="true"/>
 			<boolean id="individual_tv_deal_overrides_competition_tv_money" value="true"/>
 			<integer id="percentage_initial_tv_money" value="25"/>
@@ -1133,6 +1133,7 @@
 			</list>
 			<boolean id="final_rankings_use_average_ranking" value="true"/>
 			<integer id="final_rankings_use_cash_per_place" value="100000"/>
+			<string id="description" value="MLSP"/>
 		</record>
 		<record>
 			<integer id="version" value="1000"/>
@@ -1354,6 +1355,10 @@
 			</list>
 			<integer id="branch" value="0"/>
 			<boolean id="comp_inactive" value="false"/>
+			<integer id="min_clash_days_for_tv_date" value="3"/>
+			<integer id="max_days_for_checking_tv_dates" value="14"/>
+			<integer id="minimum_training_facilities_level" value="13"/>
+			<boolean id="check_for_finals_comp_finish" value="true"/>
 		</record>
 	</list>
 	<string id="description" value=""/>
@@ -1603,9 +1608,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="139"/>
+	<integer id="XSvC" value="144"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="17" month="8" year="2024" time="2045"/>
+	<date id="EdDt" day="17" month="8" year="2024" time="2115"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
