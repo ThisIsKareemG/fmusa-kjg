@@ -1176,7 +1176,6 @@
 					<string id="priority" value="league_high"/>
 					<string id="subs_rules" value="five_from_nine_max_three_stoppages_and_extra_time_sub"/>
 					<string id="match_rules" value=""/>
-					<boolean id="top_team_are_champions" value="true"/>
 					<string id="fixture_order" value="random"/>
 					<integer id="points_for_win" value="3"/>
 					<integer id="points_for_draw" value="1"/>
@@ -1304,7 +1303,7 @@
 					</list>
 					<record id="top_playoff">
 						<unsigned id="id" value="1953525874"/>
-						<integer id="number_places" value="2"/>
+						<integer id="number_places" value="1"/>
 						<integer id="next_stage_main_stage_name" value="117"/>
 					</record>
 					<record id="promotion">
@@ -1765,9 +1764,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="175"/>
+	<integer id="XSvC" value="178"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="18" month="8" year="2024" time="1630"/>
+	<date id="EdDt" day="19" month="8" year="2024" time="915"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
