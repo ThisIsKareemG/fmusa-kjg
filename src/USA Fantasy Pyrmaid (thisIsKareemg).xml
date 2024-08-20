@@ -1434,8 +1434,7 @@
 					<integer id="minimum_stadium_capacity" value="15000"/>
 					<integer id="minimum_stadium_seating_capacity" value="10000"/>
 					<string id="minimum_stadium_condition" value="good"/>
-					<boolean id="store_league_history" value="true"/>
-					<boolean id="store_league_history_store_stage_name" value="true"/>
+					<boolean id="store_league_history" value="false"/>
 					<list id="tv_decision_dates">
 						<record>
 							<integer id="days_to_look_ahead" value="83"/>
@@ -1450,15 +1449,8 @@
 						</record>
 					</list>
 					<string id="tv_type" value="pay_per_view"/>
-					<list id="add_virtual_stage">
-						<record>
-							<record id="competition">
-								<large id="competition" value="857570560010011727"/>
-								<integer id="DBID" value="2000340047"/>
-							</record>
-							<integer id="index" value="1"/>
-						</record>
-					</list>
+					<list id="add_virtual_stage"/>
+					<boolean id="schedule_fixtures" value="false"/>
 				</record>
 				<record>
 					<string id="id" value="pltb"/>
@@ -1500,7 +1492,6 @@
 					<boolean id="store_league_history" value="true"/>
 					<boolean id="store_league_history_store_stage_name" value="true"/>
 					<list id="add_virtual_stage"/>
-					<boolean id="add_sub_comp_history_to_main_comp_history" value="true"/>
 				</record>
 			</list>
 			<integer id="branch" value="0"/>
@@ -1850,9 +1841,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="192"/>
+	<integer id="XSvC" value="200"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="19" month="8" year="2024" time="2200"/>
+	<date id="EdDt" day="20" month="8" year="2024" time="745"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
@@ -22008,6 +21999,50 @@
 			<integer id="db_random_id" value="950489438"/>
 			<integer id="odvl" value="114"/>
 			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="857570560010011727"/>
+			<unsigned id="property" value="1668178285"/>
+			<string id="new_value" value="American Soccer League Chapionship"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="761924870"/>
+			<string id="odvl" value="American Soccer League Chapionship Trophy"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="184683593771"/>
+			<unsigned id="property" value="1668509293"/>
+			<string id="new_value" value="ASL Championship Divisions"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="146153168"/>
+			<string id="odvl" value="ASL Championship"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="184683593771"/>
+			<unsigned id="property" value="1668178285"/>
+			<string id="new_value" value="American Soccer League Championship Divisions"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="368311256"/>
+			<string id="odvl" value="American Soccer League Championship"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="857570560010011727"/>
+			<unsigned id="property" value="1668178285"/>
+			<string id="new_value" value="American Soccer League Championship"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="600424702"/>
+			<string id="odvl" value="American Soccer League Chapionship"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
 		</record>
 	</list>
 	<list id="Coms">
