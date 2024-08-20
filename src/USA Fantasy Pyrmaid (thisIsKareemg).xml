@@ -1138,7 +1138,7 @@
 			<integer id="fixture_rules_index" value="1"/>
 			<list id="initial_tv_money">
 				<record>
-					<real id="cash" value="10000000.000000"/>
+					<integer id="cash" value="10000000"/>
 					<unsigned id="currency" value="24"/>
 					<string id="type" value="each_team"/>
 				</record>
@@ -1146,19 +1146,12 @@
 			<record id="parachute_money">
 				<unsigned id="id" value="1886544749"/>
 				<integer id="year" value="1"/>
-				<real id="cash" value="4000000.000000"/>
+				<integer id="cash" value="4000000"/>
 				<unsigned id="currency" value="24"/>
 			</record>
 			<string id="file_type" value="comp"/>
 			<large id="competition" value="43"/>
-			<list id="virtual_stage_dependency">
-				<record>
-					<large id="competition" value="40"/>
-					<integer id="index" value="1"/>
-					<boolean id="optional_stage" value="false"/>
-					<string id="id" value="????"/>
-				</record>
-			</list>
+			<list id="virtual_stage_dependency"/>
 			<list id="stages">
 				<record>
 					<string id="id" value="leag"/>
@@ -1234,12 +1227,12 @@
 									<string id="day_of_week" value="sat"/>
 									<integer id="time" value="1300"/>
 									<string id="new_day_of_week" value="wed"/>
-									<string id="new_time" value="1930"/>
+									<integer id="new_time" value="1930"/>
 									<integer id="percentage" value="40"/>
 								</record>
 								<record>
 									<string id="day_of_week" value="sat"/>
-									<string id="time" value="1700"/>
+									<integer id="time" value="1700"/>
 								</record>
 							</list>
 							<list id="tv_dates">
@@ -1249,7 +1242,7 @@
 									<string id="new_day_of_week" value="sat"/>
 									<string id="tv_type" value="national"/>
 									<string id="matches_type" value="big"/>
-									<string id="new_time" value="1700"/>
+									<integer id="new_time" value="1700"/>
 									<string id="date_flags" value="pick_from_all_groups"/>
 								</record>
 								<record>
@@ -1258,7 +1251,7 @@
 									<string id="new_day_of_week" value="wed"/>
 									<string id="tv_type" value="satellite"/>
 									<string id="matches_type" value="shared"/>
-									<string id="new_time" value="1930"/>
+									<integer id="new_time" value="1930"/>
 									<string id="date_flags" value="pick_from_all_groups"/>
 								</record>
 								<record>
@@ -1267,7 +1260,7 @@
 									<string id="new_day_of_week" value="sun"/>
 									<string id="tv_type" value="satellite"/>
 									<string id="matches_type" value="minor"/>
-									<string id="new_time" value="1300"/>
+									<integer id="new_time" value="1300"/>
 									<string id="date_flags" value="pick_from_all_groups"/>
 								</record>
 								<record>
@@ -1276,7 +1269,7 @@
 									<string id="new_day_of_week" value="sat"/>
 									<string id="tv_type" value="satellite"/>
 									<string id="matches_type" value="shared"/>
-									<string id="new_time" value="1930"/>
+									<integer id="new_time" value="1930"/>
 									<string id="date_flags" value="pick_from_all_groups"/>
 								</record>
 								<record>
@@ -1295,7 +1288,7 @@
 									<string id="matches_type" value="minor"/>
 									<string id="day_of_week" value="wed"/>
 									<string id="new_day_of_week" value="wed"/>
-									<string id="new_time" value="2000"/>
+									<integer id="new_time" value="2000"/>
 									<string id="date_flags" value="dont_send_news"/>
 								</record>
 							</list>
@@ -1457,6 +1450,57 @@
 						</record>
 					</list>
 					<string id="tv_type" value="pay_per_view"/>
+					<list id="add_virtual_stage">
+						<record>
+							<record id="competition">
+								<large id="competition" value="857570560010011727"/>
+								<integer id="DBID" value="2000340047"/>
+							</record>
+							<integer id="index" value="1"/>
+						</record>
+					</list>
+				</record>
+				<record>
+					<string id="id" value="pltb"/>
+					<integer id="index" value="1"/>
+					<string id="type" value="league"/>
+					<list id="sort_rules">
+						<string value="goal_difference"/>
+						<string value="goals_for"/>
+						<string value="own_match"/>
+						<string value="goals_against"/>
+						<string value="games_won"/>
+						<string value="own_match_when_finished"/>
+					</list>
+					<string id="subs_rules" value="three_from_seven"/>
+					<string id="priority" value="friendly"/>
+					<list id="requirements"/>
+					<list id="teams">
+						<record>
+							<string id="id" value="get_division_teams"/>
+						</record>
+					</list>
+					<list id="schedule"/>
+					<list id="ranking_levels"/>
+					<string id="description" value="ASC Shield"/>
+					<record id="competition">
+						<large id="competition" value="857570560010011727"/>
+						<integer id="DBID" value="2000340047"/>
+					</record>
+					<integer id="number_teams" value="24"/>
+					<list id="extra_league_games">
+						<record>
+							<integer id="stage" value="0"/>
+						</record>
+					</list>
+					<integer id="number_rounds" value="2"/>
+					<boolean id="top_team_are_champions" value="true"/>
+					<boolean id="schedule_fixtures" value="false"/>
+					<integer id="points_for_win" value="3"/>
+					<boolean id="store_league_history" value="true"/>
+					<boolean id="store_league_history_store_stage_name" value="true"/>
+					<list id="add_virtual_stage"/>
+					<boolean id="add_sub_comp_history_to_main_comp_history" value="true"/>
 				</record>
 			</list>
 			<integer id="branch" value="0"/>
@@ -1469,21 +1513,21 @@
 				<record>
 					<string id="tv_type" value="national"/>
 					<integer id="percentage" value="55"/>
-					<real id="cash" value="317391.000000"/>
+					<integer id="cash" value="317391"/>
 					<unsigned id="currency" value="24"/>
 					<integer id="index" value="0"/>
 				</record>
 				<record>
 					<integer id="percentage" value="55"/>
 					<string id="tv_type" value="satellite"/>
-					<real id="cash" value="152174.000000"/>
+					<integer id="cash" value="152174"/>
 					<unsigned id="currency" value="24"/>
 					<integer id="index" value="0"/>
 				</record>
 				<record>
 					<integer id="percentage" value="55"/>
 					<string id="tv_type" value="pay_per_view"/>
-					<real id="cash" value="100000.000000"/>
+					<integer id="cash" value="100000"/>
 					<unsigned id="currency" value="24"/>
 					<integer id="index" value="0"/>
 				</record>
@@ -1495,7 +1539,7 @@
 					<integer id="id" value="0"/>
 					<record id="prize_money">
 						<unsigned id="id" value="1886550637"/>
-						<real id="cash" value="15000000.000000"/>
+						<integer id="cash" value="15000000"/>
 						<unsigned id="currency" value="24"/>
 					</record>
 				</record>
@@ -1515,6 +1559,48 @@
 			<boolean id="requires_grass_pitch" value="true"/>
 			<boolean id="is_terracing_allowed" value="false"/>
 			<integer id="dispensation_period" value="2"/>
+			<list id="stage_finished_actions_list">
+				<record>
+					<string id="stage_finished_actions" value="process_league_finshed_into_records"/>
+					<integer id="index" value="1"/>
+					<integer id="other_stage_index" value="0"/>
+				</record>
+				<record>
+					<string id="stage_finished_actions" value="add_history_record"/>
+					<integer id="index" value="1"/>
+					<boolean id="store_league_history" value="true"/>
+					<record id="competition">
+						<large id="competition" value="857570560010011727"/>
+						<integer id="DBID" value="2000340047"/>
+					</record>
+				</record>
+			</list>
+			<list id="process_results_into_stage">
+				<record>
+					<integer id="index" value="0"/>
+					<boolean id="search_child_comps" value="false"/>
+					<integer id="other_stage_index" value="1"/>
+					<record id="competition">
+						<large id="competition" value="857570560010011727"/>
+						<integer id="DBID" value="2000340047"/>
+					</record>
+				</record>
+			</list>
+			<list id="cont_cup_qual_rules">
+				<record>
+					<string id="type" value="league_stage"/>
+					<boolean id="hide_rule" value="false"/>
+					<integer id="stage" value="1"/>
+					<record id="competition">
+						<large id="competition" value="857570560010011727"/>
+						<integer id="DBID" value="2000340047"/>
+					</record>
+					<integer id="index_1" value="0"/>
+					<string id="ranked_team_info" value="league_position"/>
+				</record>
+			</list>
+			<integer id="last_day_of_season_stage_index" value="-1"/>
+			<integer id="min_clash_days" value="2"/>
 		</record>
 	</list>
 	<string id="description" value=""/>
@@ -1764,9 +1850,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="178"/>
+	<integer id="XSvC" value="192"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="19" month="8" year="2024" time="915"/>
+	<date id="EdDt" day="19" month="8" year="2024" time="2200"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
@@ -21772,8 +21858,161 @@
 			<integer id="db_random_id" value="538519157"/>
 			<boolean id="is_client_field" value="true"/>
 		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="309241455019992439"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="25"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="857570560010011727"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="318006124"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="857570560010011727"/>
+			<unsigned id="property" value="1668178285"/>
+			<string id="new_value" value="ASC Champion Shield"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="469040141"/>
+			<string id="odvl" value="MLS Supporters' Shield"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="857570560010011727"/>
+			<unsigned id="property" value="1668509293"/>
+			<string id="new_value" value="ASC Champion Shield"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="373079149"/>
+			<string id="odvl" value="Supporters' Shield"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="857570560010011727"/>
+			<unsigned id="property" value="1668309869"/>
+			<record id="new_value">
+				<large id="competition" value="184683593771"/>
+				<integer id="DBID" value="43"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="317227239"/>
+			<record id="odvl">
+				<large id="competition" value="171798691880"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="857570560010011727"/>
+			<unsigned id="property" value="1667594356"/>
+			<boolean id="new_value" value="false"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="434902955"/>
+			<boolean id="odvl" value="true"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="857570560010011727"/>
+			<unsigned id="property" value="1664314478"/>
+			<string id="new_value" value="ASCS"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="68075655"/>
+			<string id="odvl" value="SS"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="857570560010011727"/>
+			<unsigned id="property" value="1668178285"/>
+			<string id="new_value" value="American Soccer League Chapionship Trophy"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="545722836"/>
+			<string id="odvl" value="ASC Champion Shield"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="857570560010011727"/>
+			<unsigned id="property" value="1668509293"/>
+			<string id="new_value" value="ASC Trophy"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="561576964"/>
+			<string id="odvl" value="ASC Champion Shield"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="857570560010011727"/>
+			<unsigned id="property" value="1664314478"/>
+			<string id="new_value" value="ASC"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="508958914"/>
+			<string id="odvl" value="ASCS"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="857570560010011727"/>
+			<unsigned id="property" value="1667654508"/>
+			<colour id="new_value" red="255" green="255" blue="255" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="205286425"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="857570560010011727"/>
+			<unsigned id="property" value="1667392364"/>
+			<colour id="new_value" red="0" green="102" blue="204" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="630782117"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="857570560010011727"/>
+			<unsigned id="property" value="1668572012"/>
+			<colour id="new_value" red="255" green="215" blue="0" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="352417535"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="857570560010011727"/>
+			<unsigned id="property" value="1129608313"/>
+			<integer id="new_value" value="6"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="501957497"/>
+			<integer id="odvl" value="0"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="857570560010011727"/>
+			<unsigned id="property" value="1668441456"/>
+			<integer id="new_value" value="115"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="950489438"/>
+			<integer id="odvl" value="114"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
 	</list>
 	<list id="Coms">
+		<string value="database_record/c3ln"/>
+		<string value="Comment"/>
 		<string value="database_record/crep"/>
 		<string value="Comment"/>
 		<string value="files/0/contract_rules/contract_durations/1/cash"/>
