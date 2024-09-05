@@ -456,8 +456,7 @@
 					<record>
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="500000"/>
+							<real id="cash" value="9615.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -466,8 +465,7 @@
 					<record>
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="250000"/>
+							<real id="cash" value="4807.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -476,8 +474,7 @@
 					<record>
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="150000"/>
+							<real id="cash" value="2884.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -486,8 +483,7 @@
 					<record>
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="75000"/>
+							<real id="cash" value="1442.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -496,8 +492,7 @@
 					<record>
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="100000"/>
+							<real id="cash" value="1923.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -506,8 +501,7 @@
 					<record>
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="50000"/>
+							<real id="cash" value="961.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -516,8 +510,7 @@
 					<record>
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="75000"/>
+							<real id="cash" value="1442.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -526,8 +519,7 @@
 					<record>
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="40000"/>
+							<real id="cash" value="769.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -536,8 +528,7 @@
 					<record>
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="50000"/>
+							<real id="cash" value="961.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -546,8 +537,7 @@
 					<record>
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="30000"/>
+							<real id="cash" value="577.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -556,8 +546,7 @@
 					<record>
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="40000"/>
+							<real id="cash" value="769.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -566,8 +555,7 @@
 					<record>
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="25000"/>
+							<real id="cash" value="481.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -576,8 +564,7 @@
 					<record>
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="30000"/>
+							<real id="cash" value="577.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -586,8 +573,7 @@
 					<record>
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="20000"/>
+							<real id="cash" value="384.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -596,8 +582,7 @@
 					<record>
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="20000"/>
+							<real id="cash" value="384.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -606,8 +591,7 @@
 					<record>
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="15000"/>
+							<real id="cash" value="288.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -616,8 +600,7 @@
 					<record>
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="15000"/>
+							<real id="cash" value="288.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -626,8 +609,7 @@
 					<record>
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="10000"/>
+							<real id="cash" value="192.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -636,8 +618,7 @@
 					<record>
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="10000"/>
+							<real id="cash" value="192.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -646,8 +627,7 @@
 					<record>
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="7500"/>
+							<real id="cash" value="144.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -690,8 +670,7 @@
 				<list id="max_wage_rules">
 					<record>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="2500000"/>
+							<real id="cash" value="48076.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record id="competition">
@@ -701,21 +680,18 @@
 						</record>
 						<integer id="num_max_wage_exempt_players" value="3"/>
 						<record id="exempt_max_wage">
-							<unsigned id="id" value="1165512055"/>
-							<integer id="cash" value="5000000"/>
+							<real id="cash" value="96153.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 					</record>
 					<record>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="1250000"/>
+							<real id="cash" value="24038.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<integer id="num_max_wage_exempt_players" value="2"/>
 						<record id="exempt_max_wage">
-							<unsigned id="id" value="1165512055"/>
-							<integer id="cash" value="2500000"/>
+							<real id="cash" value="48076.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record id="competition">
@@ -2682,9 +2658,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="297"/>
+	<integer id="XSvC" value="303"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="5" month="9" year="2024" time="1300"/>
+	<date id="EdDt" day="5" month="9" year="2024" time="1330"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
