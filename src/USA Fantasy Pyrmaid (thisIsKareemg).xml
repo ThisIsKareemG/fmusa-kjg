@@ -6,15 +6,15 @@
 			<list id="division_levels">
 				<record>
 					<large id="competition" value="40"/>
-					 <list id="verf">
-        <string value="24.3.0"/>
-    </list>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<large id="competition" value="43"/>
-					 <list id="verf">
-        <string value="24.3.0"/>
-    </list>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<record id="competition">
@@ -22,9 +22,9 @@
 						<large id="competition" value="2913890211437659217"/>
 						<integer id="DBID" value="2000340049"/>
 					</record>
-					 <list id="verf">
-        <string value="24.3.0"/>
-    </list>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 			</list>
 			<list id="competitions">
@@ -457,7 +457,7 @@
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
 							<unsigned id="id" value="1667330920"/>
-							<real id="cash" value="500000.000000"/>
+							<integer id="cash" value="500000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -467,7 +467,7 @@
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
 							<unsigned id="id" value="1667330920"/>
-							<real id="cash" value="250000.000000"/>
+							<integer id="cash" value="250000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -477,7 +477,7 @@
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
 							<unsigned id="id" value="1667330920"/>
-							<real id="cash" value="150000.000000"/>
+							<integer id="cash" value="150000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -487,7 +487,7 @@
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
 							<unsigned id="id" value="1667330920"/>
-							<real id="cash" value="75000.000000"/>
+							<integer id="cash" value="75000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -497,7 +497,7 @@
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
 							<unsigned id="id" value="1667330920"/>
-							<real id="cash" value="100000.000000"/>
+							<integer id="cash" value="100000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -507,7 +507,7 @@
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
 							<unsigned id="id" value="1667330920"/>
-							<real id="cash" value="50000.000000"/>
+							<integer id="cash" value="50000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -517,7 +517,7 @@
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
 							<unsigned id="id" value="1667330920"/>
-							<real id="cash" value="75000.000000"/>
+							<integer id="cash" value="75000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -527,7 +527,7 @@
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
 							<unsigned id="id" value="1667330920"/>
-							<real id="cash" value="40000.000000"/>
+							<integer id="cash" value="40000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -537,7 +537,7 @@
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
 							<unsigned id="id" value="1667330920"/>
-							<real id="cash" value="50000.000000"/>
+							<integer id="cash" value="50000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -547,7 +547,7 @@
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
 							<unsigned id="id" value="1667330920"/>
-							<real id="cash" value="30000.000000"/>
+							<integer id="cash" value="30000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -557,7 +557,7 @@
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
 							<unsigned id="id" value="1667330920"/>
-							<real id="cash" value="40000.000000"/>
+							<integer id="cash" value="40000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -567,7 +567,7 @@
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
 							<unsigned id="id" value="1667330920"/>
-							<real id="cash" value="25000.000000"/>
+							<integer id="cash" value="25000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -577,7 +577,7 @@
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
 							<unsigned id="id" value="1667330920"/>
-							<real id="cash" value="30000.000000"/>
+							<integer id="cash" value="30000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -587,7 +587,7 @@
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
 							<unsigned id="id" value="1667330920"/>
-							<real id="cash" value="20000.000000"/>
+							<integer id="cash" value="20000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -597,7 +597,7 @@
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
 							<unsigned id="id" value="1667330920"/>
-							<real id="cash" value="20000.000000"/>
+							<integer id="cash" value="20000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -607,7 +607,7 @@
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
 							<unsigned id="id" value="1667330920"/>
-							<real id="cash" value="15000.000000"/>
+							<integer id="cash" value="15000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -617,7 +617,7 @@
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
 							<unsigned id="id" value="1667330920"/>
-							<real id="cash" value="15000.000000"/>
+							<integer id="cash" value="15000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -627,7 +627,7 @@
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
 							<unsigned id="id" value="1667330920"/>
-							<real id="cash" value="10000.000000"/>
+							<integer id="cash" value="10000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -637,7 +637,7 @@
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
 							<unsigned id="id" value="1667330920"/>
-							<real id="cash" value="10000.000000"/>
+							<integer id="cash" value="10000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -647,7 +647,7 @@
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
 							<unsigned id="id" value="1667330920"/>
-							<real id="cash" value="7500.000000"/>
+							<integer id="cash" value="7500"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -656,32 +656,32 @@
 				</list>
 				<list id="caretaker_max_days">
 					<record>
-						<string id="type" value="1"/>
+						<integer id="type" value="1"/>
 						<integer id="time" value="60"/>
 					</record>
 					<record>
-						<string id="type" value="2"/>
+						<integer id="type" value="2"/>
 						<integer id="time" value="45"/>
 					</record>
 					<record>
-						<string id="type" value="3"/>
+						<integer id="type" value="3"/>
 						<integer id="time" value="30"/>
 					</record>
 					<record>
 						<integer id="time" value="20"/>
-						<string id="type" value="4"/>
+						<integer id="type" value="4"/>
 					</record>
 					<record>
 						<integer id="time" value="30"/>
-						<string id="type" value="5"/>
+						<integer id="type" value="5"/>
 					</record>
 					<record>
 						<integer id="time" value="20"/>
-						<string id="type" value="6"/>
+						<integer id="type" value="6"/>
 					</record>
 					<record>
 						<integer id="time" value="15"/>
-						<string id="type" value="7"/>
+						<integer id="type" value="7"/>
 					</record>
 					<record>
 						<integer id="time" value="10"/>
@@ -691,7 +691,7 @@
 					<record>
 						<record id="cash">
 							<unsigned id="id" value="1667330920"/>
-							<real id="cash" value="2500000.000000"/>
+							<integer id="cash" value="2500000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record id="competition">
@@ -702,20 +702,20 @@
 						<integer id="num_max_wage_exempt_players" value="3"/>
 						<record id="exempt_max_wage">
 							<unsigned id="id" value="1165512055"/>
-							<real id="cash" value="5000000.000000"/>
+							<integer id="cash" value="5000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 					</record>
 					<record>
 						<record id="cash">
 							<unsigned id="id" value="1667330920"/>
-							<real id="cash" value="1250000.000000"/>
+							<integer id="cash" value="1250000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<integer id="num_max_wage_exempt_players" value="2"/>
 						<record id="exempt_max_wage">
 							<unsigned id="id" value="1165512055"/>
-							<real id="cash" value="2500000.000000"/>
+							<integer id="cash" value="2500000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record id="competition">
@@ -980,24 +980,24 @@
 			<list id="generated_start_date_rules">
 				<record>
 					<string id="type" value="start_of_season_for_selected_division"/>
-					<integer id="competition" value="43"/>
-					<integer id="year_2" value="0"/>
-					<integer id="base_year_interval" value="1"/>
-					<date id="start_date" day="12" month="8" year="2023" time="1300"/>
-					<integer id="base_year_offset" value="0"/>
-				</record>
-				<record>
-					<string id="type" value="start_of_season_for_selected_division"/>
 					<integer id="competition" value="40"/>
 					<integer id="year_2" value="0"/>
 					<integer id="base_year_interval" value="1"/>
 					<date id="start_date" day="3" month="8" year="2023" time="1230"/>
 					<integer id="base_year_offset" value="0"/>
 				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<integer id="competition" value="43"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="12" month="8" year="2023" time="1300"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
 			</list>
 		</record>
 		<record>
-			<integer id="version" value="1000"/>
+			<integer id="version" value="999"/>
 			<string id="type" value="division"/>
 			<integer id="level" value="0"/>
 			<integer id="year" value="2000"/>
@@ -1535,7 +1535,7 @@
 			<string id="description" value="MLSP"/>
 		</record>
 		<record>
-			<integer id="version" value="1000"/>
+			<integer id="version" value="999"/>
 			<string id="type" value="division"/>
 			<integer id="level" value="1"/>
 			<integer id="year" value="2000"/>
@@ -1873,6 +1873,10 @@
 							<large id="competition" value="2913890211437659217"/>
 							<integer id="DBID" value="2000340049"/>
 						</record>
+						<integer id="min_places" value="2"/>
+						<integer id="max_places" value="2"/>
+						<integer id="min_places_for_child_comps" value="2"/>
+						<integer id="max_places_for_child_comps" value="2"/>
 					</record>
 					<boolean id="is_prize_money_for_current_positions" value="true"/>
 				</record>
@@ -2278,14 +2282,14 @@
 						</record>
 					</list>
 					<record id="promotion">
-						<unsigned id="id" value="1886547314"/>
 						<integer id="number_places" value="1"/>
 						<record id="competition">
-							<unsigned id="id" value="1668246896"/>
 							<large id="competition" value="184683593771"/>
 							<integer id="DBID" value="43"/>
 						</record>
-						<integer id="min_places" value="1"/>
+						<integer id="min_places" value="2"/>
+						<integer id="max_places" value="2"/>
+						<integer id="min_places_for_parent_comp" value="2"/>
 					</record>
 				</record>
 				<record>
@@ -2678,12 +2682,15 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="269"/>
+	<integer id="XSvC" value="297"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="5" month="9" year="2024" time="1115"/>
+	<date id="EdDt" day="5" month="9" year="2024" time="1300"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
+	<list id="verf">
+		<string value="24.3.0"/>
+	</list>
 	<list id="db_changes">
 		<record>
 			<integer id="database_table_type" value="25"/>
@@ -28036,6 +28043,272 @@
 			<string id="odvl" value="ASC Trophy"/>
 			<boolean id="is_client_field" value="true"/>
 			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="55"/>
+			<large id="db_unique_id" value="4294967297"/>
+			<unsigned id="property" value="1094992978"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="25"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="2266714952909374546"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="74859146"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="2266714952909374546"/>
+			<unsigned id="property" value="1668178285"/>
+			<string id="new_value" value="USA Lower Leagues"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="768363639"/>
+			<string id="odvl" value=""/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="2266714952909374546"/>
+			<unsigned id="property" value="1668509293"/>
+			<string id="new_value" value="USA Lower Leagues"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="658450715"/>
+			<string id="odvl" value=""/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="2266714952909374546"/>
+			<unsigned id="property" value="1667594356"/>
+			<boolean id="new_value" value="true"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="526946716"/>
+			<boolean id="odvl" value="false"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="2266714952909374546"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8591052140195712103"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="882767835"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="2266714952909374546"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8589978467090938855"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="761432470"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="2266714952909374546"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8590955954403095788"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="430096896"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="2266714952909374546"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8590956005942703352"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="529917034"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="2266714952909374546"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8590956091842049292"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="674856953"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="2266714952909374546"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8590956435439433052"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="271259146"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="2266714952909374546"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8590956121906820371"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="797727251"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="2266714952909374546"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="85971849282940657"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="149795175"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="2266714952909374546"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8590956469799171428"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="42481151"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="2266714952909374546"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8591052127310810212"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="501773663"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="2266714952909374546"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8590956388194792785"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="572023385"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="2266714952909374546"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8591294891747338543"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="770317615"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="2266714952909374546"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8590956465504204131"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="906742918"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="2266714952909374546"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8590226424142929259"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="981568654"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="2266714952909374546"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8591058982078616224"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="16763556"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="2266714952909374546"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8591040689812898301"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="907643323"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="2266714952909374546"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8589966703175512372"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="144111394"/>
 		</record>
 	</list>
 	<list id="Coms">
