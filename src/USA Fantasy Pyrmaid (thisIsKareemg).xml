@@ -2606,11 +2606,22 @@
 					<string id="id" value="leag"/>
 					<integer id="index" value="0"/>
 					<string id="type" value="group"/>
-					<list id="sort_rules"/>
-					<string id="subs_rules" value="three_from_seven"/>
-					<string id="priority" value="friendly"/>
+					<list id="sort_rules">
+						<string value="goal_difference"/>
+						<string value="goals_for"/>
+						<string value="own_match"/>
+						<string value="goals_against"/>
+						<string value="games_won"/>
+						<string value="own_match_when_finished"/>
+					</list>
+					<string id="subs_rules" value="five_from_seven_max_three_stoppages"/>
+					<string id="priority" value="league_low"/>
 					<list id="requirements"/>
-					<list id="teams"/>
+					<list id="teams">
+						<record>
+							<string id="id" value="get_division_teams"/>
+						</record>
+					</list>
 					<list id="schedule"/>
 					<list id="ranking_levels"/>
 					<integer id="number_groups" value="2"/>
@@ -2637,6 +2648,113 @@
 							<integer id="type" value="4"/>
 						</record>
 					</list>
+					<list id="group_custom_fixture_plan">
+						<record>
+							<integer id="group_index" value="0"/>
+							<integer id="other_group_index" value="0"/>
+							<integer id="number_rounds" value="2"/>
+							<integer id="number_teams" value="12"/>
+						</record>
+						<record>
+							<integer id="group_index" value="1"/>
+							<integer id="other_group_index" value="1"/>
+							<integer id="number_rounds" value="2"/>
+							<integer id="number_teams" value="12"/>
+						</record>
+						<record>
+							<integer id="group_index" value="0"/>
+							<integer id="other_group_index" value="1"/>
+							<integer id="number_rounds" value="1"/>
+							<integer id="number_teams" value="4"/>
+						</record>
+						<record>
+							<integer id="group_index" value="1"/>
+							<integer id="other_group_index" value="0"/>
+							<integer id="number_rounds" value="1"/>
+							<integer id="number_teams" value="4"/>
+						</record>
+					</list>
+					<integer id="number_group_teams" value="12"/>
+					<integer id="number_rounds" value="2"/>
+					<boolean id="schedule_fixtures" value="false"/>
+					<string id="tv_money_pooled" value="stage"/>
+					<integer id="points_to_deduct_for_administration" value="5"/>
+					<record id="administration_cut_off_date">
+						<string id="day_of_week" value="sat"/>
+						<integer id="day_of_month" value="15"/>
+						<string id="month" value="apr"/>
+						<integer id="year" value="2000"/>
+					</record>
+					<string id="fixture_order" value="random"/>
+					<integer id="number_end_dates_with_no_tv_games" value="1"/>
+					<integer id="minimum_stadium_capacity" value="7500"/>
+					<integer id="minimum_stadium_seating_capacity" value="5000"/>
+					<string id="minimum_stadium_condition" value="average"/>
+					<boolean id="store_league_history" value="false"/>
+					<string id="league_rules" value="no_promotion_for_b_teams, no_promotion_for_c_teams"/>
+					<list id="prize_money">
+						<record>
+							<integer id="position" value="0"/>
+							<real id="cash" value="5000000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="1"/>
+							<real id="cash" value="4000000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="2"/>
+							<real id="cash" value="3500000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="3"/>
+							<real id="cash" value="3000000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="4"/>
+							<real id="cash" value="2700000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="5"/>
+							<real id="cash" value="2400000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="6"/>
+							<real id="cash" value="2000000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="7"/>
+							<real id="cash" value="1500000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="8"/>
+							<real id="cash" value="1000000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="9"/>
+							<real id="cash" value="800000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="10"/>
+							<real id="cash" value="600000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record>
+							<integer id="position" value="11"/>
+							<real id="cash" value="500000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+					</list>
+					<boolean id="is_prize_money_for_current_positions" value="true"/>
 				</record>
 			</list>
 			<integer id="min_clash_days_for_tv_date" value="3"/>
@@ -2893,9 +3011,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="320"/>
+	<integer id="XSvC" value="322"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="19" month="9" year="2024" time="1045"/>
+	<date id="EdDt" day="19" month="9" year="2024" time="1145"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
