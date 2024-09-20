@@ -2622,7 +2622,74 @@
 							<string id="id" value="get_division_teams"/>
 						</record>
 					</list>
-					<list id="schedule"/>
+					<list id="schedule">
+						<record>
+							<string id="check_clashes" value="domestic"/>
+							<list id="match_days">
+								<record>
+									<string id="day_of_week" value="sun"/>
+									<string id="time" value="1300"/>
+									<string id="new_day_of_week" value="thu"/>
+									<string id="new_time" value="1930"/>
+									<integer id="percentage" value="60"/>
+								</record>
+							</list>
+							<record id="start_date">
+								<string id="day_of_week" value="thu"/>
+								<integer id="day_of_month" value="17"/>
+								<string id="month" value="aug"/>
+								<integer id="year" value="2000"/>
+							</record>
+							<record id="end_date">
+								<string id="day_of_week" value="thu"/>
+								<integer id="day_of_month" value="24"/>
+								<string id="month" value="may"/>
+								<integer id="year" value="2001"/>
+							</record>
+							<list id="break_periods">
+								<record>
+									<record id="start_date">
+										<string id="day_of_week" value="sun"/>
+										<integer id="day_of_month" value="24"/>
+										<string id="month" value="dec"/>
+										<integer id="year" value="2000"/>
+									</record>
+									<record id="end_date">
+										<string id="day_of_week" value="sun"/>
+										<integer id="day_of_month" value="31"/>
+										<string id="month" value="dec"/>
+										<integer id="year" value="2000"/>
+									</record>
+								</record>
+							</list>
+							<list id="tv_dates">
+								<record>
+									<integer id="number_matches" value="1"/>
+									<string id="tv_type" value="satellite"/>
+									<string id="matches_type" value="shared"/>
+									<string id="day_of_week" value="sun"/>
+									<string id="new_day_of_week" value="sat"/>
+									<string id="new_time" value="1300"/>
+								</record>
+								<record>
+									<integer id="number_matches" value="1"/>
+									<string id="tv_type" value="satellite"/>
+									<string id="matches_type" value="minor"/>
+									<string id="day_of_week" value="sun"/>
+									<string id="new_day_of_week" value="fri"/>
+									<string id="new_time" value="1930"/>
+								</record>
+								<record>
+									<integer id="number_matches" value="1"/>
+									<string id="tv_type" value="satellite"/>
+									<string id="matches_type" value="minor"/>
+									<string id="day_of_week" value="thu"/>
+									<string id="new_day_of_week" value="sun"/>
+									<string id="new_time" value="1100"/>
+								</record>
+							</list>
+						</record>
+					</list>
 					<list id="ranking_levels"/>
 					<integer id="number_groups" value="2"/>
 					<string id="group_rules" value="regional_groups"/>
@@ -2695,66 +2762,78 @@
 					<list id="prize_money">
 						<record>
 							<integer id="position" value="0"/>
-							<real id="cash" value="5000000.000000"/>
+							<integer id="cash" value="5000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="1"/>
-							<real id="cash" value="4000000.000000"/>
+							<integer id="cash" value="4000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="2"/>
-							<real id="cash" value="3500000.000000"/>
+							<integer id="cash" value="3500000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="3"/>
-							<real id="cash" value="3000000.000000"/>
+							<integer id="cash" value="3000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="4"/>
-							<real id="cash" value="2700000.000000"/>
+							<integer id="cash" value="2700000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="5"/>
-							<real id="cash" value="2400000.000000"/>
+							<integer id="cash" value="2400000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="6"/>
-							<real id="cash" value="2000000.000000"/>
+							<integer id="cash" value="2000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="7"/>
-							<real id="cash" value="1500000.000000"/>
+							<integer id="cash" value="1500000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="8"/>
-							<real id="cash" value="1000000.000000"/>
+							<integer id="cash" value="1000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="9"/>
-							<real id="cash" value="800000.000000"/>
+							<integer id="cash" value="800000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="10"/>
-							<real id="cash" value="600000.000000"/>
+							<integer id="cash" value="600000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="11"/>
-							<real id="cash" value="500000.000000"/>
+							<integer id="cash" value="500000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 					</list>
 					<boolean id="is_prize_money_for_current_positions" value="true"/>
+					<list id="tv_decision_dates">
+						<record>
+							<integer id="days_to_look_ahead" value="83"/>
+							<integer id="tv_decision_period" value="31"/>
+							<record id="start_date">
+								<string id="day_of_week" value="fri"/>
+								<integer id="day_of_month" value="7"/>
+								<string id="month" value="jul"/>
+								<integer id="year" value="2000"/>
+							</record>
+						</record>
+					</list>
 				</record>
 			</list>
 			<integer id="min_clash_days_for_tv_date" value="3"/>
@@ -3011,9 +3090,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="322"/>
+	<integer id="XSvC" value="325"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="19" month="9" year="2024" time="1145"/>
+	<date id="EdDt" day="20" month="9" year="2024" time="1130"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
