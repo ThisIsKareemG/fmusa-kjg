@@ -2484,6 +2484,18 @@
 						<integer id="max_places" value="2"/>
 						<integer id="min_places_for_parent_comp" value="2"/>
 					</record>
+					<string id="tv_type" value="pay_per_view"/>
+					<record id="relegation">
+						<integer id="number_places" value="1"/>
+						<record id="competition">
+							<large id="competition" value="3035225112018863187"/>
+							<integer id="DBID" value="2000340051"/>
+						</record>
+						<integer id="min_places" value="2"/>
+						<integer id="max_places" value="2"/>
+						<integer id="min_places_for_child_comps" value="2"/>
+						<integer id="max_places_for_child_comps" value="2"/>
+					</record>
 				</record>
 				<record>
 					<string id="id" value="pltb"/>
@@ -2676,9 +2688,9 @@
 							<list id="match_days">
 								<record>
 									<string id="day_of_week" value="sun"/>
-									<string id="time" value="1300"/>
+									<integer id="time" value="1300"/>
 									<string id="new_day_of_week" value="thu"/>
-									<string id="new_time" value="1930"/>
+									<integer id="new_time" value="1930"/>
 									<integer id="percentage" value="60"/>
 								</record>
 							</list>
@@ -2721,7 +2733,7 @@
 									<string id="matches_type" value="shared"/>
 									<string id="day_of_week" value="sun"/>
 									<string id="new_day_of_week" value="sat"/>
-									<string id="new_time" value="1300"/>
+									<integer id="new_time" value="1300"/>
 								</record>
 								<record>
 									<integer id="number_matches" value="1"/>
@@ -2729,7 +2741,7 @@
 									<string id="matches_type" value="minor"/>
 									<string id="day_of_week" value="sun"/>
 									<string id="new_day_of_week" value="fri"/>
-									<string id="new_time" value="1930"/>
+									<integer id="new_time" value="1930"/>
 								</record>
 								<record>
 									<integer id="number_matches" value="1"/>
@@ -2737,7 +2749,7 @@
 									<string id="matches_type" value="minor"/>
 									<string id="day_of_week" value="thu"/>
 									<string id="new_day_of_week" value="sun"/>
-									<string id="new_time" value="1100"/>
+									<integer id="new_time" value="1100"/>
 								</record>
 							</list>
 						</record>
@@ -2890,6 +2902,17 @@
 							</record>
 						</record>
 					</list>
+					<string id="tv_type" value="pay_per_view"/>
+					<record id="promotion">
+						<integer id="number_places" value="1"/>
+						<record id="competition">
+							<large id="competition" value="2913890211437659217"/>
+							<integer id="DBID" value="2000340049"/>
+						</record>
+						<integer id="min_places" value="2"/>
+						<integer id="max_places" value="2"/>
+						<integer id="min_places_for_parent_comp" value="2"/>
+					</record>
 				</record>
 				<record>
 					<string id="id" value="pltb"/>
@@ -3215,9 +3238,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="337"/>
+	<integer id="XSvC" value="344"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="10" month="1" year="2025" time="2215"/>
+	<date id="EdDt" day="11" month="1" year="2025" time="1200"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
