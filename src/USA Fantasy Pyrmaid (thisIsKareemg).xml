@@ -6,15 +6,11 @@
 			<list id="division_levels">
 				<record>
 					<large id="competition" value="40"/>
-					<list id="verf">
-						<string value="24.3.0"/>
-					</list>
+					<list id="verf"/>
 				</record>
 				<record>
 					<large id="competition" value="43"/>
-					<list id="verf">
-						<string value="24.3.0"/>
-					</list>
+					<list id="verf"/>
 				</record>
 				<record>
 					<record id="competition">
@@ -22,9 +18,7 @@
 						<large id="competition" value="2913890211437659217"/>
 						<integer id="DBID" value="2000340049"/>
 					</record>
-					<list id="verf">
-						<string value="24.3.0"/>
-					</list>
+					<list id="verf"/>
 				</record>
 				<record>
 					<record id="competition">
@@ -32,9 +26,7 @@
 						<large id="competition" value="3035225112018863187"/>
 						<integer id="DBID" value="2000340051"/>
 					</record>
-					<list id="verf">
-						<string value="24.3.0"/>
-					</list>
+					<list id="verf"/>
 				</record>
 			</list>
 			<list id="competitions">
@@ -3294,15 +3286,13 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="358"/>
+	<integer id="XSvC" value="359"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="14" month="6" year="2025" time="1130"/>
+	<date id="EdDt" day="14" month="6" year="2025" time="1215"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
-	<list id="verf">
-		<string value="24.3.0"/>
-	</list>
+	<list id="verf"/>
 	<list id="db_changes">
 		<record>
 			<integer id="database_table_type" value="25"/>
@@ -32267,6 +32257,360 @@
 			<integer id="version" value="3569"/>
 			<integer id="db_random_id" value="742120359"/>
 			<integer id="odvl" value="2"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="55"/>
+			<large id="db_unique_id" value="4294967297"/>
+			<unsigned id="property" value="1094992978"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="25"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="3456701423985280085"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="257732740"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1668178285"/>
+			<string id="new_value" value="Gatorade Championship Trophy"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="189680899"/>
+			<string id="odvl" value=""/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1668509293"/>
+			<string id="new_value" value="G"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="492891192"/>
+			<string id="odvl" value=""/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1668509293"/>
+			<string id="new_value" value="Gatorade Championship Trophy"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="585700071"/>
+			<string id="odvl" value="G"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1664314478"/>
+			<string id="new_value" value="GCT"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="769738959"/>
+			<string id="odvl" value=""/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1668441456"/>
+			<integer id="new_value" value="70"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="470699498"/>
+			<integer id="odvl" value="1"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1668178285"/>
+			<string id="new_value" value="Gatorade National Championship Trophy"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="484875534"/>
+			<string id="odvl" value="Gatorade Championship Trophy"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1668509293"/>
+			<string id="new_value" value="Gatorade National Championship Trophy"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="582148880"/>
+			<string id="odvl" value="Gatorade Championship Trophy"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1667654508"/>
+			<colour id="new_value" red="255" green="255" blue="255" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="921976081"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1667392364"/>
+			<colour id="new_value" red="34" green="139" blue="34" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="258317318"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1668572012"/>
+			<colour id="new_value" red="255" green="20" blue="147" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="15841770"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1668183145"/>
+			<record id="new_value">
+				<large id="Nnat" value="1675037245830"/>
+				<integer id="DBID" value="390"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="142026250"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1129608313"/>
+			<integer id="new_value" value="5"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="968302829"/>
+			<integer id="odvl" value="0"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1684173945"/>
+			<string id="new_value" value="0"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="489024088"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1684173945"/>
+			<integer id="new_value" value="1"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="699538081"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1668116076"/>
+			<integer id="new_value" value="0"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="429820990"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1668116076"/>
+			<string id="new_value" value="100"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="526942271"/>
+			<float id="odvl" value="0.000000"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1668116087"/>
+			<integer id="new_value" value="0"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="415745437"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1668116087"/>
+			<string id="new_value" value="64"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="652284365"/>
+			<float id="odvl" value="0.000000"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1668118636"/>
+			<integer id="new_value" value="0"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="420969941"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1668118636"/>
+			<string id="new_value" value="110"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="98084742"/>
+			<float id="odvl" value="0.000000"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1668118647"/>
+			<integer id="new_value" value="0"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="343199518"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1668118647"/>
+			<string id="new_value" value="75"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="907397380"/>
+			<float id="odvl" value="0.000000"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1447121524"/>
+			<integer id="new_value" value="1"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="896113661"/>
+			<integer id="odvl" value="5"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1668509293"/>
+			<string id="new_value" value="Gatorade Championship Trophy"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="235021114"/>
+			<string id="odvl" value="Gatorade National Championship Trophy"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1664314478"/>
+			<string id="new_value" value="GCH"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="37099751"/>
+			<string id="odvl" value="GCT"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="25"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="4142092781822329942"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="877267753"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="4142092781822329942"/>
+			<unsigned id="property" value="1668178285"/>
+			<string id="new_value" value="Gatorade National Championship"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="170551924"/>
+			<string id="odvl" value="Gatorade National Championship Trophy"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="4142092781822329942"/>
+			<unsigned id="property" value="1668509293"/>
+			<string id="new_value" value="Gatorade Championship"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="502000203"/>
+			<string id="odvl" value="Gatorade Championship Trophy"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3456701423985280085"/>
+			<unsigned id="property" value="1668309869"/>
+			<record id="new_value">
+				<large id="competition" value="4142092781822329942"/>
+				<integer id="DBID" value="2000340054"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="273899534"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="4142092781822329942"/>
+			<unsigned id="property" value="1684173945"/>
+			<string id="new_value" value="0"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="775053448"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="4142092781822329942"/>
+			<unsigned id="property" value="1684173945"/>
+			<integer id="new_value" value="1"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="581862210"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="4142092781822329942"/>
+			<unsigned id="property" value="1818588780"/>
+			<integer id="new_value" value="1"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="398902239"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="4142092781822329942"/>
+			<unsigned id="property" value="1818588780"/>
+			<integer id="new_value" value="4"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="104310716"/>
+			<integer id="odvl" value="1"/>
 			<boolean id="is_client_field" value="true"/>
 		</record>
 	</list>
