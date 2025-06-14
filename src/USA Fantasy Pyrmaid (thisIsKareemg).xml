@@ -2684,14 +2684,10 @@
 					</list>
 					<list id="schedule">
 						<record>
-							<string id="check_clashes" value="domestic"/>
 							<list id="match_days">
 								<record>
 									<string id="day_of_week" value="sun"/>
 									<integer id="time" value="1300"/>
-									<string id="new_day_of_week" value="thu"/>
-									<integer id="new_time" value="1930"/>
-									<integer id="percentage" value="60"/>
 								</record>
 							</list>
 							<record id="start_date">
@@ -2734,6 +2730,8 @@
 									<string id="day_of_week" value="sun"/>
 									<string id="new_day_of_week" value="sat"/>
 									<integer id="new_time" value="1300"/>
+									<string id="date_flags" value="pick_from_all_groups, process_on_setup_day"/>
+									<string id="valid_month" value="nov"/>
 								</record>
 								<record>
 									<integer id="number_matches" value="1"/>
@@ -2742,6 +2740,7 @@
 									<string id="day_of_week" value="sun"/>
 									<string id="new_day_of_week" value="fri"/>
 									<integer id="new_time" value="1930"/>
+									<string id="date_flags" value="pick_from_all_groups, process_on_setup_day"/>
 								</record>
 								<record>
 									<integer id="number_matches" value="1"/>
@@ -2750,6 +2749,7 @@
 									<string id="day_of_week" value="thu"/>
 									<string id="new_day_of_week" value="sun"/>
 									<integer id="new_time" value="1100"/>
+									<string id="date_flags" value="pick_from_all_groups, process_on_setup_day"/>
 								</record>
 							</list>
 						</record>
@@ -2809,7 +2809,6 @@
 					</list>
 					<integer id="number_group_teams" value="12"/>
 					<integer id="number_rounds" value="2"/>
-					<boolean id="schedule_fixtures" value="false"/>
 					<string id="tv_money_pooled" value="stage"/>
 					<integer id="points_to_deduct_for_administration" value="5"/>
 					<record id="administration_cut_off_date">
@@ -2902,7 +2901,6 @@
 							</record>
 						</record>
 					</list>
-					<string id="tv_type" value="pay_per_view"/>
 					<record id="promotion">
 						<integer id="number_places" value="1"/>
 						<record id="competition">
@@ -2957,8 +2955,6 @@
 					</list>
 				</record>
 			</list>
-			<integer id="min_clash_days_for_tv_date" value="3"/>
-			<integer id="max_days_for_checking_tv_dates" value="14"/>
 			<integer id="minimum_training_facilities_level" value="9"/>
 			<boolean id="check_for_finals_comp_finish" value="true"/>
 			<integer id="level" value="3"/>
@@ -2989,6 +2985,66 @@
 					</record>
 				</record>
 			</list>
+			<integer id="discipline_index" value="0"/>
+			<integer id="percentage_initial_tv_money" value="25"/>
+			<boolean id="individual_tv_deal_overrides_competition_tv_money" value="true"/>
+			<list id="initial_tv_money">
+				<record>
+					<string id="type" value="each_team"/>
+					<integer id="cash" value="2500000"/>
+					<unsigned id="currency" value="24"/>
+				</record>
+			</list>
+			<integer id="final_rankings_use_cash_per_place" value="10000"/>
+			<boolean id="final_rankings_use_average_ranking" value="true"/>
+			<list id="final_rankings">
+				<record>
+					<integer id="id" value="0"/>
+					<record id="prize_money">
+						<integer id="cash" value="5000000"/>
+						<unsigned id="currency" value="24"/>
+					</record>
+				</record>
+			</list>
+			<list id="match_tv_money">
+				<record>
+					<string id="tv_type" value="national"/>
+					<integer id="percentage" value="50"/>
+					<integer id="cash" value="79348"/>
+					<unsigned id="currency" value="24"/>
+					<integer id="minimum_reputation" value="0"/>
+				</record>
+				<record>
+					<string id="tv_type" value="satellite"/>
+					<integer id="percentage" value="50"/>
+					<integer id="cash" value="38043"/>
+					<unsigned id="currency" value="24"/>
+					<integer id="minimum_reputation" value="0"/>
+				</record>
+				<record>
+					<string id="tv_type" value="pay_per_view"/>
+					<integer id="percentage" value="50"/>
+					<integer id="cash" value="25000"/>
+					<unsigned id="currency" value="24"/>
+					<integer id="minimum_reputation" value="0"/>
+				</record>
+			</list>
+			<list id="gate_receipts">
+				<record>
+					<integer id="index" value="0"/>
+					<integer id="home_team" value="70"/>
+					<integer id="away_team" value="30"/>
+				</record>
+			</list>
+			<list id="helpers">
+				<record/>
+			</list>
+			<integer id="minimum_stadium_capacity" value="7500"/>
+			<integer id="minimum_stadium_seating_capacity" value="5000"/>
+			<string id="minimum_stadium_condition" value="average"/>
+			<boolean id="requires_grass_pitch" value="true"/>
+			<boolean id="requires_undersoil_heating" value="true"/>
+			<boolean id="is_terracing_allowed" value="true"/>
 		</record>
 	</list>
 	<string id="description" value=""/>
@@ -3238,9 +3294,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="344"/>
+	<integer id="XSvC" value="358"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="11" month="1" year="2025" time="1200"/>
+	<date id="EdDt" day="14" month="6" year="2025" time="1130"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
