@@ -496,7 +496,7 @@
 						<list id="appearance_money"/>
 						<string id="type" value="domestic_u21_fund"/>
 						<record id="cash">
-							<real id="cash" value="15000.000000"/>
+							<integer id="cash" value="15000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 					</record>
@@ -515,7 +515,7 @@
 									<string id="type" value="fine"/>
 									<string id="start_date" value="immediate"/>
 									<record id="cash">
-										<real id="cash" value="500000.000000"/>
+										<integer id="cash" value="500000"/>
 										<unsigned id="currency" value="24"/>
 									</record>
 									<integer id="fine_percentage_overspend" value="40"/>
@@ -1307,6 +1307,22 @@
 				</list>
 			</record>
 			<list id="generated_start_date_rules">
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="2913890211437659217"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="12" month="8" year="2023" time="1500"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="3035225112018863187"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="19" month="8" year="2023" time="1500"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
 				<record>
 					<string id="type" value="start_of_season_for_selected_division"/>
 					<integer id="competition" value="40"/>
@@ -3094,31 +3110,7 @@
 						<integer id="DBID" value="2000340052"/>
 					</record>
 					<integer id="number_teams" value="24"/>
-					<list id="add_virtual_stage">
-						<record>
-							<string id="type" value="point_deduction"/>
-							<string id="start_date" value="next_season"/>
-							<integer id="points" value="2"/>
-							<integer id="competition" value="1"/>
-						</record>
-						<record>
-							<string id="type" value="fine"/>
-							<string id="start_date" value="immediate"/>
-							<record id="cash">
-								<unsigned id="id" value="1667330920"/>
-								<integer id="cash" value="750000"/>
-								<unsigned id="currency" value="24"/>
-							</record>
-							<integer id="fine_percentage_overspend" value="45"/>
-							<integer id="competition" value="1"/>
-						</record>
-						<record>
-							<string id="type" value="embargo"/>
-							<string id="start_date" value="immediate"/>
-							<string id="embargo_duration" value="ongoing"/>
-							<integer id="competition" value="1"/>
-						</record>
-					</list>
+					<list id="add_virtual_stage"/>
 					<integer id="points_for_win" value="3"/>
 					<integer id="points_for_draw" value="1"/>
 					<integer id="number_rounds" value="2"/>
@@ -3274,11 +3266,11 @@
 							<list id="match_days">
 								<record>
 									<string id="day_of_week" value="fri"/>
-									<string id="time" value="1900"/>
+									<integer id="time" value="1900"/>
 								</record>
 								<record>
 									<string id="day_of_week" value="sun"/>
-									<string id="time" value="1500"/>
+									<integer id="time" value="1500"/>
 								</record>
 							</list>
 							<record id="start_date">
@@ -3315,21 +3307,21 @@
 									<string id="tv_type" value="satellite"/>
 									<string id="matches_type" value="minor"/>
 									<string id="new_day_of_week" value="fri"/>
-									<string id="new_time" value="1900"/>
+									<integer id="new_time" value="1900"/>
 								</record>
 								<record>
 									<integer id="number_matches" value="1"/>
 									<string id="tv_type" value="satellite"/>
 									<string id="matches_type" value="minor"/>
 									<string id="new_day_of_week" value="sun"/>
-									<string id="new_time" value="1130"/>
+									<integer id="new_time" value="1130"/>
 								</record>
 								<record>
 									<integer id="number_matches" value="1"/>
 									<string id="tv_type" value="satellite"/>
 									<string id="matches_type" value="shared"/>
 									<string id="new_day_of_week" value="sat"/>
-									<string id="new_time" value="1100"/>
+									<integer id="new_time" value="1100"/>
 								</record>
 							</list>
 						</record>
@@ -3482,6 +3474,76 @@
 							<integer id="tv_decision_period" value="7"/>
 						</record>
 					</list>
+				</record>
+				<record>
+					<string id="id" value="pltb"/>
+					<integer id="index" value="1"/>
+					<string id="type" value="league"/>
+					<list id="sort_rules">
+						<string value="goal_difference"/>
+						<string value="goals_for"/>
+						<string value="own_match"/>
+						<string value="goals_against"/>
+						<string value="games_won"/>
+						<string value="own_match_when_finished"/>
+					</list>
+					<string id="subs_rules" value="three_from_seven"/>
+					<string id="priority" value="friendly"/>
+					<list id="requirements"/>
+					<list id="teams">
+						<record>
+							<string id="id" value="get_division_teams"/>
+						</record>
+					</list>
+					<list id="schedule"/>
+					<list id="ranking_levels"/>
+					<string id="description" value="Gatorade National Championship Trophy"/>
+					<record id="competition">
+						<large id="competition" value="3456701423985280085"/>
+						<integer id="DBID" value="2000340053"/>
+					</record>
+					<integer id="number_teams" value="24"/>
+					<list id="add_virtual_stage"/>
+					<integer id="number_rounds" value="2"/>
+					<boolean id="top_team_are_champions" value="true"/>
+					<boolean id="schedule_fixtures" value="true"/>
+					<integer id="points_for_win" value="3"/>
+					<integer id="points_for_draw" value="1"/>
+					<integer id="points_for_defeat" value="0"/>
+					<boolean id="store_league_history" value="true"/>
+					<boolean id="store_league_history_store_stage_name" value="true"/>
+					<list id="extra_league_games">
+						<record>
+							<integer id="stage" value="0"/>
+						</record>
+					</list>
+				</record>
+			</list>
+			<list id="stage_finished_actions_list">
+				<record>
+					<string id="stage_finished_actions" value="process_league_finshed_into_records"/>
+					<integer id="index" value="1"/>
+					<integer id="other_stage_index" value="0"/>
+				</record>
+				<record>
+					<string id="stage_finished_actions" value="add_history_record"/>
+					<integer id="index" value="1"/>
+					<boolean id="store_league_history" value="true"/>
+					<record id="competition">
+						<large id="competition" value="3456701423985280085"/>
+						<integer id="DBID" value="2000340053"/>
+					</record>
+				</record>
+			</list>
+			<list id="process_results_into_stage">
+				<record>
+					<integer id="index" value="0"/>
+					<boolean id="search_child_comps" value="false"/>
+					<integer id="other_stage_index" value="1"/>
+					<record id="competition">
+						<large id="competition" value="3456701423985280085"/>
+						<integer id="DBID" value="2000340053"/>
+					</record>
 				</record>
 			</list>
 		</record>
@@ -3733,9 +3795,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="382"/>
+	<integer id="XSvC" value="389"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="15" month="6" year="2025" time="1630"/>
+	<date id="EdDt" day="16" month="6" year="2025" time="715"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
