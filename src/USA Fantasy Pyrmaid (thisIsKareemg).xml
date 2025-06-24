@@ -478,11 +478,201 @@
 					<integer id="max_matches_allowed_for_youth_contract_players" value="15"/>
 				</record>
 				<record>
-					<string id="name" value="GNC"/>
+					<string id="name" value="FC"/>
 					<record id="competition">
 						<unsigned id="id" value="1668246896"/>
 						<large id="competition" value="4142092781822329942"/>
 						<integer id="DBID" value="2000340054"/>
+					</record>
+					<boolean id="use_squad_numbers" value="true"/>
+					<boolean id="trialists_can_play_in_competitive_fixtures" value="true"/>
+					<boolean id="players_below_min_age_cannot_play_in_senior_fixtures" value="true"/>
+					<boolean id="youth_contract_players_can_play_in_competitive_fixtures" value="true"/>
+					<integer id="max_matches_allowed_for_youth_contract_players" value="25"/>
+					<list id="squad_selection_eligibility_new">
+						<string value="under_19_players_are_always_selected"/>
+					</list>
+					<string id="squad_selection_value" value="domestic_division"/>
+					<boolean id="league_registrations_apply_to_these_fixture_rules" value="true"/>
+					<record id="squad_number_registration_periods">
+						<unsigned id="id" value="1936618096"/>
+						<integer id="squad_numbers_date_ranges_for_transfer_windows" value="1"/>
+						<record id="squad_numbers_start_date_auto">
+							<unsigned id="id" value="1936614497"/>
+							<integer id="max_squad_size" value="0"/>
+							<string id="squad_number_flags" value="allow_any_numbers"/>
+						</record>
+						<string id="squad_number_flags" value="free_transfers_can_be_registered_in_any_transfer_window, long_term_injured_players_can_be_replaced_in_squad"/>
+					</record>
+					<list id="squad_selection_rules">
+						<record>
+							<string id="type" value="homegrown_players_0_21_from_club_in_match_squad"/>
+							<string id="compare_type" value="more_than"/>
+							<integer id="value" value="6"/>
+						</record>
+						<record>
+							<string id="type" value="max_squad_size"/>
+							<string id="compare_type" value="less_than"/>
+							<integer id="value" value="23"/>
+						</record>
+						<record>
+							<string id="type" value="over_30_players_in_match_squad"/>
+							<string id="compare_type" value="less_than"/>
+							<integer id="value" value="4"/>
+						</record>
+						<record>
+							<string id="type" value="all_foreign_players_in_11"/>
+							<string id="compare_type" value="less_than"/>
+							<integer id="value" value="3"/>
+						</record>
+						<record>
+							<string id="type" value="loan_players_in_match_squad"/>
+							<string id="compare_type" value="less_than"/>
+							<integer id="value" value="3"/>
+						</record>
+					</list>
+					<record id="squad_reward_rules">
+						<unsigned id="id" value="1936814711"/>
+						<list id="appearance_money"/>
+						<string id="type" value="domestic_u21_fund"/>
+						<record id="cash">
+							<unsigned id="id" value="1667330920"/>
+							<integer id="cash" value="15000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+					</record>
+					<list id="financial_fair_play">
+						<record>
+							<string id="period" value="season"/>
+							<string id="income" value="gate_receipts, tv_revenue, merchandising"/>
+							<string id="expenditure" value="player_wages, bonuses, tax"/>
+							<list id="sanctions">
+								<record>
+									<string id="type" value="point_deduction"/>
+									<string id="start_date" value="next_season"/>
+									<integer id="points" value="2"/>
+								</record>
+								<record>
+									<string id="type" value="fine"/>
+									<string id="start_date" value="immediate"/>
+									<record id="cash">
+										<unsigned id="id" value="1667330920"/>
+										<integer id="cash" value="500000"/>
+										<unsigned id="currency" value="24"/>
+									</record>
+									<integer id="fine_percentage_overspend" value="40"/>
+								</record>
+								<record>
+									<string id="type" value="embargo"/>
+									<string id="start_date" value="immediate"/>
+									<string id="embargo_duration" value="ongoing"/>
+								</record>
+							</list>
+							<integer id="income_percentage" value="40"/>
+							<integer id="lowest_percentage_of_income" value="80"/>
+						</record>
+					</list>
+				</record>
+				<record>
+					<string id="name" value="FL1"/>
+					<record id="competition">
+						<large id="competition" value="1361178217317844055"/>
+						<integer id="DBID" value="2000340055"/>
+					</record>
+					<boolean id="use_squad_numbers" value="true"/>
+					<boolean id="trialists_can_play_in_competitive_fixtures" value="true"/>
+					<boolean id="players_below_min_age_cannot_play_in_senior_fixtures" value="true"/>
+					<boolean id="youth_contract_players_can_play_in_competitive_fixtures" value="true"/>
+					<integer id="max_matches_allowed_for_youth_contract_players" value="25"/>
+					<list id="squad_selection_eligibility_new">
+						<string value="under_19_players_are_always_selected"/>
+					</list>
+					<string id="squad_selection_value" value="domestic_division"/>
+					<boolean id="league_registrations_apply_to_these_fixture_rules" value="true"/>
+					<record id="squad_number_registration_periods">
+						<unsigned id="id" value="1936618096"/>
+						<integer id="squad_numbers_date_ranges_for_transfer_windows" value="1"/>
+						<record id="squad_numbers_start_date_auto">
+							<unsigned id="id" value="1936614497"/>
+							<integer id="max_squad_size" value="0"/>
+							<string id="squad_number_flags" value="allow_any_numbers"/>
+						</record>
+						<string id="squad_number_flags" value="free_transfers_can_be_registered_in_any_transfer_window, long_term_injured_players_can_be_replaced_in_squad"/>
+					</record>
+					<list id="squad_selection_rules">
+						<record>
+							<string id="type" value="homegrown_players_0_21_from_club_in_match_squad"/>
+							<string id="compare_type" value="more_than"/>
+							<integer id="value" value="6"/>
+						</record>
+						<record>
+							<string id="type" value="max_squad_size"/>
+							<string id="compare_type" value="less_than"/>
+							<integer id="value" value="23"/>
+						</record>
+						<record>
+							<string id="type" value="over_30_players_in_match_squad"/>
+							<string id="compare_type" value="less_than"/>
+							<integer id="value" value="4"/>
+						</record>
+						<record>
+							<string id="type" value="all_foreign_players_in_11"/>
+							<string id="compare_type" value="less_than"/>
+							<integer id="value" value="3"/>
+						</record>
+						<record>
+							<string id="type" value="loan_players_in_match_squad"/>
+							<string id="compare_type" value="less_than"/>
+							<integer id="value" value="3"/>
+						</record>
+					</list>
+					<record id="squad_reward_rules">
+						<unsigned id="id" value="1936814711"/>
+						<list id="appearance_money"/>
+						<string id="type" value="domestic_u21_fund"/>
+						<record id="cash">
+							<unsigned id="id" value="1667330920"/>
+							<integer id="cash" value="15000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+					</record>
+					<list id="financial_fair_play">
+						<record>
+							<string id="period" value="season"/>
+							<string id="income" value="gate_receipts, tv_revenue, merchandising"/>
+							<string id="expenditure" value="player_wages, bonuses, tax"/>
+							<list id="sanctions">
+								<record>
+									<string id="type" value="point_deduction"/>
+									<string id="start_date" value="next_season"/>
+									<integer id="points" value="2"/>
+								</record>
+								<record>
+									<string id="type" value="fine"/>
+									<string id="start_date" value="immediate"/>
+									<record id="cash">
+										<unsigned id="id" value="1667330920"/>
+										<integer id="cash" value="500000"/>
+										<unsigned id="currency" value="24"/>
+									</record>
+									<integer id="fine_percentage_overspend" value="40"/>
+								</record>
+								<record>
+									<string id="type" value="embargo"/>
+									<string id="start_date" value="immediate"/>
+									<string id="embargo_duration" value="ongoing"/>
+								</record>
+							</list>
+							<integer id="income_percentage" value="40"/>
+							<integer id="lowest_percentage_of_income" value="80"/>
+						</record>
+					</list>
+				</record>
+				<record>
+					<string id="name" value="NAC"/>
+					<record id="competition">
+						<large id="competition" value="495107596906841178"/>
+						<integer id="DBID" value="2000340058"/>
 					</record>
 					<boolean id="use_squad_numbers" value="true"/>
 					<boolean id="trialists_can_play_in_competitive_fixtures" value="true"/>
@@ -689,7 +879,7 @@
 					<integer id="maximum_number_teams" value="80"/>
 				</record>
 			</list>
-			<integer id="version" value="1000"/>
+			<integer id="version" value="999"/>
 			<integer id="year" value="2000"/>
 			<list id="season_windows">
 				<record>
@@ -1504,6 +1694,46 @@
 				</record>
 				<record>
 					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="2913890211437659217"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="12" month="8" year="2023" time="1500"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="3035225112018863187"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="19" month="8" year="2023" time="1500"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="4142092781822329942"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="1" month="9" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="1361178217317844055"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="1" month="9" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="2190762888685864025"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="1" month="9" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
 					<integer id="competition" value="40"/>
 					<integer id="year_2" value="0"/>
 					<integer id="base_year_interval" value="1"/>
@@ -1515,7 +1745,7 @@
 					<integer id="competition" value="43"/>
 					<integer id="year_2" value="0"/>
 					<integer id="base_year_interval" value="1"/>
-					<date id="start_date" day="12" month="8" year="2023" time="1300"/>
+					<date id="start_date" day="5" month="8" year="2023" time="1300"/>
 					<integer id="base_year_offset" value="0"/>
 				</record>
 				<record>
@@ -1523,7 +1753,7 @@
 					<integer id="competition" value="2000340049"/>
 					<integer id="year_2" value="0"/>
 					<integer id="base_year_interval" value="1"/>
-					<date id="start_date" day="12" month="8" year="2023" time="1500"/>
+					<date id="start_date" day="2" month="8" year="2023" time="1900"/>
 					<integer id="base_year_offset" value="0"/>
 				</record>
 				<record>
@@ -1531,7 +1761,7 @@
 					<integer id="competition" value="2000340051"/>
 					<integer id="year_2" value="0"/>
 					<integer id="base_year_interval" value="1"/>
-					<date id="start_date" day="19" month="8" year="2023" time="1500"/>
+					<date id="start_date" day="2" month="8" year="2023" time="1900"/>
 					<integer id="base_year_offset" value="0"/>
 				</record>
 				<record>
@@ -1539,7 +1769,7 @@
 					<integer id="competition" value="2000340054"/>
 					<integer id="year_2" value="0"/>
 					<integer id="base_year_interval" value="1"/>
-					<date id="start_date" day="1" month="9" year="2023" time="1900"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
 					<integer id="base_year_offset" value="0"/>
 				</record>
 				<record>
@@ -1547,7 +1777,7 @@
 					<integer id="competition" value="2000340055"/>
 					<integer id="year_2" value="0"/>
 					<integer id="base_year_interval" value="1"/>
-					<date id="start_date" day="1" month="9" year="2023" time="1900"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
 					<integer id="base_year_offset" value="0"/>
 				</record>
 				<record>
@@ -1555,7 +1785,7 @@
 					<integer id="competition" value="2000340057"/>
 					<integer id="year_2" value="0"/>
 					<integer id="base_year_interval" value="1"/>
-					<date id="start_date" day="1" month="9" year="2023" time="1900"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
 					<integer id="base_year_offset" value="0"/>
 				</record>
 			</list>
@@ -1626,17 +1856,15 @@
 					<list id="schedule">
 						<record>
 							<record id="start_date">
-								<unsigned id="id" value="1937007732"/>
-								<string id="day_of_week" value="thu"/>
-								<integer id="day_of_month" value="3"/>
+								<string id="day_of_week" value="tue"/>
+								<integer id="day_of_month" value="1"/>
 								<string id="month" value="aug"/>
 								<integer id="year" value="2000"/>
 							</record>
 							<record id="end_date">
-								<unsigned id="id" value="1701733492"/>
-								<string id="day_of_week" value="tue"/>
-								<integer id="day_of_month" value="1"/>
-								<string id="month" value="may"/>
+								<string id="day_of_week" value="mon"/>
+								<integer id="day_of_month" value="30"/>
+								<string id="month" value="apr"/>
 								<integer id="year" value="2001"/>
 							</record>
 							<list id="break_periods">
@@ -1953,16 +2181,14 @@
 					<list id="schedule">
 						<record>
 							<record id="start_date">
-								<unsigned id="id" value="1937007732"/>
-								<string id="day_of_week" value="sat"/>
-								<integer id="day_of_month" value="5"/>
+								<string id="day_of_week" value="tue"/>
+								<integer id="day_of_month" value="1"/>
 								<string id="month" value="may"/>
 								<integer id="year" value="2001"/>
 							</record>
 							<record id="end_date">
-								<unsigned id="id" value="1701733492"/>
-								<string id="day_of_week" value="sun"/>
-								<integer id="day_of_month" value="13"/>
+								<string id="day_of_week" value="tue"/>
+								<integer id="day_of_month" value="29"/>
 								<string id="month" value="may"/>
 								<integer id="year" value="2001"/>
 							</record>
@@ -2169,16 +2395,14 @@
 					<list id="schedule">
 						<record>
 							<record id="start_date">
-								<unsigned id="id" value="1937007732"/>
-								<string id="day_of_week" value="thu"/>
-								<integer id="day_of_month" value="10"/>
+								<string id="day_of_week" value="tue"/>
+								<integer id="day_of_month" value="1"/>
 								<string id="month" value="aug"/>
 								<integer id="year" value="2000"/>
 							</record>
 							<record id="end_date">
-								<unsigned id="id" value="1701733492"/>
-								<string id="day_of_week" value="wed"/>
-								<integer id="day_of_month" value="25"/>
+								<string id="day_of_week" value="mon"/>
+								<integer id="day_of_month" value="30"/>
 								<string id="month" value="apr"/>
 								<integer id="year" value="2001"/>
 							</record>
@@ -2636,16 +2860,14 @@
 								</record>
 							</list>
 							<record id="start_date">
-								<unsigned id="id" value="1937007732"/>
-								<string id="day_of_week" value="thu"/>
-								<integer id="day_of_month" value="10"/>
+								<string id="day_of_week" value="tue"/>
+								<integer id="day_of_month" value="1"/>
 								<string id="month" value="aug"/>
 								<integer id="year" value="2000"/>
 							</record>
 							<record id="end_date">
-								<unsigned id="id" value="1701733492"/>
-								<string id="day_of_week" value="tue"/>
-								<integer id="day_of_month" value="24"/>
+								<string id="day_of_week" value="mon"/>
+								<integer id="day_of_month" value="30"/>
 								<string id="month" value="apr"/>
 								<integer id="year" value="2001"/>
 							</record>
@@ -3072,17 +3294,15 @@
 								</record>
 							</list>
 							<record id="start_date">
-								<unsigned id="id" value="1937007732"/>
-								<string id="day_of_week" value="thu"/>
-								<integer id="day_of_month" value="17"/>
+								<string id="day_of_week" value="tue"/>
+								<integer id="day_of_month" value="1"/>
 								<string id="month" value="aug"/>
 								<integer id="year" value="2000"/>
 							</record>
 							<record id="end_date">
-								<unsigned id="id" value="1701733492"/>
-								<string id="day_of_week" value="thu"/>
-								<integer id="day_of_month" value="24"/>
-								<string id="month" value="may"/>
+								<string id="day_of_week" value="mon"/>
+								<integer id="day_of_month" value="30"/>
+								<string id="month" value="apr"/>
 								<integer id="year" value="2001"/>
 							</record>
 							<list id="break_periods">
@@ -3459,16 +3679,14 @@
 					<list id="schedule">
 						<record>
 							<record id="start_date">
-								<unsigned id="id" value="1937007732"/>
-								<string id="day_of_week" value="sat"/>
-								<integer id="day_of_month" value="5"/>
+								<string id="day_of_week" value="tue"/>
+								<integer id="day_of_month" value="1"/>
 								<string id="month" value="may"/>
 								<integer id="year" value="2001"/>
 							</record>
 							<record id="end_date">
-								<unsigned id="id" value="1701733492"/>
-								<string id="day_of_week" value="sun"/>
-								<integer id="day_of_month" value="13"/>
+								<string id="day_of_week" value="wed"/>
+								<integer id="day_of_month" value="30"/>
 								<string id="month" value="may"/>
 								<integer id="year" value="2001"/>
 							</record>
@@ -3721,17 +3939,15 @@
 								</record>
 							</list>
 							<record id="start_date">
-								<unsigned id="id" value="1937007732"/>
-								<string id="day_of_week" value="thu"/>
-								<integer id="day_of_month" value="31"/>
+								<string id="day_of_week" value="tue"/>
+								<integer id="day_of_month" value="1"/>
 								<string id="month" value="aug"/>
 								<integer id="year" value="2000"/>
 							</record>
 							<record id="end_date">
-								<unsigned id="id" value="1701733492"/>
-								<string id="day_of_week" value="wed"/>
-								<integer id="day_of_month" value="23"/>
-								<string id="month" value="may"/>
+								<string id="day_of_week" value="mon"/>
+								<integer id="day_of_month" value="30"/>
+								<string id="month" value="apr"/>
 								<integer id="year" value="2001"/>
 							</record>
 							<list id="break_periods">
@@ -4240,17 +4456,15 @@
 								</record>
 							</list>
 							<record id="start_date">
-								<unsigned id="id" value="1937007732"/>
-								<string id="day_of_week" value="thu"/>
-								<integer id="day_of_month" value="31"/>
+								<string id="day_of_week" value="tue"/>
+								<integer id="day_of_month" value="1"/>
 								<string id="month" value="aug"/>
 								<integer id="year" value="2000"/>
 							</record>
 							<record id="end_date">
-								<unsigned id="id" value="1701733492"/>
-								<string id="day_of_week" value="wed"/>
-								<integer id="day_of_month" value="23"/>
-								<string id="month" value="may"/>
+								<string id="day_of_week" value="mon"/>
+								<integer id="day_of_month" value="30"/>
+								<string id="month" value="apr"/>
 								<integer id="year" value="2001"/>
 							</record>
 							<list id="break_periods">
@@ -4479,7 +4693,7 @@
 								<large id="city" value="2813203579535"/>
 								<integer id="DBID" value="655"/>
 							</record>
-							<string id="type" value="4"/>
+							<integer id="type" value="4"/>
 						</record>
 						<record>
 							<integer id="group_index" value="3"/>
@@ -4488,7 +4702,7 @@
 								<large id="city" value="4215201164360116"/>
 								<integer id="DBID" value="981428"/>
 							</record>
-							<string id="type" value="4"/>
+							<integer id="type" value="4"/>
 						</record>
 					</list>
 					<integer id="number_group_teams" value="12"/>
@@ -4682,7 +4896,7 @@
 		<record>
 			<string id="file_type" value="comp"/>
 			<integer id="branch" value="0"/>
-			<string id="version" value="1"/>
+			<integer id="version" value="1"/>
 			<integer id="year" value="2000"/>
 			<integer id="year_interval" value="1"/>
 			<string id="type" value="division"/>
@@ -4690,10 +4904,10 @@
 			<integer id="base_year" value="2000"/>
 			<record id="date_range">
 				<unsigned id="id" value="1685353070"/>
-				<string id="start_month" value="jan"/>
+				<string id="start_month" value="jul"/>
 				<integer id="start_year_offset" value="0"/>
-				<string id="end_month" value="jan"/>
-				<integer id="end_year_offset" value="0"/>
+				<string id="end_month" value="jun"/>
+				<integer id="end_year_offset" value="1"/>
 			</record>
 			<string id="description" value="National Amateur Premier League"/>
 			<record id="competition">
@@ -4737,17 +4951,15 @@
 								</record>
 							</list>
 							<record id="start_date">
-								<unsigned id="id" value="1937007732"/>
-								<string id="day_of_week" value="thu"/>
-								<integer id="day_of_month" value="31"/>
+								<string id="day_of_week" value="tue"/>
+								<integer id="day_of_month" value="1"/>
 								<string id="month" value="aug"/>
 								<integer id="year" value="2000"/>
 							</record>
 							<record id="end_date">
-								<unsigned id="id" value="1701733492"/>
-								<string id="day_of_week" value="wed"/>
-								<integer id="day_of_month" value="23"/>
-								<string id="month" value="may"/>
+								<string id="day_of_week" value="mon"/>
+								<integer id="day_of_month" value="30"/>
+								<string id="month" value="apr"/>
 								<integer id="year" value="2001"/>
 							</record>
 							<list id="break_periods">
@@ -4976,7 +5188,7 @@
 								<large id="city" value="2907692860069"/>
 								<integer id="DBID" value="677"/>
 							</record>
-							<string id="type" value="4"/>
+							<integer id="type" value="4"/>
 						</record>
 						<record>
 							<integer id="group_index" value="3"/>
@@ -4985,7 +5197,7 @@
 								<large id="city" value="2959232467633"/>
 								<integer id="DBID" value="689"/>
 							</record>
-							<string id="type" value="4"/>
+							<integer id="type" value="4"/>
 						</record>
 						<record>
 							<integer id="group_index" value="0"/>
@@ -4994,7 +5206,7 @@
 								<large id="city" value="2860448219802"/>
 								<integer id="DBID" value="666"/>
 							</record>
-							<string id="type" value="4"/>
+							<integer id="type" value="4"/>
 						</record>
 						<record>
 							<integer id="group_index" value="0"/>
@@ -5003,7 +5215,7 @@
 								<large id="city" value="4215115265014176"/>
 								<integer id="DBID" value="981408"/>
 							</record>
-							<string id="type" value="4"/>
+							<integer id="type" value="4"/>
 						</record>
 						<record>
 							<integer id="group_index" value="0"/>
@@ -5012,7 +5224,7 @@
 								<large id="city" value="2808908612238"/>
 								<integer id="DBID" value="654"/>
 							</record>
-							<string id="type" value="4"/>
+							<integer id="type" value="4"/>
 						</record>
 						<record>
 							<integer id="group_index" value="0"/>
@@ -5021,11 +5233,97 @@
 								<large id="city" value="442871257862858"/>
 								<integer id="DBID" value="103114"/>
 							</record>
-							<string id="type" value="4"/>
+							<integer id="type" value="4"/>
 						</record>
 					</list>
 					<integer id="number_group_teams" value="10"/>
 					<list id="group_data"/>
+					<record id="top_playoff">
+						<integer id="number_places" value="1"/>
+						<record id="next_stage_main_stage_name">
+							<large id="stgn" value="730144440490"/>
+							<integer id="DBID" value="170"/>
+						</record>
+					</record>
+				</record>
+				<record>
+					<string id="id" value="pl  "/>
+					<integer id="index" value="1"/>
+					<string id="type" value="league"/>
+					<list id="sort_rules">
+						<string value="goal_difference"/>
+						<string value="goals_for"/>
+						<string value="own_match"/>
+						<string value="goals_against"/>
+						<string value="games_won"/>
+						<string value="own_match_when_finished"/>
+					</list>
+					<string id="subs_rules" value="five_from_eleven_max_three_stoppages_and_extra_time_sub"/>
+					<string id="priority" value="league_high"/>
+					<list id="requirements">
+						<record>
+							<string id="stage" value="leag"/>
+							<boolean id="process_early_finish" value="false"/>
+						</record>
+					</list>
+					<list id="teams">
+						<record>
+							<string id="id" value="get_qualified_teams"/>
+							<string id="stage" value="leag"/>
+							<record id="next_stage_main_stage_name">
+								<large id="stgn" value="730144440490"/>
+								<integer id="DBID" value="170"/>
+							</record>
+							<string id="seeding_method" value="using_position_in_stage"/>
+							<boolean id="reverse_teams" value="false"/>
+						</record>
+					</list>
+					<list id="schedule">
+						<record>
+							<record id="start_date">
+								<string id="day_of_week" value="thu"/>
+								<integer id="day_of_month" value="5"/>
+								<string id="month" value="apr"/>
+								<integer id="year" value="2001"/>
+							</record>
+							<record id="end_date">
+								<string id="day_of_week" value="mon"/>
+								<integer id="day_of_month" value="28"/>
+								<string id="month" value="may"/>
+								<integer id="year" value="2001"/>
+							</record>
+							<string id="check_clashes" value="domestic"/>
+							<list id="match_days">
+								<record>
+									<unsigned id="id" value="1836344441"/>
+									<string id="day_of_week" value="sat"/>
+									<integer id="time" value="1730"/>
+								</record>
+								<record>
+									<string id="day_of_week" value="wed"/>
+									<integer id="time" value="1945"/>
+								</record>
+								<record>
+									<string id="day_of_week" value="sun"/>
+									<integer id="time" value="1500"/>
+								</record>
+							</list>
+						</record>
+					</list>
+					<list id="ranking_levels"/>
+					<record id="stage_name">
+						<large id="stgn" value="730144440490"/>
+						<integer id="DBID" value="170"/>
+					</record>
+					<integer id="number_teams" value="8"/>
+					<list id="add_virtual_stage"/>
+					<integer id="number_rounds" value="1"/>
+					<string id="gate_money_pooled" value="stage"/>
+					<string id="tv_money_pooled" value="stage"/>
+					<string id="tv_type" value="national"/>
+					<string id="fixture_order" value="random"/>
+					<integer id="number_end_dates_with_no_tv_games" value="1"/>
+					<string id="match_rules" value=""/>
 				</record>
 			</list>
 		</record>
@@ -5277,9 +5575,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="486"/>
+	<integer id="XSvC" value="508"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="19" month="6" year="2025" time="1115"/>
+	<date id="EdDt" day="24" month="6" year="2025" time="1930"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
