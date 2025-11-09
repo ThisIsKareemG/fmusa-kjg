@@ -6,11 +6,15 @@
 			<list id="division_levels">
 				<record>
 					<large id="competition" value="40"/>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<large id="competition" value="43"/>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<record id="competition">
@@ -18,7 +22,9 @@
 						<large id="competition" value="2913890211437659217"/>
 						<integer id="DBID" value="2000340049"/>
 					</record>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<record id="competition">
@@ -26,7 +32,9 @@
 						<large id="competition" value="3035225112018863187"/>
 						<integer id="DBID" value="2000340051"/>
 					</record>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<record id="competition">
@@ -34,7 +42,9 @@
 						<large id="competition" value="4142092781822329942"/>
 						<integer id="DBID" value="2000340054"/>
 					</record>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<record id="competition">
@@ -42,7 +52,9 @@
 						<large id="competition" value="1361178217317844055"/>
 						<integer id="DBID" value="2000340055"/>
 					</record>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<record id="competition">
@@ -50,7 +62,9 @@
 						<large id="competition" value="2190762888685864025"/>
 						<integer id="DBID" value="2000340057"/>
 					</record>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<record id="competition">
@@ -58,7 +72,9 @@
 						<large id="competition" value="495107596906841178"/>
 						<integer id="DBID" value="2000340058"/>
 					</record>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<record id="competition">
@@ -66,7 +82,9 @@
 						<large id="competition" value="2016119914883630171"/>
 						<integer id="DBID" value="2000340059"/>
 					</record>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<record id="competition">
@@ -74,7 +92,9 @@
 						<large id="competition" value="227092820068582492"/>
 						<integer id="DBID" value="2000340060"/>
 					</record>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<record id="competition">
@@ -82,7 +102,9 @@
 						<large id="competition" value="382680226569307229"/>
 						<integer id="DBID" value="2000340061"/>
 					</record>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<record id="competition">
@@ -90,7 +112,9 @@
 						<large id="competition" value="1393028737007273054"/>
 						<integer id="DBID" value="2000340062"/>
 					</record>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 			</list>
 			<list id="competitions">
@@ -2021,22 +2045,6 @@
 				</record>
 				<record>
 					<string id="type" value="start_of_season_for_selected_division"/>
-					<integer id="competition" value="40"/>
-					<integer id="year_2" value="0"/>
-					<integer id="base_year_interval" value="1"/>
-					<date id="start_date" day="3" month="8" year="2023" time="1230"/>
-					<integer id="base_year_offset" value="0"/>
-				</record>
-				<record>
-					<string id="type" value="start_of_season_for_selected_division"/>
-					<integer id="competition" value="43"/>
-					<integer id="year_2" value="0"/>
-					<integer id="base_year_interval" value="1"/>
-					<date id="start_date" day="5" month="8" year="2023" time="1300"/>
-					<integer id="base_year_offset" value="0"/>
-				</record>
-				<record>
-					<string id="type" value="start_of_season_for_selected_division"/>
 					<large id="competition" value="2913890211437659217"/>
 					<integer id="year_2" value="0"/>
 					<integer id="base_year_interval" value="1"/>
@@ -2086,6 +2094,78 @@
 				<record>
 					<string id="type" value="start_of_season_for_selected_division"/>
 					<large id="competition" value="2016119914883630171"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<integer id="competition" value="40"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="3" month="8" year="2023" time="1230"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<integer id="competition" value="43"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="5" month="8" year="2023" time="1300"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<integer id="competition" value="2000340049"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="1" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<integer id="competition" value="2000340051"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="2" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<integer id="competition" value="2000340054"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<integer id="competition" value="2000340055"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<integer id="competition" value="2000340057"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<integer id="competition" value="2000340058"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<integer id="competition" value="2000340059"/>
 					<integer id="year_2" value="0"/>
 					<integer id="base_year_interval" value="1"/>
 					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
@@ -8067,13 +8147,15 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="573"/>
+	<integer id="XSvC" value="587"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="9" month="11" year="2025" time="1715"/>
+	<date id="EdDt" day="9" month="11" year="2025" time="1745"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
-	<list id="verf"/>
+	<list id="verf">
+		<string value="24.3.0"/>
+	</list>
 	<list id="db_changes">
 		<record>
 			<integer id="database_table_type" value="25"/>
@@ -64402,6 +64484,1611 @@
 			<string id="odvl" value="GNC Assists Champion"/>
 			<boolean id="is_client_field" value="true"/>
 			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1865955681983173417"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="0"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="95425615447626538"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="719669372"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="95425615447626538"/>
+			<unsigned id="property" value="1096248681"/>
+			<record id="new_value">
+				<large id="competition" value="1361178217317844055"/>
+				<integer id="DBID" value="2000340055"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="898175646"/>
+			<record id="odvl">
+				<large id="competition" value="4142092781822329942"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="95425615447626538"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="Frontier League One Assists Champion"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="749515103"/>
+			<string id="odvl" value="Frontier Championship Assists Champion"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="95425615447626538"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="FL1 Assists Champion"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="679117299"/>
+			<string id="odvl" value="FC Assists Champion"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="95425615447626538"/>
+			<unsigned id="property" value="1096249957"/>
+			<integer id="new_value" value="4"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="508996860"/>
+			<integer id="odvl" value="5"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="95425615447626538"/>
+			<unsigned id="property" value="1096251240"/>
+			<integer id="new_value" value="55"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="927471889"/>
+			<unsigned id="odvl" value="60"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="95425615447626538"/>
+			<unsigned id="property" value="1096251250"/>
+			<integer id="new_value" value="40"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="541058261"/>
+			<unsigned id="odvl" value="45"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="95425615447626538"/>
+			<unsigned id="property" value="1096245859"/>
+			<colour id="new_value" red="34" green="139" blue="34" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="535483800"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="95425615447626538"/>
+			<unsigned id="property" value="1096250467"/>
+			<colour id="new_value" red="255" green="20" blue="147" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="383012911"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1883405249343558440"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="0"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="193706570397946667"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="969454915"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="193706570397946667"/>
+			<unsigned id="property" value="1096245859"/>
+			<colour id="new_value" red="34" green="139" blue="34" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="7245921"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="193706570397946667"/>
+			<unsigned id="property" value="1096250467"/>
+			<colour id="new_value" red="255" green="20" blue="147" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="475929942"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="193706570397946667"/>
+			<unsigned id="property" value="1096248681"/>
+			<record id="new_value">
+				<large id="competition" value="1361178217317844055"/>
+				<integer id="DBID" value="2000340055"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="441751443"/>
+			<record id="odvl">
+				<large id="competition" value="4142092781822329942"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="193706570397946667"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="Frontier League One Defender of the Year"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="758115341"/>
+			<string id="odvl" value="Frontier Championship Defender of the Year"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="193706570397946667"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="FL1 Defender of the Year"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="784156238"/>
+			<string id="odvl" value="FC Defender of the Year"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="193706570397946667"/>
+			<unsigned id="property" value="1096249957"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="242025907"/>
+			<integer id="odvl" value="4"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="193706570397946667"/>
+			<unsigned id="property" value="1096251240"/>
+			<integer id="new_value" value="55"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="539043905"/>
+			<unsigned id="odvl" value="60"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="193706570397946667"/>
+			<unsigned id="property" value="1096251250"/>
+			<integer id="new_value" value="35"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="888064829"/>
+			<unsigned id="odvl" value="40"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1520349795501904679"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="0"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="1828086560197350188"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="468807380"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1828086560197350188"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="RGB(255, 255, 255)RGB(34, 139, 34)RGB(255, 20, 147) Goal of the Month"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="359499702"/>
+			<string id="odvl" value="Frontier Championship Goal of the Month"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1828086560197350188"/>
+			<unsigned id="property" value="1096248681"/>
+			<record id="new_value">
+				<large id="competition" value="1361178217317844055"/>
+				<integer id="DBID" value="2000340055"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="582431518"/>
+			<record id="odvl">
+				<large id="competition" value="4142092781822329942"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1828086560197350188"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="Frontier League One Goal of the Month"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="79928954"/>
+			<string id="odvl" value="RGB(255, 255, 255)RGB(34, 139, 34)RGB(255, 20, 147) Goal of the Month"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1828086560197350188"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="FL1 Goal of the Month"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="40254254"/>
+			<string id="odvl" value="FC Goal of the Month"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1828086560197350188"/>
+			<unsigned id="property" value="1096249957"/>
+			<integer id="new_value" value="2"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="648234678"/>
+			<integer id="odvl" value="3"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1828086560197350188"/>
+			<unsigned id="property" value="1096251240"/>
+			<integer id="new_value" value="40"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="679274722"/>
+			<unsigned id="odvl" value="45"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1828086560197350188"/>
+			<unsigned id="property" value="1096251250"/>
+			<integer id="new_value" value="25"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="279371252"/>
+			<unsigned id="odvl" value="30"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1828086560197350188"/>
+			<unsigned id="property" value="1096245859"/>
+			<colour id="new_value" red="34" green="139" blue="34" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="210434010"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1828086560197350188"/>
+			<unsigned id="property" value="1096250467"/>
+			<colour id="new_value" red="255" green="20" blue="147" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="799335143"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3088113592704865062"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="0"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="3742449025572049709"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="784281001"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3742449025572049709"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="Frontier League One Goal of the Week"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="127351416"/>
+			<string id="odvl" value="Frontier Championship Goal of the Week"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3742449025572049709"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="FL1 Goal of the Week"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="695852751"/>
+			<string id="odvl" value="FC Goal of the Week"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3742449025572049709"/>
+			<unsigned id="property" value="1096248681"/>
+			<record id="new_value">
+				<large id="competition" value="1361178217317844055"/>
+				<integer id="DBID" value="2000340055"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="396121223"/>
+			<record id="odvl">
+				<large id="competition" value="4142092781822329942"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3742449025572049709"/>
+			<unsigned id="property" value="1096251240"/>
+			<integer id="new_value" value="30"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="534025022"/>
+			<unsigned id="odvl" value="35"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3742449025572049709"/>
+			<unsigned id="property" value="1096251250"/>
+			<integer id="new_value" value="15"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="657262662"/>
+			<unsigned id="odvl" value="20"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3742449025572049709"/>
+			<unsigned id="property" value="1096245859"/>
+			<colour id="new_value" red="34" green="139" blue="34" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="89279439"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3742449025572049709"/>
+			<unsigned id="property" value="1096250467"/>
+			<colour id="new_value" red="255" green="20" blue="147" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="21382036"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1897049737672692517"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="0"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="4149154889172947758"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="927039680"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="4149154889172947758"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="Frontier League One Goal of the Year"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="916562699"/>
+			<string id="odvl" value="Frontier Championship Goal of the Year"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="4149154889172947758"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="FL1 Goal of the Year"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="834778189"/>
+			<string id="odvl" value="FC Goal of the Year"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="4149154889172947758"/>
+			<unsigned id="property" value="1096248681"/>
+			<record id="new_value">
+				<large id="competition" value="1361178217317844055"/>
+				<integer id="DBID" value="2000340055"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="983161047"/>
+			<record id="odvl">
+				<large id="competition" value="4142092781822329942"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="4149154889172947758"/>
+			<unsigned id="property" value="1096249957"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="59455030"/>
+			<integer id="odvl" value="4"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="4149154889172947758"/>
+			<unsigned id="property" value="1096251240"/>
+			<integer id="new_value" value="50"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="198591776"/>
+			<unsigned id="odvl" value="55"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="4149154889172947758"/>
+			<unsigned id="property" value="1096251250"/>
+			<integer id="new_value" value="35"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="737006736"/>
+			<unsigned id="odvl" value="40"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="4149154889172947758"/>
+			<unsigned id="property" value="1096245859"/>
+			<colour id="new_value" red="34" green="139" blue="34" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="825280861"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="4149154889172947758"/>
+			<unsigned id="property" value="1096250467"/>
+			<colour id="new_value" red="255" green="20" blue="147" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="924691493"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3934204965852713764"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="0"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="3708489462191919919"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="309333035"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3708489462191919919"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="Frontier League One  Goalkeeper of the Year"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="569361891"/>
+			<string id="odvl" value="Frontier Championship Goalkeeper of the Year"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3708489462191919919"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="FL1 Goalkeeper of the Yea"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="902996021"/>
+			<string id="odvl" value="FC  Goalkeeper of the Yea"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3708489462191919919"/>
+			<unsigned id="property" value="1096248681"/>
+			<record id="new_value">
+				<large id="competition" value="1361178217317844055"/>
+				<integer id="DBID" value="2000340055"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="66092722"/>
+			<record id="odvl">
+				<large id="competition" value="4142092781822329942"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3708489462191919919"/>
+			<unsigned id="property" value="1096245859"/>
+			<colour id="new_value" red="34" green="139" blue="34" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="512350422"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3708489462191919919"/>
+			<unsigned id="property" value="1096250467"/>
+			<colour id="new_value" red="255" green="20" blue="147" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="565595947"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3708489462191919919"/>
+			<unsigned id="property" value="1096249957"/>
+			<integer id="new_value" value="4"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="345030821"/>
+			<integer id="odvl" value="5"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3708489462191919919"/>
+			<unsigned id="property" value="1096251240"/>
+			<integer id="new_value" value="60"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="118772718"/>
+			<unsigned id="odvl" value="65"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3708489462191919919"/>
+			<unsigned id="property" value="1096251250"/>
+			<integer id="new_value" value="40"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="613004268"/>
+			<unsigned id="odvl" value="45"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1669579211590505251"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="0"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="4138538369967362864"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="564291301"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="4138538369967362864"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="Frontier League One Golden Boot"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="45481218"/>
+			<string id="odvl" value="Frontier Championship Golden Boot"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="4138538369967362864"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="FL1 Golden Boot"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="908431701"/>
+			<string id="odvl" value="FC Golden Boot"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="4138538369967362864"/>
+			<unsigned id="property" value="1096248681"/>
+			<record id="new_value">
+				<large id="competition" value="1361178217317844055"/>
+				<integer id="DBID" value="2000340055"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="412537122"/>
+			<record id="odvl">
+				<large id="competition" value="4142092781822329942"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="4138538369967362864"/>
+			<unsigned id="property" value="1096245859"/>
+			<colour id="new_value" red="34" green="139" blue="34" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="76935668"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="4138538369967362864"/>
+			<unsigned id="property" value="1096250467"/>
+			<colour id="new_value" red="255" green="20" blue="147" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="636589930"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="4138538369967362864"/>
+			<unsigned id="property" value="1096249957"/>
+			<integer id="new_value" value="6"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="457065701"/>
+			<integer id="odvl" value="7"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="4138538369967362864"/>
+			<unsigned id="property" value="1096251240"/>
+			<integer id="new_value" value="65"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="166477836"/>
+			<unsigned id="odvl" value="70"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="4138538369967362864"/>
+			<unsigned id="property" value="1096251250"/>
+			<integer id="new_value" value="55"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="374838060"/>
+			<unsigned id="odvl" value="60"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1223056763477725986"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="0"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="153731587492188977"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="694947292"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="153731587492188977"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="Frontier League One Golden Gloves"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="689263349"/>
+			<string id="odvl" value="Frontier Championship Golden Gloves"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="153731587492188977"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="FL1 Golden Gloves"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="41610079"/>
+			<string id="odvl" value="FC Golden Gloves"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="153731587492188977"/>
+			<unsigned id="property" value="1096248681"/>
+			<record id="new_value">
+				<large id="competition" value="1361178217317844055"/>
+				<integer id="DBID" value="2000340055"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="929280694"/>
+			<record id="odvl">
+				<large id="competition" value="4142092781822329942"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="153731587492188977"/>
+			<unsigned id="property" value="1096245859"/>
+			<colour id="new_value" red="34" green="139" blue="34" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="269392183"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="153731587492188977"/>
+			<unsigned id="property" value="1096250467"/>
+			<colour id="new_value" red="255" green="20" blue="147" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="448715449"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="153731587492188977"/>
+			<unsigned id="property" value="1096249957"/>
+			<integer id="new_value" value="4"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="858508571"/>
+			<integer id="odvl" value="5"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="153731587492188977"/>
+			<unsigned id="property" value="1096251240"/>
+			<integer id="new_value" value="60"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="435122216"/>
+			<unsigned id="odvl" value="65"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="153731587492188977"/>
+			<unsigned id="property" value="1096251250"/>
+			<integer id="new_value" value="45"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="963188174"/>
+			<unsigned id="odvl" value="50"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="227567422544712481"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="0"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="1576879459267154738"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="735604340"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1576879459267154738"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="Frontier League One Head Coach of the Month"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="458394268"/>
+			<string id="odvl" value="Frontier Championship Head Coach of the Month"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1576879459267154738"/>
+			<unsigned id="property" value="1096248681"/>
+			<record id="new_value">
+				<large id="competition" value="1361178217317844055"/>
+				<integer id="DBID" value="2000340055"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="843816716"/>
+			<record id="odvl">
+				<large id="competition" value="4142092781822329942"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1576879459267154738"/>
+			<unsigned id="property" value="1096245859"/>
+			<colour id="new_value" red="34" green="139" blue="34" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="145438287"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1576879459267154738"/>
+			<unsigned id="property" value="1096250467"/>
+			<colour id="new_value" red="255" green="20" blue="147" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="238915188"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1576879459267154738"/>
+			<unsigned id="property" value="1096251240"/>
+			<integer id="new_value" value="45"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="218283338"/>
+			<unsigned id="odvl" value="50"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1576879459267154738"/>
+			<unsigned id="property" value="1096251250"/>
+			<integer id="new_value" value="25"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="406292850"/>
+			<unsigned id="odvl" value="30"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3883791769308664608"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="0"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="2527331914868233011"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="789244052"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2527331914868233011"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="Frontier League One Head Coach of the Year"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="750696328"/>
+			<string id="odvl" value="Frontier Championship Head Coach of the Year"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2527331914868233011"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="FL1Head Coach of the Year"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="282517874"/>
+			<string id="odvl" value="FC Head Coach of the Year"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2527331914868233011"/>
+			<unsigned id="property" value="1096248681"/>
+			<record id="new_value">
+				<large id="competition" value="1361178217317844055"/>
+				<integer id="DBID" value="2000340055"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="446775424"/>
+			<record id="odvl">
+				<large id="competition" value="4142092781822329942"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2527331914868233011"/>
+			<unsigned id="property" value="1096245859"/>
+			<colour id="new_value" red="34" green="139" blue="34" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="294918388"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2527331914868233011"/>
+			<unsigned id="property" value="1096250467"/>
+			<colour id="new_value" red="255" green="20" blue="147" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="990587486"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2527331914868233011"/>
+			<unsigned id="property" value="1096249957"/>
+			<integer id="new_value" value="5"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="132062715"/>
+			<integer id="odvl" value="6"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2527331914868233011"/>
+			<unsigned id="property" value="1096251240"/>
+			<integer id="new_value" value="70"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="451280355"/>
+			<unsigned id="odvl" value="75"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2527331914868233011"/>
+			<unsigned id="property" value="1096251250"/>
+			<integer id="new_value" value="50"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="89165948"/>
+			<unsigned id="odvl" value="55"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3741848623503807263"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="0"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="1728152158802187060"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="834029160"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1728152158802187060"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="Frontier League One Most Valuable Player"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="233953140"/>
+			<string id="odvl" value="Frontier Championship Most Valuable Player"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1728152158802187060"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="FL1 Most Valuable Player"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="831229574"/>
+			<string id="odvl" value="FC Most Valuable Player"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1728152158802187060"/>
+			<unsigned id="property" value="1096248681"/>
+			<record id="new_value">
+				<large id="competition" value="1361178217317844055"/>
+				<integer id="DBID" value="2000340055"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="13444951"/>
+			<record id="odvl">
+				<large id="competition" value="4142092781822329942"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1728152158802187060"/>
+			<unsigned id="property" value="1096245859"/>
+			<colour id="new_value" red="34" green="139" blue="34" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="921699093"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1728152158802187060"/>
+			<unsigned id="property" value="1096250467"/>
+			<colour id="new_value" red="255" green="20" blue="147" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="423726334"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1728152158802187060"/>
+			<unsigned id="property" value="1096249957"/>
+			<integer id="new_value" value="5"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="944006399"/>
+			<integer id="odvl" value="6"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1728152158802187060"/>
+			<unsigned id="property" value="1096251240"/>
+			<integer id="new_value" value="70"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="880283959"/>
+			<unsigned id="odvl" value="75"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1728152158802187060"/>
+			<unsigned id="property" value="1096251250"/>
+			<integer id="new_value" value="50"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="415792343"/>
+			<unsigned id="odvl" value="55"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="595961404771177246"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="0"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="808293554114433845"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="803308497"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="808293554114433845"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="Frontier League One Player of the Month"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="863230752"/>
+			<string id="odvl" value="Frontier Championship Player of the Month"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="808293554114433845"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="FL1 Player of the Month"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="241989536"/>
+			<string id="odvl" value="FC Player of the Month"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="808293554114433845"/>
+			<unsigned id="property" value="1096248681"/>
+			<record id="new_value">
+				<large id="competition" value="1361178217317844055"/>
+				<integer id="DBID" value="2000340055"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="703148750"/>
+			<record id="odvl">
+				<large id="competition" value="4142092781822329942"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="808293554114433845"/>
+			<unsigned id="property" value="1096249957"/>
+			<integer id="new_value" value="2"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="848995117"/>
+			<integer id="odvl" value="4"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="808293554114433845"/>
+			<unsigned id="property" value="1096251240"/>
+			<integer id="new_value" value="50"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="35754711"/>
+			<unsigned id="odvl" value="55"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="808293554114433845"/>
+			<unsigned id="property" value="1096251250"/>
+			<integer id="new_value" value="30"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="590557469"/>
+			<unsigned id="odvl" value="35"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="808293554114433845"/>
+			<unsigned id="property" value="1096245859"/>
+			<colour id="new_value" red="34" green="139" blue="34" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="349937862"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="808293554114433845"/>
+			<unsigned id="property" value="1096250467"/>
+			<colour id="new_value" red="255" green="20" blue="147" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="830820102"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3445157191843746589"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="0"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="2564626309900309302"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="210318073"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2564626309900309302"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="Frontier League One Player of the Week"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="381453404"/>
+			<string id="odvl" value="Frontier Championship Player of the Week"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2564626309900309302"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="FL1  Player of the Week"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="853230415"/>
+			<string id="odvl" value="FC Player of the Week"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2564626309900309302"/>
+			<unsigned id="property" value="1096248681"/>
+			<record id="new_value">
+				<large id="competition" value="1361178217317844055"/>
+				<integer id="DBID" value="2000340055"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="644155556"/>
+			<record id="odvl">
+				<large id="competition" value="4142092781822329942"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2564626309900309302"/>
+			<unsigned id="property" value="1096251240"/>
+			<integer id="new_value" value="45"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="176479"/>
+			<unsigned id="odvl" value="50"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2564626309900309302"/>
+			<unsigned id="property" value="1096251250"/>
+			<integer id="new_value" value="25"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="967387347"/>
+			<unsigned id="odvl" value="30"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2564626309900309302"/>
+			<unsigned id="property" value="1096245859"/>
+			<colour id="new_value" red="34" green="139" blue="34" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="102275052"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2564626309900309302"/>
+			<unsigned id="property" value="1096250467"/>
+			<colour id="new_value" red="255" green="20" blue="147" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="995373929"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="946715574060880668"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="0"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="2027876674891846455"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="12888958"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2027876674891846455"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="Frontier League One Referee of the Year"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="153345985"/>
+			<string id="odvl" value="Frontier Championship Referee of the Year"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2027876674891846455"/>
+			<unsigned id="property" value="1096248681"/>
+			<record id="new_value">
+				<large id="competition" value="1361178217317844055"/>
+				<integer id="DBID" value="2000340055"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="490068258"/>
+			<record id="odvl">
+				<large id="competition" value="4142092781822329942"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2027876674891846455"/>
+			<unsigned id="property" value="1096245859"/>
+			<colour id="new_value" red="34" green="139" blue="34" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="452568733"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2027876674891846455"/>
+			<unsigned id="property" value="1096250467"/>
+			<colour id="new_value" red="255" green="20" blue="147" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="992335399"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2027876674891846455"/>
+			<unsigned id="property" value="1096251240"/>
+			<integer id="new_value" value="40"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="154025354"/>
+			<unsigned id="odvl" value="45"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2027876674891846455"/>
+			<unsigned id="property" value="1096251250"/>
+			<integer id="new_value" value="20"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="208318355"/>
+			<unsigned id="odvl" value="25"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1771531869657666331"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="0"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="915310936401285944"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="148814044"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="915310936401285944"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="Frontier League One Team of the Week"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="116685278"/>
+			<string id="odvl" value="Frontier Championship Team of the Week"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="915310936401285944"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="FL1 Team of the Week"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="554497325"/>
+			<string id="odvl" value="FC Team of the Week"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="915310936401285944"/>
+			<unsigned id="property" value="1096248681"/>
+			<record id="new_value">
+				<large id="competition" value="1361178217317844055"/>
+				<integer id="DBID" value="2000340055"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="458066276"/>
+			<record id="odvl">
+				<large id="competition" value="4142092781822329942"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="915310936401285944"/>
+			<unsigned id="property" value="1096251240"/>
+			<integer id="new_value" value="45"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="704481090"/>
+			<unsigned id="odvl" value="50"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="915310936401285944"/>
+			<unsigned id="property" value="1096251250"/>
+			<integer id="new_value" value="25"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="914831879"/>
+			<unsigned id="odvl" value="30"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="915310936401285944"/>
+			<unsigned id="property" value="1096245859"/>
+			<colour id="new_value" red="34" green="139" blue="34" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="848974496"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="915310936401285944"/>
+			<unsigned id="property" value="1096250467"/>
+			<colour id="new_value" red="255" green="20" blue="147" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="811846144"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1027636481654166298"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="0"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="3289539733456851769"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="821085027"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3289539733456851769"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="Frontier League One Young Player of the Year"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="170291007"/>
+			<string id="odvl" value="Frontier Championship Young Player of the Year"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3289539733456851769"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="FL1 Young Player of the Y"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="312452195"/>
+			<string id="odvl" value="FC Young Player of the Y"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3289539733456851769"/>
+			<unsigned id="property" value="1096248681"/>
+			<record id="new_value">
+				<large id="competition" value="1361178217317844055"/>
+				<integer id="DBID" value="2000340055"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="658887981"/>
+			<record id="odvl">
+				<large id="competition" value="4142092781822329942"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3289539733456851769"/>
+			<unsigned id="property" value="1096245859"/>
+			<colour id="new_value" red="34" green="139" blue="34" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="445255674"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3289539733456851769"/>
+			<unsigned id="property" value="1096250467"/>
+			<colour id="new_value" red="255" green="20" blue="147" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="773231260"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3289539733456851769"/>
+			<unsigned id="property" value="1096249957"/>
+			<integer id="new_value" value="4"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="855783685"/>
+			<integer id="odvl" value="5"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3289539733456851769"/>
+			<unsigned id="property" value="1096251240"/>
+			<integer id="new_value" value="55"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="661669897"/>
+			<unsigned id="odvl" value="60"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3289539733456851769"/>
+			<unsigned id="property" value="1096251250"/>
+			<integer id="new_value" value="35"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="203816327"/>
+			<unsigned id="odvl" value="40"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="259692278975206169"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="0"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="2992565967826621242"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="218829858"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2992565967826621242"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="Frontier League One All-League Team"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="983722367"/>
+			<string id="odvl" value="Frontier Championsip All-League Team"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2992565967826621242"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="FL1 All-League Team"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="707577183"/>
+			<string id="odvl" value="FC All-League Team"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2992565967826621242"/>
+			<unsigned id="property" value="1096248681"/>
+			<record id="new_value">
+				<large id="competition" value="1361178217317844055"/>
+				<integer id="DBID" value="2000340055"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="484056275"/>
+			<record id="odvl">
+				<large id="competition" value="4142092781822329942"/>
+			</record>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2992565967826621242"/>
+			<unsigned id="property" value="1096249957"/>
+			<integer id="new_value" value="5"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="347923818"/>
+			<integer id="odvl" value="6"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2992565967826621242"/>
+			<unsigned id="property" value="1096251240"/>
+			<integer id="new_value" value="55"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="612199021"/>
+			<unsigned id="odvl" value="60"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2992565967826621242"/>
+			<unsigned id="property" value="1096251250"/>
+			<integer id="new_value" value="35"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="73191590"/>
+			<unsigned id="odvl" value="40"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2992565967826621242"/>
+			<unsigned id="property" value="1096245859"/>
+			<colour id="new_value" red="34" green="139" blue="34" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="175030752"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2992565967826621242"/>
+			<unsigned id="property" value="1096250467"/>
+			<colour id="new_value" red="255" green="20" blue="147" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="716220827"/>
+			<boolean id="is_client_field" value="true"/>
 		</record>
 	</list>
 	<list id="Coms">
