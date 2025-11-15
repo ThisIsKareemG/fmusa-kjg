@@ -203,7 +203,8 @@
 					</list>
 					<string id="name" value="MLSP"/>
 					<list id="squad_selection_eligibility_new">
-						<string value="under_23_players_are_always_selected"/>
+						<string value="player_cup_tied_for_whole_competition"/>
+						<string value="player_ineligible_for_first_team_or_reserve_youth_within_two_days"/>
 					</list>
 					<record id="squad_reward_rules">
 						<unsigned id="id" value="1936814711"/>
@@ -301,7 +302,8 @@
 					</list>
 					<string id="name" value="ASC"/>
 					<list id="squad_selection_eligibility_new">
-						<string value="under_23_players_are_always_selected"/>
+						<string value="under_23_player_ineligible_for_other_team_if_played_5_games_for_first_team"/>
+						<string value="player_cup_tied_for_whole_competition"/>
 					</list>
 					<record id="squad_reward_rules">
 						<unsigned id="id" value="1936814711"/>
@@ -374,7 +376,11 @@
 					<boolean id="players_below_min_age_cannot_play_in_senior_fixtures" value="true"/>
 					<boolean id="youth_contract_players_can_play_in_competitive_fixtures" value="true"/>
 					<list id="squad_selection_eligibility_new">
-						<string value="under_21_players_are_always_selected"/>
+						<string value="nation_home_grown_under_23_players_are_always_selected"/>
+						<string value="over_23_player_ineligible_for_other_team_if_played_10_games_for_first_team"/>
+						<string value="player_cup_tied_for_whole_competition_if_played_six_games"/>
+						<string value="player_cannot_play_for_b_club_within_six_days_if_played_with_first_club"/>
+						<string value="player_ineligible_for_first_and_b_team_in_same_round"/>
 					</list>
 					<string id="squad_selection_value" value="domestic_division"/>
 					<boolean id="trialists_can_play_in_competitive_fixtures" value="true"/>
@@ -479,7 +485,11 @@
 					<boolean id="players_below_min_age_cannot_play_in_senior_fixtures" value="true"/>
 					<boolean id="youth_contract_players_can_play_in_competitive_fixtures" value="true"/>
 					<list id="squad_selection_eligibility_new">
-						<string value="under_21_players_are_always_selected"/>
+						<string value="over_23_player_ineligible_for_other_team_if_played_10_games_for_first_team"/>
+						<string value="player_ineligible_for_whole_competition_if_played_seven_games"/>
+						<string value="player_cup_tied_for_whole_competition"/>
+						<string value="player_cannot_play_for_b_club_within_six_days_if_played_with_first_club"/>
+						<string value="players_registered_for_league_only"/>
 					</list>
 					<string id="squad_selection_value" value="domestic_division"/>
 					<boolean id="trialists_can_play_in_competitive_fixtures" value="true"/>
@@ -584,7 +594,12 @@
 					<boolean id="youth_contract_players_can_play_in_competitive_fixtures" value="true"/>
 					<integer id="max_matches_allowed_for_youth_contract_players" value="25"/>
 					<list id="squad_selection_eligibility_new">
-						<string value="under_20_players_are_always_selected"/>
+						<string value="under_21_players_are_always_selected"/>
+						<string value="over_23_player_ineligible_for_other_team_if_played_10_games_for_first_team"/>
+						<string value="player_ineligible_for_whole_competition_if_played_nine_games"/>
+						<string value="player_cup_tied_for_whole_competition"/>
+						<string value="player_cannot_play_for_first_or_b_team_or_b_club_within_three_days_of_each_other"/>
+						<string value="player_cannot_play_for_b_club_within_six_days_if_played_with_first_club"/>
 					</list>
 					<string id="squad_selection_value" value="domestic_division"/>
 					<boolean id="league_registrations_apply_to_these_fixture_rules" value="true"/>
@@ -688,6 +703,11 @@
 					<integer id="max_matches_allowed_for_youth_contract_players" value="25"/>
 					<list id="squad_selection_eligibility_new">
 						<string value="under_19_players_are_always_selected"/>
+						<string value="over_23_player_ineligible_for_other_team_if_played_10_games_for_first_team"/>
+						<string value="player_ineligible_for_whole_competition_if_played_six_games"/>
+						<string value="player_cup_tied_for_whole_competition"/>
+						<string value="player_ineligible_for_first_and_b_team_in_same_round"/>
+						<string value="players_registered_for_league_only"/>
 					</list>
 					<string id="squad_selection_value" value="domestic_division"/>
 					<boolean id="league_registrations_apply_to_these_fixture_rules" value="true"/>
@@ -791,6 +811,11 @@
 					<integer id="max_matches_allowed_for_youth_contract_players" value="25"/>
 					<list id="squad_selection_eligibility_new">
 						<string value="under_18_players_are_always_selected"/>
+						<string value="over_23_player_ineligible_for_other_team_if_played_10_games_for_first_team"/>
+						<string value="player_ineligible_for_whole_competition_if_played_three_games"/>
+						<string value="player_cup_tied_for_whole_competition"/>
+						<string value="player_cannot_play_for_b_club_within_six_days_if_played_with_first_club"/>
+						<string value="players_registered_for_league_only"/>
 					</list>
 					<string id="squad_selection_value" value="domestic_division"/>
 					<boolean id="league_registrations_apply_to_these_fixture_rules" value="true"/>
@@ -893,7 +918,12 @@
 					<boolean id="youth_contract_players_can_play_in_competitive_fixtures" value="true"/>
 					<integer id="max_matches_allowed_for_youth_contract_players" value="25"/>
 					<list id="squad_selection_eligibility_new">
-						<string value="under_19_players_are_always_selected"/>
+						<string value="under_18_players_are_always_selected"/>
+						<string value="over_23_player_ineligible_for_other_team_if_played_10_games_for_first_team"/>
+						<string value="player_ineligible_for_whole_competition_if_played_three_games"/>
+						<string value="player_cup_tied_for_whole_competition"/>
+						<string value="player_cannot_play_for_b_club_within_six_days_if_played_with_first_club"/>
+						<string value="players_registered_for_league_only"/>
 					</list>
 					<string id="squad_selection_value" value="domestic_division"/>
 					<boolean id="league_registrations_apply_to_these_fixture_rules" value="true"/>
@@ -996,6 +1026,10 @@
 					<integer id="max_matches_allowed_for_youth_contract_players" value="20"/>
 					<list id="squad_selection_eligibility_new">
 						<string value="under_18_players_are_always_selected"/>
+						<string value="over_23_player_ineligible_for_other_team_if_played_10_games_for_first_team"/>
+						<string value="player_cup_tied_for_whole_competition"/>
+						<string value="player_ineligible_for_whole_competition_if_played_one_game"/>
+						<string value="players_registered_for_league_only"/>
 					</list>
 					<string id="squad_selection_value" value="domestic_division"/>
 					<boolean id="league_registrations_apply_to_these_fixture_rules" value="true"/>
@@ -1021,9 +1055,9 @@
 							<integer id="value" value="23"/>
 						</record>
 						<record>
-							<string id="type" value="over_30_players_in_match_squad"/>
+							<string id="type" value="over_20_players_in_squad"/>
 							<string id="compare_type" value="less_than"/>
-							<integer id="value" value="4"/>
+							<integer id="value" value="0"/>
 						</record>
 						<record>
 							<string id="type" value="all_foreign_players_in_11"/>
@@ -1098,6 +1132,9 @@
 					<integer id="max_matches_allowed_for_youth_contract_players" value="15"/>
 					<list id="squad_selection_eligibility_new">
 						<string value="under_19_players_are_always_selected"/>
+						<string value="player_ineligible_for_whole_competition_if_played_one_game"/>
+						<string value="player_cup_tied_for_whole_competition"/>
+						<string value="players_registered_for_league_only"/>
 					</list>
 					<string id="squad_selection_value" value="domestic_division"/>
 					<boolean id="league_registrations_apply_to_these_fixture_rules" value="true"/>
@@ -1123,9 +1160,9 @@
 							<integer id="value" value="23"/>
 						</record>
 						<record>
-							<string id="type" value="over_30_players_in_match_squad"/>
+							<string id="type" value="over_19_players_in_squad"/>
 							<string id="compare_type" value="less_than"/>
-							<integer id="value" value="4"/>
+							<integer id="value" value="0"/>
 						</record>
 						<record>
 							<string id="type" value="all_foreign_players_in_11"/>
@@ -1396,13 +1433,13 @@
 				<integer id="bosman_number_days" value="183"/>
 				<boolean id="free_transfers_can_join_outside_window" value="true"/>
 				<boolean id="loan_players_can_join_outside_window" value="true"/>
-				<boolean id="has_trial_day" value="false"/>
+				<boolean id="has_trial_day" value="true"/>
 				<string id="loan_players_can_be_recalled" value="always"/>
 				<boolean id="amateur_players_can_join_outside_window" value="true"/>
 				<boolean id="cannot_move_registered_over_23_player_to_main_club" value="true"/>
 				<boolean id="cannot_move_over_23_professional_player_to_main_club_outside_window" value="true"/>
 				<boolean id="maximum_3_players_can_be_moved_to_other_club_per_match" value="true"/>
-				<integer id="youth_regen_min_age" value="16"/>
+				<integer id="youth_regen_min_age" value="14"/>
 				<integer id="developmental_contract_max_age" value="22"/>
 				<boolean id="disable_min_release_fee_rules" value="true"/>
 				<list id="release_fee_rules">
@@ -1447,18 +1484,7 @@
 					<record>
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="9615"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<string id="wage_rules_wage_type" value="all_players"/>
-						<integer id="wage_rules_division_level" value="0"/>
-					</record>
-					<record>
-						<string id="type" value="min_part_time_wage"/>
-						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="4807"/>
+							<real id="cash" value="5500.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -1467,8 +1493,7 @@
 					<record>
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="2884"/>
+							<real id="cash" value="3800.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -1477,8 +1502,7 @@
 					<record>
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="1442"/>
+							<real id="cash" value="900.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -1487,8 +1511,7 @@
 					<record>
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="1923"/>
+							<real id="cash" value="2200.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -1497,8 +1520,7 @@
 					<record>
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="961"/>
+							<real id="cash" value="600.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -1507,8 +1529,7 @@
 					<record>
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="1442"/>
+							<real id="cash" value="900.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -1517,8 +1538,7 @@
 					<record>
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="769"/>
+							<real id="cash" value="400.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -1527,8 +1547,7 @@
 					<record>
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="961"/>
+							<real id="cash" value="700.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -1537,8 +1556,7 @@
 					<record>
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="577"/>
+							<real id="cash" value="300.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -1547,8 +1565,7 @@
 					<record>
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="769"/>
+							<real id="cash" value="500.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -1557,8 +1574,7 @@
 					<record>
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="481"/>
+							<real id="cash" value="200.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -1567,8 +1583,7 @@
 					<record>
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="577"/>
+							<real id="cash" value="350.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -1577,8 +1592,7 @@
 					<record>
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="384"/>
+							<real id="cash" value="150.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -1587,8 +1601,7 @@
 					<record>
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="384"/>
+							<real id="cash" value="250.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -1597,8 +1610,7 @@
 					<record>
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="288"/>
+							<real id="cash" value="120.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -1607,8 +1619,16 @@
 					<record>
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="288"/>
+							<real id="cash" value="200.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<string id="wage_rules_wage_type" value="all_players"/>
+						<integer id="wage_rules_division_level" value="8"/>
+					</record>
+					<record>
+						<string id="type" value="min_part_time_wage"/>
+						<record id="cash">
+							<real id="cash" value="100.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -1617,18 +1637,7 @@
 					<record>
 						<string id="type" value="min_full_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="192"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<string id="wage_rules_wage_type" value="all_players"/>
-						<integer id="wage_rules_division_level" value="8"/>
-					</record>
-					<record>
-						<string id="type" value="min_full_time_wage"/>
-						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="192"/>
+							<real id="cash" value="150.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
@@ -1637,12 +1646,65 @@
 					<record>
 						<string id="type" value="min_part_time_wage"/>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="144"/>
+							<real id="cash" value="80.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<string id="wage_rules_wage_type" value="all_players"/>
 						<integer id="wage_rules_division_level" value="9"/>
+					</record>
+					<record>
+						<string id="type" value="min_full_time_wage"/>
+						<record id="cash">
+							<real id="cash" value="120.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<string id="wage_rules_wage_type" value="all_players"/>
+						<integer id="wage_rules_division_level" value="10"/>
+					</record>
+					<record>
+						<string id="type" value="min_part_time_wage"/>
+						<record id="cash">
+							<real id="cash" value="70.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<string id="wage_rules_wage_type" value="all_players"/>
+						<integer id="wage_rules_division_level" value="10"/>
+					</record>
+					<record>
+						<string id="type" value="min_full_time_wage"/>
+						<record id="cash">
+							<real id="cash" value="100.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<string id="wage_rules_wage_type" value="all_players"/>
+						<integer id="wage_rules_division_level" value="11"/>
+					</record>
+					<record>
+						<string id="type" value="min_part_time_wage"/>
+						<record id="cash">
+							<real id="cash" value="50.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<string id="wage_rules_wage_type" value="all_players"/>
+						<integer id="wage_rules_division_level" value="11"/>
+					</record>
+					<record>
+						<string id="type" value="min_full_time_wage"/>
+						<record id="cash">
+							<real id="cash" value="70.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<string id="wage_rules_wage_type" value="all_players"/>
+						<integer id="wage_rules_division_level" value="12"/>
+					</record>
+					<record>
+						<string id="type" value="min_part_time_wage"/>
+						<record id="cash">
+							<real id="cash" value="30.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<string id="wage_rules_wage_type" value="all_players"/>
+						<integer id="wage_rules_division_level" value="12"/>
 					</record>
 				</list>
 				<list id="caretaker_max_days">
@@ -1681,59 +1743,275 @@
 				<list id="max_wage_rules">
 					<record>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="48076"/>
+							<real id="cash" value="500000.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record id="competition">
-							<unsigned id="id" value="1668246896"/>
+							<large id="competition" value="171798691880"/>
+							<integer id="DBID" value="40"/>
+						</record>
+						<integer id="num_max_wage_exempt_players" value="4"/>
+						<record id="exempt_max_wage">
+							<real id="cash" value="700000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+					</record>
+					<record>
+						<record id="cash">
+							<real id="cash" value="300000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record id="competition">
 							<large id="competition" value="184683593771"/>
 							<integer id="DBID" value="43"/>
 						</record>
 						<integer id="num_max_wage_exempt_players" value="3"/>
 						<record id="exempt_max_wage">
-							<unsigned id="id" value="1165512055"/>
-							<integer id="cash" value="96153"/>
+							<real id="cash" value="450000.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 					</record>
 					<record>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="24038"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<integer id="num_max_wage_exempt_players" value="2"/>
-						<record id="exempt_max_wage">
-							<unsigned id="id" value="1165512055"/>
-							<integer id="cash" value="48076"/>
+							<real id="cash" value="120000.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record id="competition">
-							<unsigned id="id" value="1668246896"/>
 							<large id="competition" value="2913890211437659217"/>
 							<integer id="DBID" value="2000340049"/>
 						</record>
+						<integer id="num_max_wage_exempt_players" value="2"/>
+						<record id="exempt_max_wage">
+							<real id="cash" value="200000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
 					</record>
 					<record>
 						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="14423"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-						<integer id="num_max_wage_exempt_players" value="2"/>
-						<record id="exempt_max_wage">
-							<unsigned id="id" value="1165512055"/>
-							<integer id="cash" value="28846"/>
+							<real id="cash" value="70000.000000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record id="competition">
-							<unsigned id="id" value="1668246896"/>
 							<large id="competition" value="3035225112018863187"/>
 							<integer id="DBID" value="2000340051"/>
 						</record>
+						<integer id="num_max_wage_exempt_players" value="2"/>
+						<record id="exempt_max_wage">
+							<real id="cash" value="100000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+					</record>
+					<record>
+						<record id="cash">
+							<real id="cash" value="30000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record id="competition">
+							<large id="competition" value="4142092781822329942"/>
+							<integer id="DBID" value="2000340054"/>
+						</record>
+						<integer id="num_max_wage_exempt_players" value="1"/>
+						<record id="exempt_max_wage">
+							<real id="cash" value="40000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+					</record>
+					<record>
+						<record id="cash">
+							<real id="cash" value="15000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record id="competition">
+							<large id="competition" value="1361178217317844055"/>
+							<integer id="DBID" value="2000340055"/>
+						</record>
+						<integer id="num_max_wage_exempt_players" value="1"/>
+						<record id="exempt_max_wage">
+							<real id="cash" value="20000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+					</record>
+					<record>
+						<record id="cash">
+							<real id="cash" value="5000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record id="competition">
+							<large id="competition" value="2190762888685864025"/>
+							<integer id="DBID" value="2000340057"/>
+						</record>
+						<integer id="num_max_wage_exempt_players" value="1"/>
+						<record id="exempt_max_wage">
+							<real id="cash" value="6000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+					</record>
+					<record>
+						<record id="cash">
+							<real id="cash" value="2000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record id="competition">
+							<large id="competition" value="495107596906841178"/>
+							<integer id="DBID" value="2000340058"/>
+						</record>
+						<integer id="num_max_wage_exempt_players" value="1"/>
+						<record id="exempt_max_wage">
+							<real id="cash" value="3000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+					</record>
+					<record>
+						<record id="cash">
+							<real id="cash" value="800.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record id="competition">
+							<large id="competition" value="2016119914883630171"/>
+							<integer id="DBID" value="2000340059"/>
+						</record>
+						<integer id="num_max_wage_exempt_players" value="1"/>
+						<record id="exempt_max_wage">
+							<real id="cash" value="1000.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+					</record>
+					<record>
+						<record id="cash">
+							<real id="cash" value="400.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record id="competition">
+							<large id="competition" value="227092820068582492"/>
+							<integer id="DBID" value="2000340060"/>
+						</record>
+						<integer id="num_max_wage_exempt_players" value="1"/>
+						<record id="exempt_max_wage">
+							<real id="cash" value="600.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+					</record>
+					<record>
+						<record id="cash">
+							<real id="cash" value="150.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record id="competition">
+							<large id="competition" value="382680226569307229"/>
+							<integer id="DBID" value="2000340061"/>
+						</record>
+						<integer id="num_max_wage_exempt_players" value="1"/>
+						<record id="exempt_max_wage">
+							<real id="cash" value="200.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+					</record>
+					<record>
+						<record id="cash">
+							<real id="cash" value="75.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+						<record id="competition">
+							<large id="competition" value="1393028737007273054"/>
+							<integer id="DBID" value="2000340062"/>
+						</record>
+						<integer id="num_max_wage_exempt_players" value="1"/>
+						<record id="exempt_max_wage">
+							<real id="cash" value="125.000000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
 					</record>
 				</list>
+				<list id="comp_transfer_rules">
+					<record>
+						<record id="competition">
+							<large id="competition" value="171798691880"/>
+							<integer id="DBID" value="40"/>
+						</record>
+						<string id="type" value="cannot_manage_2_teams_in_same_division, cannot_be_contracted_to_2_teams_in_same_division, free_transfers_can_join_any_time"/>
+					</record>
+					<record>
+						<record id="competition">
+							<large id="competition" value="184683593771"/>
+							<integer id="DBID" value="43"/>
+						</record>
+						<string id="type" value="cannot_manage_2_teams_in_same_division, cannot_be_contracted_to_2_teams_in_same_division, free_transfers_can_join_any_time"/>
+					</record>
+					<record>
+						<record id="competition">
+							<large id="competition" value="2913890211437659217"/>
+							<integer id="DBID" value="2000340049"/>
+						</record>
+						<string id="type" value="cannot_manage_2_teams_in_same_division, cannot_be_contracted_to_2_teams_in_same_division"/>
+					</record>
+					<record>
+						<record id="competition">
+							<large id="competition" value="3035225112018863187"/>
+							<integer id="DBID" value="2000340051"/>
+						</record>
+						<string id="type" value="cannot_manage_2_teams_in_same_division, cannot_be_contracted_to_2_teams_in_same_division, loan_players_if_small_squad"/>
+					</record>
+					<record>
+						<record id="competition">
+							<large id="competition" value="4142092781822329942"/>
+							<integer id="DBID" value="2000340054"/>
+						</record>
+						<string id="type" value="loan_players_if_small_squad, cannot_manage_2_teams_in_same_division, retain_players_from_division"/>
+					</record>
+					<record>
+						<record id="competition">
+							<large id="competition" value="1361178217317844055"/>
+							<integer id="DBID" value="2000340055"/>
+						</record>
+						<string id="type" value="loan_players_if_small_squad, cannot_manage_2_teams_in_same_division, cannot_manage_3_teams_in_same_division, retain_players_from_division"/>
+					</record>
+					<record>
+						<record id="competition">
+							<large id="competition" value="2190762888685864025"/>
+							<integer id="DBID" value="2000340057"/>
+						</record>
+						<string id="type" value="loan_players_if_small_squad, cannot_manage_2_teams_in_same_division, cannot_manage_3_teams_in_same_division, retain_players_from_division"/>
+					</record>
+					<record>
+						<record id="competition">
+							<large id="competition" value="495107596906841178"/>
+							<integer id="DBID" value="2000340058"/>
+						</record>
+						<string id="type" value="loan_players_if_small_squad, cannot_manage_2_teams_in_same_division, cannot_manage_3_teams_in_same_division, retain_players_from_division"/>
+					</record>
+					<record>
+						<record id="competition">
+							<large id="competition" value="2016119914883630171"/>
+							<integer id="DBID" value="2000340059"/>
+						</record>
+						<string id="type" value="loan_players_if_small_squad, cannot_manage_2_teams_in_same_division, cannot_manage_3_teams_in_same_division, retain_players_from_division"/>
+					</record>
+					<record>
+						<record id="competition">
+							<large id="competition" value="227092820068582492"/>
+							<integer id="DBID" value="2000340060"/>
+						</record>
+						<string id="type" value="loan_players_if_small_squad, cannot_manage_2_teams_in_same_division, cannot_manage_3_teams_in_same_division, retain_players_from_division"/>
+					</record>
+					<record>
+						<record id="competition">
+							<large id="competition" value="382680226569307229"/>
+							<integer id="DBID" value="2000340061"/>
+						</record>
+						<string id="type" value="loan_players_if_small_squad, retain_players_from_division, free_transfers_can_join_any_time"/>
+					</record>
+					<record>
+						<record id="competition">
+							<large id="competition" value="1393028737007273054"/>
+							<integer id="DBID" value="2000340062"/>
+						</record>
+						<string id="type" value="loan_players_if_small_squad, cannot_manage_2_teams_in_same_division, retain_players_from_division, free_transfers_can_join_any_time"/>
+					</record>
+				</list>
+				<integer id="full_contract_min_age" value="17"/>
+				<integer id="min_age_for_senior_matches" value="15"/>
+				<integer id="min_age_for_loan_contract" value="15"/>
+				<integer id="max_trialist_matches" value="5"/>
 			</record>
 			<list id="loan_rules">
 				<record>
@@ -2035,24 +2313,7 @@
 						<integer id="info_1" value="1"/>
 						<string id="contract_durations_players_effected_type" value="all_players"/>
 						<integer id="highest_division_level" value="0"/>
-						<integer id="lowest_division_level" value="3"/>
-					</record>
-					<record>
-						<string id="type" value="expired_contracts"/>
-						<string id="contract_expiry_type" value="expired_agreement_needed"/>
-						<integer id="max_age" value="28"/>
-						<integer id="min_age" value="20"/>
-					</record>
-					<record>
-						<string id="type" value="max_years_for_playing_contract"/>
-						<integer id="info_1" value="3"/>
-						<string id="contract_durations_players_effected_type" value="players_under_specified_age"/>
-						<integer id="contract_durations_players_effected_age" value="18"/>
-					</record>
-					<record>
-						<string id="type" value="max_years_for_playing_contract"/>
-						<string id="contract_durations_players_effected_type" value="foreign_players"/>
-						<integer id="info_1" value="3"/>
+						<integer id="lowest_division_level" value="11"/>
 					</record>
 					<record>
 						<string id="type" value="max_years_for_playing_contract"/>
@@ -2066,28 +2327,41 @@
 						<integer id="info_1" value="4"/>
 						<string id="contract_durations_players_effected_type" value="all_players"/>
 						<integer id="highest_division_level" value="1"/>
-						<integer id="lowest_division_level" value="1"/>
+						<integer id="lowest_division_level" value="2"/>
 					</record>
 					<record>
 						<string id="type" value="max_years_for_playing_contract"/>
 						<integer id="info_1" value="3"/>
 						<string id="contract_durations_players_effected_type" value="all_players"/>
-						<integer id="highest_division_level" value="2"/>
-						<integer id="lowest_division_level" value="2"/>
+						<integer id="highest_division_level" value="3"/>
+						<integer id="lowest_division_level" value="5"/>
 					</record>
 					<record>
 						<string id="type" value="max_years_for_playing_contract"/>
 						<integer id="info_1" value="2"/>
 						<string id="contract_durations_players_effected_type" value="all_players"/>
-						<integer id="highest_division_level" value="3"/>
-						<integer id="lowest_division_level" value="3"/>
+						<integer id="highest_division_level" value="6"/>
+						<integer id="lowest_division_level" value="9"/>
 					</record>
 					<record>
 						<string id="type" value="max_years_for_playing_contract"/>
 						<integer id="info_1" value="1"/>
 						<string id="contract_durations_players_effected_type" value="all_players"/>
-						<integer id="highest_division_level" value="4"/>
-						<integer id="lowest_division_level" value="12"/>
+						<integer id="highest_division_level" value="10"/>
+						<integer id="lowest_division_level" value="11"/>
+					</record>
+					<record>
+						<string id="type" value="max_years_for_playing_contract"/>
+						<integer id="info_1" value="1"/>
+						<string id="contract_durations_players_effected_type" value="foreign_players"/>
+						<integer id="highest_division_level" value="3"/>
+						<integer id="lowest_division_level" value="11"/>
+					</record>
+					<record>
+						<string id="type" value="expired_contracts"/>
+						<string id="contract_expiry_type" value="expired_agreement_needed"/>
+						<integer id="min_age" value="20"/>
+						<integer id="max_age" value="28"/>
 					</record>
 				</list>
 			</record>
@@ -8443,9 +8717,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="601"/>
+	<integer id="XSvC" value="619"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="15" month="11" year="2025" time="1400"/>
+	<date id="EdDt" day="15" month="11" year="2025" time="1730"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
@@ -66440,8 +66714,6 @@
 		<string value="database_record/c3ln"/>
 		<string value="Comment"/>
 		<string value="database_record/crep"/>
-		<string value="Comment"/>
-		<string value="files/0/contract_rules/contract_durations/1/cash"/>
 		<string value="Comment"/>
 		<string value="files/0/division_levels/division_levels"/>
 		<string value="Comment"/>
