@@ -256,6 +256,14 @@
 							<integer id="lowest_percentage_of_income" value="100"/>
 						</record>
 					</list>
+					<boolean id="youth_contract_players_can_play_in_competitive_fixtures" value="false"/>
+					<integer id="max_matches_allowed_for_youth_contract_players" value="40"/>
+					<string id="squad_number_rules_flag" value="allow_any_numbers"/>
+					<integer id="max_games_for_long_term_injury_replacements" value="3"/>
+					<boolean id="high_potential_player_age_exemption" value="true"/>
+					<integer id="high_potential_player_age_exemption_min_age" value="15"/>
+					<integer id="high_potential_player_age_exemption_pa_threshold" value="140"/>
+					<integer id="high_potential_player_age_exemption_rep_threshold" value="120"/>
 				</record>
 				<record>
 					<integer id="highest_division_level" value="1"/>
@@ -292,7 +300,6 @@
 						</record>
 					</list>
 					<string id="name" value="ASC"/>
-					<boolean id="players_below_min_age_cannot_play_in_senior_fixtures" value="true"/>
 					<list id="squad_selection_eligibility_new">
 						<string value="under_23_players_are_always_selected"/>
 					</list>
@@ -347,6 +354,14 @@
 							<integer id="lowest_percentage_of_income" value="95"/>
 						</record>
 					</list>
+					<boolean id="youth_contract_players_can_play_in_competitive_fixtures" value="true"/>
+					<integer id="max_matches_allowed_for_youth_contract_players" value="35"/>
+					<string id="squad_number_rules_flag" value="allow_any_numbers"/>
+					<integer id="max_games_for_long_term_injury_replacements" value="3"/>
+					<boolean id="high_potential_player_age_exemption" value="true"/>
+					<integer id="high_potential_player_age_exemption_min_age" value="15"/>
+					<integer id="high_potential_player_age_exemption_pa_threshold" value="130"/>
+					<integer id="high_potential_player_age_exemption_rep_threshold" value="110"/>
 				</record>
 				<record>
 					<string id="name" value="AS1"/>
@@ -356,8 +371,8 @@
 						<integer id="DBID" value="2000340049"/>
 					</record>
 					<boolean id="use_squad_numbers" value="true"/>
-					<boolean id="players_below_min_age_cannot_play_in_senior_fixtures" value="false"/>
-					<boolean id="youth_contract_players_can_play_in_competitive_fixtures" value="false"/>
+					<boolean id="players_below_min_age_cannot_play_in_senior_fixtures" value="true"/>
+					<boolean id="youth_contract_players_can_play_in_competitive_fixtures" value="true"/>
 					<list id="squad_selection_eligibility_new">
 						<string value="under_21_players_are_always_selected"/>
 					</list>
@@ -441,7 +456,17 @@
 							<unsigned id="currency" value="24"/>
 						</record>
 					</record>
-					<integer id="max_matches_allowed_for_youth_contract_players" value="15"/>
+					<integer id="max_matches_allowed_for_youth_contract_players" value="30"/>
+					<integer id="highest_division_level" value="2"/>
+					<integer id="lowest_division_level" value="2"/>
+					<integer id="max_matches_allowed_for_amateur_contract_players" value="10"/>
+					<boolean id="high_potential_player_age_exemption" value="true"/>
+					<integer id="high_potential_player_age_exemption_min_age" value="15"/>
+					<integer id="high_potential_player_age_exemption_pa_threshold" value="120"/>
+					<integer id="high_potential_player_age_exemption_rep_threshold" value="100"/>
+					<string id="squad_number_rules_flag" value="allow_any_numbers"/>
+					<boolean id="league_registrations_apply_to_these_fixture_rules" value="true"/>
+					<integer id="max_games_for_long_term_injury_replacements" value="3"/>
 				</record>
 				<record>
 					<string id="name" value="AS2"/>
@@ -451,8 +476,8 @@
 						<integer id="DBID" value="2000340051"/>
 					</record>
 					<boolean id="use_squad_numbers" value="true"/>
-					<boolean id="players_below_min_age_cannot_play_in_senior_fixtures" value="false"/>
-					<boolean id="youth_contract_players_can_play_in_competitive_fixtures" value="false"/>
+					<boolean id="players_below_min_age_cannot_play_in_senior_fixtures" value="true"/>
+					<boolean id="youth_contract_players_can_play_in_competitive_fixtures" value="true"/>
 					<list id="squad_selection_eligibility_new">
 						<string value="under_21_players_are_always_selected"/>
 					</list>
@@ -536,7 +561,15 @@
 							<unsigned id="currency" value="24"/>
 						</record>
 					</record>
-					<integer id="max_matches_allowed_for_youth_contract_players" value="15"/>
+					<integer id="max_matches_allowed_for_youth_contract_players" value="30"/>
+					<boolean id="high_potential_player_age_exemption" value="true"/>
+					<integer id="high_potential_player_age_exemption_min_age" value="15"/>
+					<integer id="high_potential_player_age_exemption_pa_threshold" value="110"/>
+					<integer id="high_potential_player_age_exemption_rep_threshold" value="90"/>
+					<integer id="max_matches_allowed_for_amateur_contract_players" value="10"/>
+					<boolean id="league_registrations_apply_to_these_fixture_rules" value="true"/>
+					<string id="squad_number_rules_flag" value="allow_any_numbers"/>
+					<integer id="max_games_for_long_term_injury_replacements" value="3"/>
 				</record>
 				<record>
 					<string id="name" value="FC"/>
@@ -551,7 +584,7 @@
 					<boolean id="youth_contract_players_can_play_in_competitive_fixtures" value="true"/>
 					<integer id="max_matches_allowed_for_youth_contract_players" value="25"/>
 					<list id="squad_selection_eligibility_new">
-						<string value="under_19_players_are_always_selected"/>
+						<string value="under_20_players_are_always_selected"/>
 					</list>
 					<string id="squad_selection_value" value="domestic_division"/>
 					<boolean id="league_registrations_apply_to_these_fixture_rules" value="true"/>
@@ -633,6 +666,13 @@
 							<integer id="lowest_percentage_of_income" value="80"/>
 						</record>
 					</list>
+					<boolean id="high_potential_player_age_exemption" value="true"/>
+					<integer id="high_potential_player_age_exemption_min_age" value="15"/>
+					<integer id="high_potential_player_age_exemption_pa_threshold" value="100"/>
+					<integer id="high_potential_player_age_exemption_rep_threshold" value="80"/>
+					<integer id="max_matches_allowed_for_amateur_contract_players" value="12"/>
+					<string id="squad_number_rules_flag" value="allow_any_numbers"/>
+					<integer id="max_games_for_long_term_injury_replacements" value="2"/>
 				</record>
 				<record>
 					<string id="name" value="FL1"/>
@@ -729,6 +769,13 @@
 							<integer id="lowest_percentage_of_income" value="80"/>
 						</record>
 					</list>
+					<string id="squad_number_rules_flag" value="allow_any_numbers"/>
+					<integer id="max_games_for_long_term_injury_replacements" value="2"/>
+					<boolean id="high_potential_player_age_exemption" value="true"/>
+					<integer id="high_potential_player_age_exemption_min_age" value="15"/>
+					<integer id="high_potential_player_age_exemption_pa_threshold" value="95"/>
+					<integer id="high_potential_player_age_exemption_rep_threshold" value="70"/>
+					<integer id="max_matches_allowed_for_amateur_contract_players" value="12"/>
 				</record>
 				<record>
 					<string id="name" value="NAP"/>
@@ -743,7 +790,7 @@
 					<boolean id="youth_contract_players_can_play_in_competitive_fixtures" value="true"/>
 					<integer id="max_matches_allowed_for_youth_contract_players" value="25"/>
 					<list id="squad_selection_eligibility_new">
-						<string value="under_19_players_are_always_selected"/>
+						<string value="under_18_players_are_always_selected"/>
 					</list>
 					<string id="squad_selection_value" value="domestic_division"/>
 					<boolean id="league_registrations_apply_to_these_fixture_rules" value="true"/>
@@ -825,6 +872,13 @@
 							<integer id="lowest_percentage_of_income" value="80"/>
 						</record>
 					</list>
+					<boolean id="high_potential_player_age_exemption" value="true"/>
+					<integer id="high_potential_player_age_exemption_min_age" value="15"/>
+					<integer id="high_potential_player_age_exemption_pa_threshold" value="85"/>
+					<integer id="high_potential_player_age_exemption_rep_threshold" value="60"/>
+					<integer id="max_matches_allowed_for_amateur_contract_players" value="12"/>
+					<string id="squad_number_rules_flag" value="allow_any_numbers"/>
+					<integer id="max_games_for_long_term_injury_replacements" value="2"/>
 				</record>
 				<record>
 					<string id="name" value="NAC"/>
@@ -921,6 +975,217 @@
 							<integer id="lowest_percentage_of_income" value="80"/>
 						</record>
 					</list>
+					<boolean id="high_potential_player_age_exemption" value="true"/>
+					<integer id="high_potential_player_age_exemption_min_age" value="15"/>
+					<integer id="high_potential_player_age_exemption_pa_threshold" value="75"/>
+					<integer id="high_potential_player_age_exemption_rep_threshold" value="50"/>
+					<integer id="max_matches_allowed_for_amateur_contract_players" value="12"/>
+					<string id="squad_number_rules_flag" value="allow_any_numbers"/>
+					<integer id="max_games_for_long_term_injury_replacements" value="2"/>
+				</record>
+				<record>
+					<string id="name" value="DLP"/>
+					<record id="competition">
+						<large id="competition" value="2016119914883630171"/>
+						<integer id="DBID" value="2000340059"/>
+					</record>
+					<boolean id="use_squad_numbers" value="true"/>
+					<boolean id="trialists_can_play_in_competitive_fixtures" value="true"/>
+					<boolean id="players_below_min_age_cannot_play_in_senior_fixtures" value="true"/>
+					<boolean id="youth_contract_players_can_play_in_competitive_fixtures" value="true"/>
+					<integer id="max_matches_allowed_for_youth_contract_players" value="20"/>
+					<list id="squad_selection_eligibility_new">
+						<string value="under_18_players_are_always_selected"/>
+					</list>
+					<string id="squad_selection_value" value="domestic_division"/>
+					<boolean id="league_registrations_apply_to_these_fixture_rules" value="true"/>
+					<record id="squad_number_registration_periods">
+						<unsigned id="id" value="1936618096"/>
+						<integer id="squad_numbers_date_ranges_for_transfer_windows" value="1"/>
+						<record id="squad_numbers_start_date_auto">
+							<unsigned id="id" value="1936614497"/>
+							<integer id="max_squad_size" value="0"/>
+							<string id="squad_number_flags" value="allow_any_numbers"/>
+						</record>
+						<string id="squad_number_flags" value="free_transfers_can_be_registered_in_any_transfer_window, long_term_injured_players_can_be_replaced_in_squad"/>
+					</record>
+					<list id="squad_selection_rules">
+						<record>
+							<string id="type" value="homegrown_players_0_21_from_club_in_match_squad"/>
+							<string id="compare_type" value="more_than"/>
+							<integer id="value" value="6"/>
+						</record>
+						<record>
+							<string id="type" value="max_squad_size"/>
+							<string id="compare_type" value="less_than"/>
+							<integer id="value" value="23"/>
+						</record>
+						<record>
+							<string id="type" value="over_30_players_in_match_squad"/>
+							<string id="compare_type" value="less_than"/>
+							<integer id="value" value="4"/>
+						</record>
+						<record>
+							<string id="type" value="all_foreign_players_in_11"/>
+							<string id="compare_type" value="less_than"/>
+							<integer id="value" value="3"/>
+						</record>
+						<record>
+							<string id="type" value="loan_players_in_match_squad"/>
+							<string id="compare_type" value="less_than"/>
+							<integer id="value" value="3"/>
+						</record>
+					</list>
+					<record id="squad_reward_rules">
+						<unsigned id="id" value="1936814711"/>
+						<list id="appearance_money"/>
+						<string id="type" value="domestic_u21_fund"/>
+						<record id="cash">
+							<unsigned id="id" value="1667330920"/>
+							<integer id="cash" value="15000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+					</record>
+					<list id="financial_fair_play">
+						<record>
+							<string id="period" value="season"/>
+							<string id="income" value="gate_receipts, tv_revenue, merchandising"/>
+							<string id="expenditure" value="player_wages, bonuses, tax"/>
+							<list id="sanctions">
+								<record>
+									<string id="type" value="point_deduction"/>
+									<string id="start_date" value="next_season"/>
+									<integer id="points" value="2"/>
+								</record>
+								<record>
+									<string id="type" value="fine"/>
+									<string id="start_date" value="immediate"/>
+									<record id="cash">
+										<unsigned id="id" value="1667330920"/>
+										<integer id="cash" value="500000"/>
+										<unsigned id="currency" value="24"/>
+									</record>
+									<integer id="fine_percentage_overspend" value="40"/>
+								</record>
+								<record>
+									<string id="type" value="embargo"/>
+									<string id="start_date" value="immediate"/>
+									<string id="embargo_duration" value="ongoing"/>
+								</record>
+							</list>
+							<integer id="income_percentage" value="40"/>
+							<integer id="lowest_percentage_of_income" value="80"/>
+						</record>
+					</list>
+					<boolean id="high_potential_player_age_exemption" value="true"/>
+					<integer id="high_potential_player_age_exemption_min_age" value="15"/>
+					<integer id="high_potential_player_age_exemption_pa_threshold" value="65"/>
+					<integer id="high_potential_player_age_exemption_rep_threshold" value="40"/>
+					<integer id="max_matches_allowed_for_amateur_contract_players" value="20"/>
+					<string id="squad_number_rules_flag" value="allow_any_numbers"/>
+					<integer id="max_games_for_long_term_injury_replacements" value="1"/>
+				</record>
+				<record>
+					<string id="name" value="DLC"/>
+					<record id="competition">
+						<large id="competition" value="227092820068582492"/>
+						<integer id="DBID" value="2000340060"/>
+					</record>
+					<boolean id="use_squad_numbers" value="true"/>
+					<boolean id="trialists_can_play_in_competitive_fixtures" value="true"/>
+					<boolean id="players_below_min_age_cannot_play_in_senior_fixtures" value="true"/>
+					<boolean id="youth_contract_players_can_play_in_competitive_fixtures" value="true"/>
+					<integer id="max_matches_allowed_for_youth_contract_players" value="15"/>
+					<list id="squad_selection_eligibility_new">
+						<string value="under_19_players_are_always_selected"/>
+					</list>
+					<string id="squad_selection_value" value="domestic_division"/>
+					<boolean id="league_registrations_apply_to_these_fixture_rules" value="true"/>
+					<record id="squad_number_registration_periods">
+						<unsigned id="id" value="1936618096"/>
+						<integer id="squad_numbers_date_ranges_for_transfer_windows" value="1"/>
+						<record id="squad_numbers_start_date_auto">
+							<unsigned id="id" value="1936614497"/>
+							<integer id="max_squad_size" value="0"/>
+							<string id="squad_number_flags" value="allow_any_numbers"/>
+						</record>
+						<string id="squad_number_flags" value="free_transfers_can_be_registered_in_any_transfer_window, long_term_injured_players_can_be_replaced_in_squad"/>
+					</record>
+					<list id="squad_selection_rules">
+						<record>
+							<string id="type" value="homegrown_players_0_21_from_club_in_match_squad"/>
+							<string id="compare_type" value="more_than"/>
+							<integer id="value" value="6"/>
+						</record>
+						<record>
+							<string id="type" value="max_squad_size"/>
+							<string id="compare_type" value="less_than"/>
+							<integer id="value" value="23"/>
+						</record>
+						<record>
+							<string id="type" value="over_30_players_in_match_squad"/>
+							<string id="compare_type" value="less_than"/>
+							<integer id="value" value="4"/>
+						</record>
+						<record>
+							<string id="type" value="all_foreign_players_in_11"/>
+							<string id="compare_type" value="less_than"/>
+							<integer id="value" value="3"/>
+						</record>
+						<record>
+							<string id="type" value="loan_players_in_match_squad"/>
+							<string id="compare_type" value="less_than"/>
+							<integer id="value" value="3"/>
+						</record>
+					</list>
+					<record id="squad_reward_rules">
+						<unsigned id="id" value="1936814711"/>
+						<list id="appearance_money"/>
+						<string id="type" value="domestic_u21_fund"/>
+						<record id="cash">
+							<unsigned id="id" value="1667330920"/>
+							<integer id="cash" value="15000"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+					</record>
+					<list id="financial_fair_play">
+						<record>
+							<string id="period" value="season"/>
+							<string id="income" value="gate_receipts, tv_revenue, merchandising"/>
+							<string id="expenditure" value="player_wages, bonuses, tax"/>
+							<list id="sanctions">
+								<record>
+									<string id="type" value="point_deduction"/>
+									<string id="start_date" value="next_season"/>
+									<integer id="points" value="2"/>
+								</record>
+								<record>
+									<string id="type" value="fine"/>
+									<string id="start_date" value="immediate"/>
+									<record id="cash">
+										<unsigned id="id" value="1667330920"/>
+										<integer id="cash" value="500000"/>
+										<unsigned id="currency" value="24"/>
+									</record>
+									<integer id="fine_percentage_overspend" value="40"/>
+								</record>
+								<record>
+									<string id="type" value="embargo"/>
+									<string id="start_date" value="immediate"/>
+									<string id="embargo_duration" value="ongoing"/>
+								</record>
+							</list>
+							<integer id="income_percentage" value="40"/>
+							<integer id="lowest_percentage_of_income" value="80"/>
+						</record>
+					</list>
+					<boolean id="high_potential_player_age_exemption" value="true"/>
+					<integer id="high_potential_player_age_exemption_min_age" value="15"/>
+					<integer id="high_potential_player_age_exemption_pa_threshold" value="60"/>
+					<integer id="high_potential_player_age_exemption_rep_threshold" value="35"/>
+					<integer id="max_matches_allowed_for_amateur_contract_players" value="20"/>
+					<string id="squad_number_rules_flag" value="allow_any_numbers"/>
+					<integer id="max_games_for_long_term_injury_replacements" value="1"/>
 				</record>
 			</list>
 			<list id="discipline_rules">
@@ -5285,6 +5550,7 @@
 				<record>
 					<integer id="id" value="0"/>
 					<record id="prize_money">
+						<unsigned id="id" value="1886550637"/>
 						<real id="cash" value="1000000.000000"/>
 						<unsigned id="currency" value="24"/>
 					</record>
@@ -8177,9 +8443,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="593"/>
+	<integer id="XSvC" value="601"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="10" month="11" year="2025" time="1415"/>
+	<date id="EdDt" day="15" month="11" year="2025" time="1400"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
