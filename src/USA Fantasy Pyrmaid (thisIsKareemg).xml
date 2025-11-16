@@ -1329,111 +1329,6 @@
 						</record>
 					</list>
 				</record>
-				<record>
-					<string id="name" value="DLR2"/>
-					<record id="competition">
-						<large id="competition" value="1393028737007273054"/>
-						<integer id="DBID" value="2000340062"/>
-					</record>
-					<boolean id="use_squad_numbers" value="true"/>
-					<boolean id="trialists_can_play_in_competitive_fixtures" value="true"/>
-					<boolean id="players_below_min_age_cannot_play_in_senior_fixtures" value="true"/>
-					<boolean id="youth_contract_players_can_play_in_competitive_fixtures" value="true"/>
-					<integer id="max_matches_allowed_for_youth_contract_players" value="15"/>
-					<integer id="max_matches_allowed_for_amateur_contract_players" value="30"/>
-					<boolean id="high_potential_player_age_exemption" value="true"/>
-					<integer id="high_potential_player_age_exemption_min_age" value="15"/>
-					<integer id="high_potential_player_age_exemption_pa_threshold" value="50"/>
-					<integer id="high_potential_player_age_exemption_rep_threshold" value="25"/>
-					<list id="squad_selection_eligibility_new">
-						<string value="under_18_players_are_always_selected"/>
-						<string value="player_ineligible_for_whole_competition_if_played_one_game"/>
-						<string value="player_cup_tied_for_whole_competition"/>
-						<string value="players_registered_for_league_only"/>
-					</list>
-					<string id="squad_selection_value" value="domestic_division"/>
-					<boolean id="league_registrations_apply_to_these_fixture_rules" value="true"/>
-					<string id="squad_number_rules_flag" value="allow_any_numbers"/>
-					<integer id="max_games_for_long_term_injury_replacements" value="1"/>
-					<record id="squad_number_registration_periods">
-						<unsigned id="id" value="1936618096"/>
-						<integer id="squad_numbers_date_ranges_for_transfer_windows" value="1"/>
-						<record id="squad_numbers_start_date_auto">
-							<unsigned id="id" value="1936614497"/>
-							<integer id="max_squad_size" value="0"/>
-							<string id="squad_number_flags" value="allow_any_numbers"/>
-						</record>
-						<string id="squad_number_flags" value="free_transfers_can_be_registered_in_any_transfer_window, long_term_injured_players_can_be_replaced_in_squad"/>
-					</record>
-					<list id="squad_selection_rules">
-						<record>
-							<string id="type" value="homegrown_players_0_21_from_club_in_match_squad"/>
-							<string id="compare_type" value="more_than"/>
-							<integer id="value" value="6"/>
-						</record>
-						<record>
-							<string id="type" value="max_squad_size"/>
-							<string id="compare_type" value="less_than"/>
-							<integer id="value" value="23"/>
-						</record>
-						<record>
-							<string id="type" value="over_19_players_in_squad"/>
-							<string id="compare_type" value="less_than"/>
-							<integer id="value" value="0"/>
-						</record>
-						<record>
-							<string id="type" value="all_foreign_players_in_11"/>
-							<string id="compare_type" value="less_than"/>
-							<integer id="value" value="3"/>
-						</record>
-						<record>
-							<string id="type" value="loan_players_in_match_squad"/>
-							<string id="compare_type" value="less_than"/>
-							<integer id="value" value="3"/>
-						</record>
-					</list>
-					<record id="squad_reward_rules">
-						<unsigned id="id" value="1936814711"/>
-						<list id="appearance_money"/>
-						<string id="type" value="domestic_u21_fund"/>
-						<record id="cash">
-							<unsigned id="id" value="1667330920"/>
-							<integer id="cash" value="15000"/>
-							<unsigned id="currency" value="24"/>
-						</record>
-					</record>
-					<list id="financial_fair_play">
-						<record>
-							<string id="period" value="season"/>
-							<string id="income" value="gate_receipts, tv_revenue, merchandising"/>
-							<string id="expenditure" value="player_wages, bonuses, tax"/>
-							<list id="sanctions">
-								<record>
-									<string id="type" value="point_deduction"/>
-									<string id="start_date" value="next_season"/>
-									<integer id="points" value="2"/>
-								</record>
-								<record>
-									<string id="type" value="fine"/>
-									<string id="start_date" value="immediate"/>
-									<record id="cash">
-										<unsigned id="id" value="1667330920"/>
-										<integer id="cash" value="500000"/>
-										<unsigned id="currency" value="24"/>
-									</record>
-									<integer id="fine_percentage_overspend" value="40"/>
-								</record>
-								<record>
-									<string id="type" value="embargo"/>
-									<string id="start_date" value="immediate"/>
-									<string id="embargo_duration" value="ongoing"/>
-								</record>
-							</list>
-							<integer id="income_percentage" value="40"/>
-							<integer id="lowest_percentage_of_income" value="80"/>
-						</record>
-					</list>
-				</record>
 			</list>
 			<list id="discipline_rules">
 				<record>
@@ -2655,7 +2550,6 @@
 					</record>
 				</record>
 			</list>
-			<list id="reserve_leagues"/>
 			<list id="transfer_windows">
 				<record>
 					<record id="start_date">
@@ -2805,6 +2699,24 @@
 						<unsigned id="id" value="1668246896"/>
 						<large id="competition" value="2016119914883630171"/>
 						<integer id="DBID" value="2000340059"/>
+					</record>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<integer id="base_year_offset" value="0"/>
+					<boolean id="base_year_interval" value="false"/>
+					<record id="competition">
+						<large id="competition" value="382680226569307229"/>
+						<integer id="DBID" value="2000340061"/>
+					</record>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<integer id="base_year_offset" value="0"/>
+					<boolean id="base_year_interval" value="false"/>
+					<record id="competition">
+						<large id="competition" value="1393028737007273054"/>
+						<integer id="DBID" value="2000340062"/>
 					</record>
 				</record>
 			</list>
@@ -3384,6 +3296,14 @@
 				<record>
 					<string id="type" value="start_of_season_for_selected_division"/>
 					<integer id="competition" value="2000340059"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<integer id="competition" value="2000340061"/>
 					<integer id="year_2" value="0"/>
 					<integer id="base_year_interval" value="1"/>
 					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
@@ -8687,7 +8607,7 @@
 						<string value="games_won"/>
 						<string value="own_match_when_finished"/>
 					</list>
-					<string id="subs_rules" value="three_from_three"/>
+					<string id="subs_rules" value="three_from_five"/>
 					<string id="priority" value="league_low"/>
 					<list id="requirements"/>
 					<list id="teams">
@@ -8776,7 +8696,7 @@
 					</list>
 					<list id="ranking_levels"/>
 					<string id="description" value="leag"/>
-					<integer id="number_rounds" value="1"/>
+					<integer id="number_rounds" value="2"/>
 					<boolean id="schedule_fixtures" value="true"/>
 					<string id="tv_money_pooled" value="stage"/>
 					<integer id="points_for_win" value="3"/>
@@ -8844,6 +8764,7 @@
 							<large id="stgn" value="2480858165407275926"/>
 							<integer id="DBID" value="2000313238"/>
 						</record>
+						<integer id="stage" value="1"/>
 					</record>
 					<list id="tv_decision_dates">
 						<record>
@@ -9621,13 +9542,145 @@
 				<record>
 					<integer id="index" value="1"/>
 					<integer id="home_team" value="70"/>
-					<integer id="away_team" value="3"/>
+					<integer id="away_team" value="30"/>
 				</record>
 			</list>
 			<boolean id="is_terracing_allowed" value="true"/>
 			<integer id="minimum_stadium_capacity" value="250"/>
 			<integer id="minimum_stadium_seating_capacity" value="100"/>
 			<string id="minimum_stadium_condition" value="very_poor"/>
+			<record id="fixture_rules">
+				<boolean id="use_squad_numbers" value="true"/>
+				<boolean id="trialists_can_play_in_competitive_fixtures" value="true"/>
+				<boolean id="players_below_min_age_cannot_play_in_senior_fixtures" value="true"/>
+				<boolean id="youth_contract_players_can_play_in_competitive_fixtures" value="true"/>
+				<integer id="max_matches_allowed_for_youth_contract_players" value="15"/>
+				<integer id="max_matches_allowed_for_amateur_contract_players" value="30"/>
+				<boolean id="high_potential_player_age_exemption" value="true"/>
+				<integer id="high_potential_player_age_exemption_pa_threshold" value="50"/>
+				<integer id="high_potential_player_age_exemption_rep_threshold" value="25"/>
+				<list id="squad_selection_eligibility_new">
+					<string value="player_ineligible_for_whole_competition_if_played_one_game"/>
+					<string value="player_cup_tied_for_whole_competition"/>
+					<string value="players_registered_for_league_only"/>
+				</list>
+				<string id="squad_selection_value" value="domestic_division"/>
+				<boolean id="league_registrations_apply_to_these_fixture_rules" value="true"/>
+				<string id="squad_number_rules_flag" value="allow_any_numbers"/>
+				<integer id="max_games_for_long_term_injury_replacements" value="1"/>
+				<record id="squad_number_registration_periods">
+					<integer id="squad_numbers_date_ranges_for_transfer_windows" value="1"/>
+					<record id="squad_numbers_start_date_auto">
+						<integer id="max_squad_size" value="18"/>
+					</record>
+					<string id="squad_number_flags" value="free_transfers_can_be_registered, long_term_injured_players_can_be_replaced_in_squad_min_two_months"/>
+					<list id="squad_numbers_date_range">
+						<record>
+							<integer id="max_squad_size" value="18"/>
+							<record id="squad_numbers_date_range_start_date">
+								<string id="day_of_week" value="sat"/>
+								<integer id="day_of_month" value="1"/>
+								<string id="month" value="jul"/>
+								<integer id="year" value="2000"/>
+							</record>
+							<record id="squad_numbers_date_range_end_date">
+								<string id="day_of_week" value="wed"/>
+								<integer id="day_of_month" value="2"/>
+								<string id="month" value="aug"/>
+								<integer id="year" value="2000"/>
+							</record>
+							<list id="squad_selection_rules"/>
+						</record>
+						<record>
+							<integer id="max_squad_size" value="18"/>
+							<record id="squad_numbers_date_range_start_date">
+								<string id="day_of_week" value="mon"/>
+								<integer id="day_of_month" value="1"/>
+								<string id="month" value="jan"/>
+								<integer id="year" value="2001"/>
+							</record>
+							<record id="squad_numbers_date_range_end_date">
+								<string id="day_of_week" value="thu"/>
+								<integer id="day_of_month" value="1"/>
+								<string id="month" value="feb"/>
+								<integer id="year" value="2001"/>
+							</record>
+							<list id="squad_selection_rules"/>
+						</record>
+					</list>
+				</record>
+				<list id="squad_selection_rules">
+					<record>
+						<string id="type" value="homegrown_players_0_21_from_club"/>
+						<string id="compare_type" value="more_than"/>
+						<integer id="value" value="5"/>
+					</record>
+					<record>
+						<string id="type" value="homegrown_players_0_21_from_nation"/>
+						<string id="compare_type" value="more_than"/>
+						<integer id="value" value="5"/>
+					</record>
+					<record>
+						<string id="type" value="homegrown_players_from_club_or_nation_in_11"/>
+						<string id="compare_type" value="more_than"/>
+						<integer id="value" value="8"/>
+					</record>
+					<record>
+						<string id="type" value="all_foreign_players_in_squad"/>
+						<string id="compare_type" value="less_than"/>
+						<integer id="value" value="1"/>
+					</record>
+					<record>
+						<string id="type" value="loan_players_in_squad"/>
+						<string id="compare_type" value="less_than"/>
+						<integer id="value" value="1"/>
+					</record>
+					<record>
+						<string id="type" value="over_30_players_in_match_squad"/>
+						<string id="compare_type" value="less_than"/>
+						<integer id="value" value="2"/>
+					</record>
+					<record>
+						<string id="type" value="under_21_players_in_11"/>
+						<string id="compare_type" value="more_than"/>
+						<integer id="value" value="4"/>
+					</record>
+					<record>
+						<string id="type" value="under_21_players_in_match_squad"/>
+						<string id="compare_type" value="more_than"/>
+						<integer id="value" value="6"/>
+					</record>
+				</list>
+				<list id="squad_selection_deadline_date">
+					<record>
+						<integer id="max_squad_size" value="18"/>
+						<string id="deadline_date_flags" value="applies_to_whole_squad"/>
+						<list id="squad_selection_rules"/>
+						<string id="day_of_week" value="wed"/>
+						<integer id="day_of_month" value="2"/>
+						<string id="month" value="aug"/>
+						<integer id="year" value="2000"/>
+						<string id="news_type" value="competition_squad"/>
+						<integer id="recommended_squad_size" value="18"/>
+						<record id="competition">
+							<large id="competition" value="1393028737007273054"/>
+							<integer id="DBID" value="2000340062"/>
+						</record>
+					</record>
+				</list>
+			</record>
+			<record id="age_check_date">
+				<integer id="day_of_month" value="1"/>
+				<string id="month" value="jan"/>
+				<integer id="base_year_offset" value="0"/>
+			</record>
+			<boolean id="use_squad_numbers" value="true"/>
+			<list id="professional_status">
+				<record>
+					<string id="type" value="3"/>
+					<integer id="years_after_relegation" value="2"/>
+				</record>
+			</list>
 		</record>
 	</list>
 	<string id="description" value=""/>
@@ -9877,9 +9930,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="676"/>
+	<integer id="XSvC" value="748"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="16" month="11" year="2025" time="0"/>
+	<date id="EdDt" day="16" month="11" year="2025" time="1730"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
@@ -70249,6 +70302,225 @@
 			<integer id="db_random_id" value="505310395"/>
 			<null id="odvl"/>
 		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590956564288451962"/>
+			<unsigned id="property" value="1131307373"/>
+			<string id="new_value" value="Real Ronanoke"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="372273506"/>
+			<string id="odvl" value="Virginia Blue Ridge Star SC"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590956564288451962"/>
+			<unsigned id="property" value="1131638381"/>
+			<string id="new_value" value="Real Ronanoke"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="359465126"/>
+			<string id="odvl" value="VBR Star"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590956564288451962"/>
+			<unsigned id="property" value="1131640942"/>
+			<string id="new_value" value="RR"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="561639012"/>
+			<string id="odvl" value="VBR"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590956564288451962"/>
+			<unsigned id="property" value="1953784684"/>
+			<colour id="new_value" red="123" green="31" blue="162" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="130745012"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590956564288451962"/>
+			<unsigned id="property" value="1952605036"/>
+			<colour id="new_value" red="251" green="192" blue="45" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="18036908"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590957096864396790"/>
+			<unsigned id="property" value="1131307373"/>
+			<string id="new_value" value="Livermore FC"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="735985775"/>
+			<string id="odvl" value="Nova Soccer Academy"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590957096864396790"/>
+			<unsigned id="property" value="1131638381"/>
+			<string id="new_value" value="Livermore FC"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="92081545"/>
+			<string id="odvl" value="Nova SA"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590957096864396790"/>
+			<unsigned id="property" value="1131640942"/>
+			<string id="new_value" value="LFC"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="852392467"/>
+			<string id="odvl" value="NOVA"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590957096864396790"/>
+			<unsigned id="property" value="1953784684"/>
+			<colour id="new_value" red="25" green="118" blue="210" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="966870458"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590957096864396790"/>
+			<unsigned id="property" value="1952605036"/>
+			<colour id="new_value" red="97" green="97" blue="97" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="724367669"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="86040431320739153"/>
+			<unsigned id="property" value="1131307373"/>
+			<string id="new_value" value="Real Newark"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="649729265"/>
+			<string id="odvl" value="Ironbound SC"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="86040431320739153"/>
+			<unsigned id="property" value="1131638381"/>
+			<string id="new_value" value="Real Newark"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="929686886"/>
+			<string id="odvl" value="Ironbound SC"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="86040431320739153"/>
+			<unsigned id="property" value="1131640942"/>
+			<string id="new_value" value="RNW"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="900039051"/>
+			<string id="odvl" value="IBSC"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="86040431320739153"/>
+			<unsigned id="property" value="1131164526"/>
+			<string id="new_value" value="RNW"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="837389219"/>
+			<string id="odvl" value="IBSC"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="86040431320739153"/>
+			<unsigned id="property" value="1130443630"/>
+			<string id="new_value" value="RNW"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="164285251"/>
+			<string id="odvl" value="IB"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="86040431320739153"/>
+			<unsigned id="property" value="1953784684"/>
+			<colour id="new_value" red="194" green="24" blue="91" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="722552689"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="86040431320739153"/>
+			<unsigned id="property" value="1952605036"/>
+			<colour id="new_value" red="245" green="245" blue="245" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="718804730"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590152709619210848"/>
+			<unsigned id="property" value="1131307373"/>
+			<string id="new_value" value="African Stars FC "/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="536418720"/>
+			<string id="odvl" value="African Stars FC (USA)"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590152709619210848"/>
+			<unsigned id="property" value="1131638381"/>
+			<string id="new_value" value="African Stars FC "/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="799902585"/>
+			<string id="odvl" value="African Stars FC (USA)"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620994198570055"/>
+			<unsigned id="property" value="1131307373"/>
+			<string id="new_value" value="Saints Football Club"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="171975643"/>
+			<string id="odvl" value="Saints Football Club (USA)"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620994198570055"/>
+			<unsigned id="property" value="1131638381"/>
+			<string id="new_value" value="Saints FC "/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="35965312"/>
+			<string id="odvl" value="Saints FC (USA)"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
 	</list>
 	<list id="Coms">
 		<string value="database_record/c3ln"/>
@@ -70262,6 +70534,8 @@
 		<string value="files/0/fixture_rules/4/squad_selection_rules/squad_selection_rules"/>
 		<string value="Comment"/>
 		<string value="files/0/mid_season_windows/mid_season_windows"/>
+		<string value="Comment"/>
+		<string value="files/12/stages/0/top_playoff/position_playoff"/>
 		<string value="Comment"/>
 		<string value="files/5/stages/0/relegation/min_places"/>
 		<string value="Comment"/>
