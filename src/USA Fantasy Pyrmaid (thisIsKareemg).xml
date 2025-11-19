@@ -6,11 +6,15 @@
 			<list id="division_levels">
 				<record>
 					<large id="competition" value="40"/>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<large id="competition" value="43"/>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<record id="competition">
@@ -18,7 +22,9 @@
 						<large id="competition" value="2913890211437659217"/>
 						<integer id="DBID" value="2000340049"/>
 					</record>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<record id="competition">
@@ -26,7 +32,9 @@
 						<large id="competition" value="3035225112018863187"/>
 						<integer id="DBID" value="2000340051"/>
 					</record>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<record id="competition">
@@ -34,7 +42,9 @@
 						<large id="competition" value="4142092781822329942"/>
 						<integer id="DBID" value="2000340054"/>
 					</record>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<record id="competition">
@@ -42,7 +52,9 @@
 						<large id="competition" value="1361178217317844055"/>
 						<integer id="DBID" value="2000340055"/>
 					</record>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<record id="competition">
@@ -50,7 +62,9 @@
 						<large id="competition" value="2190762888685864025"/>
 						<integer id="DBID" value="2000340057"/>
 					</record>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<record id="competition">
@@ -58,7 +72,9 @@
 						<large id="competition" value="495107596906841178"/>
 						<integer id="DBID" value="2000340058"/>
 					</record>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<record id="competition">
@@ -66,7 +82,9 @@
 						<large id="competition" value="2016119914883630171"/>
 						<integer id="DBID" value="2000340059"/>
 					</record>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<record id="competition">
@@ -74,7 +92,9 @@
 						<large id="competition" value="227092820068582492"/>
 						<integer id="DBID" value="2000340060"/>
 					</record>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<record id="competition">
@@ -82,7 +102,9 @@
 						<large id="competition" value="382680226569307229"/>
 						<integer id="DBID" value="2000340061"/>
 					</record>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<record id="competition">
@@ -90,14 +112,18 @@
 						<large id="competition" value="1393028737007273054"/>
 						<integer id="DBID" value="2000340062"/>
 					</record>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 				<record>
 					<record id="competition">
 						<large id="competition" value="2406125575543112800"/>
 						<integer id="DBID" value="2000340064"/>
 					</record>
-					<list id="verf"/>
+					<list id="verf">
+						<string value="24.3.0"/>
+					</list>
 				</record>
 			</list>
 			<list id="competitions">
@@ -1506,7 +1532,7 @@
 					<integer id="maximum_number_teams" value="260"/>
 				</record>
 				<record>
-					<boolean id="ignore_minor_teams" value="false"/>
+					<boolean id="ignore_minor_teams" value="true"/>
 					<boolean id="use_min_or_max" value="false"/>
 					<boolean id="next_season" value="false"/>
 					<record id="competition">
@@ -3258,6 +3284,222 @@
 					<integer id="year_2" value="0"/>
 					<integer id="base_year_interval" value="1"/>
 					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="2913890211437659217"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="2" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="3035225112018863187"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="1" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="4142092781822329942"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="1361178217317844055"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="2190762888685864025"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="495107596906841178"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="2016119914883630171"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="382680226569307229"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="1393028737007273054"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="5" month="8" year="2023" time="1700"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="2913890211437659217"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="2" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="3035225112018863187"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="2" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="4142092781822329942"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="1361178217317844055"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="2190762888685864025"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="495107596906841178"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="2016119914883630171"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="382680226569307229"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="1393028737007273054"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="5" month="8" year="2023" time="1700"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="2913890211437659217"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="1" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="3035225112018863187"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="2" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="4142092781822329942"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="1361178217317844055"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="2190762888685864025"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="495107596906841178"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="2016119914883630171"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="382680226569307229"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="4" month="8" year="2023" time="1900"/>
+					<integer id="base_year_offset" value="0"/>
+				</record>
+				<record>
+					<string id="type" value="start_of_season_for_selected_division"/>
+					<large id="competition" value="1393028737007273054"/>
+					<integer id="year_2" value="0"/>
+					<integer id="base_year_interval" value="1"/>
+					<date id="start_date" day="5" month="8" year="2023" time="1700"/>
 					<integer id="base_year_offset" value="0"/>
 				</record>
 				<record>
@@ -8757,12 +8999,12 @@
 					<list id="prize_money">
 						<record>
 							<integer id="position" value="0"/>
-							<real id="cash" value="8000.000000"/>
+							<integer id="cash" value="8000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="1"/>
-							<real id="cash" value="7000.000000"/>
+							<integer id="cash" value="7000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
@@ -8782,17 +9024,17 @@
 						</record>
 						<record>
 							<integer id="position" value="5"/>
-							<real id="cash" value="3000.000000"/>
+							<integer id="cash" value="3000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="6"/>
-							<real id="cash" value="2000.000000"/>
+							<integer id="cash" value="2000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="7"/>
-							<real id="cash" value="1000.000000"/>
+							<integer id="cash" value="1000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 					</list>
@@ -9259,25 +9501,12 @@
 					</list>
 					<list id="teams">
 						<record>
-							<string id="id" value="get_league_stage_teams"/>
-							<string id="stage" value="fina"/>
-							<record id="competition">
-								<large id="competition" value="1393028737007273054"/>
-								<integer id="DBID" value="2000340062"/>
-							</record>
-							<record id="sub_stage_name">
-								<large id="stgn" value="2480858165407275926"/>
-								<integer id="DBID" value="2000313238"/>
-							</record>
-						</record>
-						<record>
 							<string id="id" value="get_qualified_teams"/>
 							<string id="stage" value="leag"/>
 							<record id="next_stage_main_stage_name">
 								<large id="stgn" value="2480858165407275926"/>
 								<integer id="DBID" value="2000313238"/>
 							</record>
-							<string id="seeding_method" value="using_position_in_stage"/>
 						</record>
 					</list>
 					<list id="schedule"/>
@@ -9287,7 +9516,6 @@
 						<large id="competition" value="3639283984136586335"/>
 						<integer id="DBID" value="2000340063"/>
 					</record>
-					<integer id="number_teams" value="26"/>
 					<boolean id="top_team_are_champions" value="true"/>
 					<integer id="points_for_win" value="3"/>
 					<integer id="points_for_draw" value="1"/>
@@ -9302,150 +9530,152 @@
 					<list id="prize_money">
 						<record>
 							<integer id="position" value="0"/>
-							<real id="cash" value="10000.000000"/>
+							<integer id="cash" value="10000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="1"/>
-							<real id="cash" value="5000.000000"/>
+							<integer id="cash" value="5000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="2"/>
-							<real id="cash" value="3500.000000"/>
+							<integer id="cash" value="3500"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="3"/>
-							<real id="cash" value="2500.000000"/>
+							<integer id="cash" value="2500"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="4"/>
-							<real id="cash" value="1200.000000"/>
+							<integer id="cash" value="1200"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="5"/>
-							<real id="cash" value="1200.000000"/>
+							<integer id="cash" value="1200"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="6"/>
-							<real id="cash" value="1200.000000"/>
+							<integer id="cash" value="1200"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="7"/>
-							<real id="cash" value="1200.000000"/>
+							<integer id="cash" value="1200"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="8"/>
-							<real id="cash" value="1200.000000"/>
+							<integer id="cash" value="1200"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="9"/>
-							<real id="cash" value="1200.000000"/>
+							<integer id="cash" value="1200"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="10"/>
-							<real id="cash" value="1000.000000"/>
+							<integer id="cash" value="1000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="11"/>
-							<real id="cash" value="1000.000000"/>
+							<integer id="cash" value="1000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="12"/>
-							<real id="cash" value="1000.000000"/>
+							<integer id="cash" value="1000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="13"/>
-							<real id="cash" value="1000.000000"/>
+							<integer id="cash" value="1000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="14"/>
-							<real id="cash" value="1000.000000"/>
+							<integer id="cash" value="1000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="15"/>
-							<real id="cash" value="1000.000000"/>
+							<integer id="cash" value="1000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="16"/>
-							<real id="cash" value="500.000000"/>
+							<integer id="cash" value="500"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="17"/>
-							<real id="cash" value="500.000000"/>
+							<integer id="cash" value="500"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="18"/>
-							<real id="cash" value="500.000000"/>
+							<integer id="cash" value="500"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="19"/>
-							<real id="cash" value="500.000000"/>
+							<integer id="cash" value="500"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="20"/>
-							<real id="cash" value="500.000000"/>
+							<integer id="cash" value="500"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="21"/>
-							<real id="cash" value="500.000000"/>
+							<integer id="cash" value="500"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="22"/>
-							<real id="cash" value="500.000000"/>
+							<integer id="cash" value="500"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="23"/>
-							<real id="cash" value="500.000000"/>
+							<integer id="cash" value="500"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="24"/>
-							<real id="cash" value="500.000000"/>
+							<integer id="cash" value="500"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record>
 							<integer id="position" value="25"/>
-							<real id="cash" value="500.000000"/>
+							<integer id="cash" value="500"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 					</list>
 					<boolean id="is_prize_money_for_current_positions" value="true"/>
+					<integer id="number_teams" value="26"/>
+					<string id="send_news" value="chosen"/>
 				</record>
 			</list>
 			<list id="stage_finished_actions_list">
 				<record>
 					<string id="stage_finished_actions" value="process_league_finshed_into_records"/>
 					<integer id="index" value="2"/>
-					<integer id="other_stage_index" value="1"/>
+					<integer id="other_stage_index" value="0"/>
 				</record>
 				<record>
 					<string id="stage_finished_actions" value="add_history_record"/>
 					<integer id="index" value="2"/>
 					<record id="competition">
-						<large id="competition" value="3639283984136586335"/>
-						<integer id="DBID" value="2000340063"/>
+						<large id="competition" value="1393028737007273054"/>
+						<integer id="DBID" value="2000340062"/>
 					</record>
 					<boolean id="store_league_history" value="true"/>
 				</record>
@@ -9466,67 +9696,67 @@
 			<integer id="discipline_index" value="0"/>
 			<list id="match_grant_money">
 				<record>
-					<string id="professional_status" value="amateur, semi_pro"/>
-					<real id="cash" value="3500.000000"/>
+					<string id="professional_status" value="semi_pro, amateur"/>
+					<integer id="cash" value="3500"/>
 					<unsigned id="currency" value="24"/>
 					<string id="type" value="money_per_100_km"/>
 					<integer id="highest_division_level" value="11"/>
 					<integer id="lowest_division_level" value="11"/>
 				</record>
 				<record>
-					<string id="professional_status" value="amateur, semi_pro"/>
+					<string id="professional_status" value="semi_pro, amateur"/>
 					<string id="type" value="money_per_100_km"/>
 					<integer id="highest_division_level" value="10"/>
 					<integer id="lowest_division_level" value="10"/>
-					<real id="cash" value="3000.000000"/>
+					<integer id="cash" value="3000"/>
 					<unsigned id="currency" value="24"/>
 				</record>
 				<record>
-					<string id="professional_status" value="amateur, semi_pro"/>
+					<string id="professional_status" value="semi_pro, amateur"/>
 					<string id="type" value="money_per_100_km"/>
 					<integer id="highest_division_level" value="9"/>
 					<integer id="lowest_division_level" value="9"/>
-					<real id="cash" value="2500.000000"/>
+					<integer id="cash" value="2500"/>
 					<unsigned id="currency" value="24"/>
 				</record>
 				<record>
-					<string id="professional_status" value="amateur, semi_pro"/>
+					<string id="professional_status" value="semi_pro, amateur"/>
 					<string id="type" value="money_per_100_km"/>
 					<integer id="highest_division_level" value="8"/>
 					<integer id="lowest_division_level" value="8"/>
-					<real id="cash" value="2000.000000"/>
+					<integer id="cash" value="2000"/>
 					<unsigned id="currency" value="24"/>
 				</record>
 				<record>
-					<string id="professional_status" value="amateur, semi_pro"/>
+					<string id="professional_status" value="semi_pro, amateur"/>
 					<string id="type" value="money_per_100_km"/>
 					<integer id="highest_division_level" value="7"/>
 					<integer id="lowest_division_level" value="7"/>
-					<real id="cash" value="1500.000000"/>
+					<integer id="cash" value="1500"/>
 					<unsigned id="currency" value="24"/>
 				</record>
 				<record>
-					<string id="professional_status" value="amateur, semi_pro"/>
+					<string id="professional_status" value="semi_pro, amateur"/>
 					<string id="type" value="money_per_100_km"/>
 					<integer id="highest_division_level" value="6"/>
 					<integer id="lowest_division_level" value="6"/>
-					<real id="cash" value="1200.000000"/>
+					<integer id="cash" value="1200"/>
 					<unsigned id="currency" value="24"/>
 				</record>
 				<record>
-					<string id="professional_status" value="amateur, semi_pro"/>
+					<string id="professional_status" value="semi_pro, amateur"/>
 					<string id="type" value="money_per_100_km"/>
 					<integer id="highest_division_level" value="5"/>
 					<integer id="lowest_division_level" value="5"/>
-					<real id="cash" value="800.000000"/>
+					<integer id="cash" value="800"/>
 					<unsigned id="currency" value="24"/>
 				</record>
 				<record>
-					<string id="professional_status" value="amateur, semi_pro, professional"/>
+					<string id="professional_status" value="professional, semi_pro, amateur"/>
 					<string id="type" value="money_per_100_km"/>
 					<integer id="highest_division_level" value="4"/>
 					<integer id="lowest_division_level" value="4"/>
-					<real id="cash" value="500.000000"/>
+					<integer id="cash" value="500"/>
 					<unsigned id="currency" value="24"/>
 				</record>
 				<record>
@@ -9534,15 +9764,15 @@
 					<string id="type" value="money_per_100_km"/>
 					<integer id="highest_division_level" value="3"/>
 					<integer id="lowest_division_level" value="3"/>
-					<real id="cash" value="300.000000"/>
+					<integer id="cash" value="300"/>
 					<unsigned id="currency" value="24"/>
 				</record>
 				<record>
-					<string id="professional_status" value="amateur, semi_pro"/>
+					<string id="professional_status" value="semi_pro, amateur"/>
 					<string id="type" value="money_per_100_km"/>
 					<integer id="highest_division_level" value="2"/>
 					<integer id="lowest_division_level" value="11"/>
-					<real id="cash" value="150.000000"/>
+					<integer id="cash" value="150"/>
 					<unsigned id="currency" value="24"/>
 				</record>
 			</list>
@@ -9551,25 +9781,50 @@
 				<record>
 					<string id="tv_type" value="national"/>
 					<integer id="index" value="1"/>
-					<real id="cash" value="400.000000"/>
+					<integer id="cash" value="400"/>
 					<unsigned id="currency" value="24"/>
 					<integer id="minimum_reputation" value="0"/>
 					<integer id="percentage" value="30"/>
 				</record>
 				<record>
+					<string id="tv_type" value="national"/>
+					<integer id="index" value="0"/>
+					<integer id="minimum_reputation" value="0"/>
+					<integer id="percentage" value="30"/>
+					<integer id="cash" value="200"/>
+					<unsigned id="currency" value="24"/>
+				</record>
+				<record>
 					<string id="tv_type" value="satellite"/>
-					<real id="cash" value="175.000000"/>
+					<integer id="cash" value="175"/>
 					<unsigned id="currency" value="24"/>
 					<integer id="index" value="1"/>
 					<integer id="minimum_reputation" value="0"/>
-					<integer id="percentage" value="39"/>
+					<integer id="percentage" value="30"/>
+				</record>
+				<record>
+					<string id="tv_type" value="satellite"/>
+					<integer id="index" value="0"/>
+					<integer id="minimum_reputation" value="0"/>
+					<integer id="percentage" value="30"/>
+					<integer id="cash" value="100"/>
+					<unsigned id="currency" value="24"/>
 				</record>
 				<record>
 					<string id="tv_type" value="pay_per_view"/>
 					<integer id="index" value="1"/>
-					<real id="cash" value="100.000000"/>
+					<integer id="cash" value="100"/>
 					<unsigned id="currency" value="24"/>
 					<integer id="minimum_reputation" value="0"/>
+					<integer id="percentage" value="30"/>
+				</record>
+				<record>
+					<string id="tv_type" value="pay_per_view"/>
+					<integer id="index" value="0"/>
+					<integer id="minimum_reputation" value="0"/>
+					<integer id="percentage" value="30"/>
+					<integer id="cash" value="50"/>
+					<unsigned id="currency" value="24"/>
 				</record>
 			</list>
 			<list id="gate_receipts">
@@ -9607,93 +9862,32 @@
 				<boolean id="league_registrations_apply_to_these_fixture_rules" value="true"/>
 				<string id="squad_number_rules_flag" value="allow_any_numbers"/>
 				<integer id="max_games_for_long_term_injury_replacements" value="1"/>
-				<record id="squad_number_registration_periods">
-					<integer id="squad_numbers_date_ranges_for_transfer_windows" value="1"/>
-					<record id="squad_numbers_start_date_auto">
-						<integer id="max_squad_size" value="18"/>
-					</record>
-					<string id="squad_number_flags" value="free_transfers_can_be_registered, long_term_injured_players_can_be_replaced_in_squad_min_two_months"/>
-					<list id="squad_numbers_date_range">
-						<record>
-							<integer id="max_squad_size" value="18"/>
-							<record id="squad_numbers_date_range_start_date">
-								<string id="day_of_week" value="sat"/>
-								<integer id="day_of_month" value="1"/>
-								<string id="month" value="jul"/>
-								<integer id="year" value="2000"/>
-							</record>
-							<record id="squad_numbers_date_range_end_date">
-								<string id="day_of_week" value="wed"/>
-								<integer id="day_of_month" value="2"/>
-								<string id="month" value="aug"/>
-								<integer id="year" value="2000"/>
-							</record>
-							<list id="squad_selection_rules"/>
-						</record>
-						<record>
-							<integer id="max_squad_size" value="18"/>
-							<record id="squad_numbers_date_range_start_date">
-								<string id="day_of_week" value="mon"/>
-								<integer id="day_of_month" value="1"/>
-								<string id="month" value="jan"/>
-								<integer id="year" value="2001"/>
-							</record>
-							<record id="squad_numbers_date_range_end_date">
-								<string id="day_of_week" value="thu"/>
-								<integer id="day_of_month" value="1"/>
-								<string id="month" value="feb"/>
-								<integer id="year" value="2001"/>
-							</record>
-							<list id="squad_selection_rules"/>
-						</record>
-					</list>
-				</record>
 				<list id="squad_selection_rules">
-					<record>
-						<string id="type" value="homegrown_players_0_21_from_club"/>
-						<string id="compare_type" value="more_than"/>
-						<integer id="value" value="5"/>
-					</record>
-					<record>
-						<string id="type" value="homegrown_players_0_21_from_nation"/>
-						<string id="compare_type" value="more_than"/>
-						<integer id="value" value="5"/>
-					</record>
-					<record>
-						<string id="type" value="homegrown_players_from_club_or_nation_in_11"/>
-						<string id="compare_type" value="more_than"/>
-						<integer id="value" value="8"/>
-					</record>
 					<record>
 						<string id="type" value="all_foreign_players_in_squad"/>
 						<string id="compare_type" value="less_than"/>
 						<integer id="value" value="1"/>
 					</record>
 					<record>
-						<string id="type" value="loan_players_in_squad"/>
-						<string id="compare_type" value="less_than"/>
-						<integer id="value" value="1"/>
+						<string id="type" value="under_18_players_in_squad"/>
+						<string id="compare_type" value="more_than"/>
+						<integer id="value" value="16"/>
 					</record>
 					<record>
-						<string id="type" value="over_30_players_in_match_squad"/>
+						<string id="type" value="over_20_players_in_squad"/>
 						<string id="compare_type" value="less_than"/>
 						<integer id="value" value="2"/>
 					</record>
 					<record>
-						<string id="type" value="under_21_players_in_11"/>
+						<string id="type" value="under_18_players_in_11"/>
 						<string id="compare_type" value="more_than"/>
-						<integer id="value" value="4"/>
-					</record>
-					<record>
-						<string id="type" value="under_21_players_in_match_squad"/>
-						<string id="compare_type" value="more_than"/>
-						<integer id="value" value="6"/>
+						<integer id="value" value="8"/>
 					</record>
 				</list>
 				<list id="squad_selection_deadline_date">
 					<record>
-						<integer id="max_squad_size" value="18"/>
-						<string id="deadline_date_flags" value="applies_to_whole_squad, non_selected_players_are_waived"/>
+						<integer id="max_squad_size" value="22"/>
+						<string id="deadline_date_flags" value="applies_to_whole_squad, non_selected_players_are_waived, allow_registration_at_any_time"/>
 						<list id="squad_selection_rules"/>
 						<string id="day_of_week" value="wed"/>
 						<integer id="day_of_month" value="2"/>
@@ -9711,8 +9905,8 @@
 				<list id="financial_fair_play">
 					<record>
 						<string id="period" value="season"/>
-						<string id="income" value="gate_receipts, prize_money, sponsorship, fundraising, grants, matchday"/>
-						<string id="expenditure" value="matchday, travel_costs, director_emoluments, player_wages, football_staff_wages, ground_maintenance"/>
+						<string id="income" value="gate_receipts, prize_money, sponsorship, matchday, grants, fundraising"/>
+						<string id="expenditure" value="player_wages, football_staff_wages, matchday, ground_maintenance, travel_costs, director_emoluments"/>
 						<list id="sanctions">
 							<record>
 								<string id="type" value="embargo"/>
@@ -9724,7 +9918,7 @@
 								<string id="type" value="fine"/>
 								<string id="start_date" value="immediate"/>
 								<record id="cash">
-									<real id="cash" value="500.000000"/>
+									<integer id="cash" value="500"/>
 									<unsigned id="currency" value="24"/>
 								</record>
 								<integer id="fine_percentage_overspend" value="0"/>
@@ -9732,16 +9926,16 @@
 							</record>
 						</list>
 						<record id="lowest_income_minus_expenditure">
-							<real id="cash" value="-25000.000000"/>
+							<integer id="cash" value="-25000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<integer id="non_foreign_player_wage_cap_percentage" value="95"/>
 						<record id="bonus_cap">
-							<real id="cash" value="5000.000000"/>
+							<integer id="cash" value="5000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 						<record id="expenditure_cap">
-							<real id="cash" value="150000.000000"/>
+							<integer id="cash" value="150000"/>
 							<unsigned id="currency" value="24"/>
 						</record>
 					</record>
@@ -9755,16 +9949,48 @@
 			<boolean id="use_squad_numbers" value="true"/>
 			<list id="professional_status">
 				<record>
-					<string id="type" value="3"/>
+					<integer id="type" value="3"/>
 					<integer id="years_after_relegation" value="2"/>
 				</record>
 			</list>
 			<boolean id="can_teams_have_long_sleeve_shirts" value="true"/>
+			<record id="player_pool">
+				<list id="dates">
+					<record>
+						<string id="day_of_week" value="sat"/>
+						<integer id="day_of_month" value="1"/>
+						<string id="month" value="jul"/>
+						<integer id="year" value="2000"/>
+					</record>
+				</list>
+				<list id="player_pool_prize_money">
+					<record>
+						<integer id="cash" value="2000"/>
+						<unsigned id="currency" value="24"/>
+					</record>
+				</list>
+			</record>
+			<record id="top_goal_scorer_prize_money">
+				<integer id="cash" value="1500"/>
+				<unsigned id="currency" value="24"/>
+			</record>
+			<record id="national_players_selected_in_match_squad">
+				<integer id="number_national_players" value="1"/>
+				<list id="money_and_matchdays">
+					<record>
+						<integer id="number_matchdays" value="1"/>
+						<record id="money_and_matchdays_payment_amount">
+							<integer id="cash" value="50"/>
+							<unsigned id="currency" value="24"/>
+						</record>
+					</record>
+				</list>
+			</record>
 		</record>
 		<record>
 			<string id="file_type" value="comp"/>
 			<integer id="branch" value="0"/>
-			<string id="version" value="1"/>
+			<integer id="version" value="1"/>
 			<integer id="year" value="2000"/>
 			<integer id="year_interval" value="1"/>
 			<string id="type" value="u18_division"/>
@@ -9786,7 +10012,7 @@
 			<list id="stages"/>
 			<record id="setup_date">
 				<integer id="day_of_month" value="1"/>
-				<string id="month" value="1"/>
+				<string id="month" value="jan"/>
 				<integer id="year" value="2000"/>
 				<string id="day_of_week" value="sat"/>
 			</record>
@@ -10039,13 +10265,15 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="864"/>
+	<integer id="XSvC" value="1012"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="17" month="11" year="2025" time="2045"/>
+	<date id="EdDt" day="19" month="11" year="2025" time="1315"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
-	<list id="verf"/>
+	<list id="verf">
+		<string value="24.3.0"/>
+	</list>
 	<list id="db_changes">
 		<record>
 			<integer id="database_table_type" value="25"/>
@@ -71967,7 +72195,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="3382776618685221305"/>
+					<large id="Ttea" value="3382776618685219299"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -71980,7 +72208,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="2476835773915777459"/>
+					<large id="Ttea" value="2476835773915775453"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -71993,7 +72221,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="450519913614461370"/>
+					<large id="Ttea" value="450519913614459364"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -72006,7 +72234,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="2266364724096190900"/>
+					<large id="Ttea" value="2266364724096188894"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -72019,7 +72247,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="1975600699491928507"/>
+					<large id="Ttea" value="1975600699491926501"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -72032,7 +72260,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="2510567605244971445"/>
+					<large id="Ttea" value="2510567605244969439"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -72045,7 +72273,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="2186955009335937468"/>
+					<large id="Ttea" value="2186955009335935462"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -72058,7 +72286,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="3291143079108200886"/>
+					<large id="Ttea" value="3291143079108198880"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -72071,7 +72299,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="2328733481799698877"/>
+					<large id="Ttea" value="2328733481799696871"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -72084,7 +72312,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="520280984344250807"/>
+					<large id="Ttea" value="520280984344248801"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -72097,7 +72325,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="4075044734559242673"/>
+					<large id="Ttea" value="4075044734559240667"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -72110,7 +72338,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="1034519918365297080"/>
+					<large id="Ttea" value="1034519918365295074"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -72540,7 +72768,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="3382776618685221305"/>
+					<large id="Ttea" value="3382776618685219299"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -72553,7 +72781,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="2476835773915777459"/>
+					<large id="Ttea" value="2476835773915775453"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -72566,7 +72794,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="450519913614461370"/>
+					<large id="Ttea" value="450519913614459364"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -72579,7 +72807,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="2266364724096190900"/>
+					<large id="Ttea" value="2266364724096188894"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -72592,7 +72820,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="1975600699491928507"/>
+					<large id="Ttea" value="1975600699491926501"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -72605,7 +72833,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="2510567605244971445"/>
+					<large id="Ttea" value="2510567605244969439"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -72618,7 +72846,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="2186955009335937468"/>
+					<large id="Ttea" value="2186955009335935462"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -72631,7 +72859,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="3291143079108200886"/>
+					<large id="Ttea" value="3291143079108198880"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -72644,7 +72872,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="2328733481799698877"/>
+					<large id="Ttea" value="2328733481799696871"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -72657,7 +72885,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="520280984344250807"/>
+					<large id="Ttea" value="520280984344248801"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -72670,7 +72898,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="4075044734559242673"/>
+					<large id="Ttea" value="4075044734559240667"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -72683,7 +72911,7 @@
 			<record id="new_value">
 				<integer id="lsop" value="0"/>
 				<record id="value">
-					<large id="Ttea" value="1034519918365297080"/>
+					<large id="Ttea" value="1034519918365295074"/>
 				</record>
 			</record>
 			<integer id="version" value="3569"/>
@@ -74893,11 +75121,3368 @@
 			<unsigned id="odvl" value="30"/>
 			<boolean id="is_client_field" value="true"/>
 		</record>
+		<record>
+			<integer id="database_table_type" value="55"/>
+			<large id="db_unique_id" value="4294967297"/>
+			<unsigned id="property" value="1094992978"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="7"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="79344149789827998"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="85299758"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="7"/>
+			<large id="db_unique_id" value="79344149789827998"/>
+			<unsigned id="property" value="1299478896"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="294211649"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="7"/>
+			<large id="db_unique_id" value="79344149789827998"/>
+			<unsigned id="property" value="1298361705"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="competition" value="1393028737007273054"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="22909291"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="7"/>
+			<large id="db_unique_id" value="79344149789827998"/>
+			<unsigned id="property" value="1298361705"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="competition" value="3639283984136586335"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="93597448"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="7"/>
+			<large id="db_unique_id" value="79344149789827998"/>
+			<unsigned id="property" value="1299079533"/>
+			<string id="new_value" value="Local Pitch Network"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="165037348"/>
+			<string id="odvl" value=""/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="7"/>
+			<large id="db_unique_id" value="79344149789827998"/>
+			<unsigned id="property" value="1299542636"/>
+			<string id="new_value" value="www.localpitch.net"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="410174734"/>
+			<string id="odvl" value=""/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="7"/>
+			<large id="db_unique_id" value="79344149789827998"/>
+			<unsigned id="property" value="1298691175"/>
+			<string id="new_value" value="#LocalPitchNetwork"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="302318044"/>
+			<string id="odvl" value=""/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="7"/>
+			<large id="db_unique_id" value="79344149789827998"/>
+			<unsigned id="property" value="1298756454"/>
+			<boolean id="new_value" value="true"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="473241569"/>
+			<boolean id="odvl" value="false"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="7"/>
+			<large id="db_unique_id" value="79344149789827998"/>
+			<unsigned id="property" value="1298231395"/>
+			<boolean id="new_value" value="true"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="119042581"/>
+			<boolean id="odvl" value="false"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="7"/>
+			<large id="db_unique_id" value="79344149789827998"/>
+			<unsigned id="property" value="1299211634"/>
+			<integer id="new_value" value="1"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="996857690"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="7"/>
+			<large id="db_unique_id" value="79344149789827998"/>
+			<unsigned id="property" value="1299407728"/>
+			<integer id="new_value" value="7"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="835595609"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="7"/>
+			<large id="db_unique_id" value="79344149789827998"/>
+			<unsigned id="property" value="1299412089"/>
+			<integer id="new_value" value="4"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="602046523"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="7"/>
+			<large id="db_unique_id" value="79344149789827998"/>
+			<unsigned id="property" value="1299478896"/>
+			<record id="new_value">
+				<unsigned id="id" value="1299478896"/>
+				<integer id="value" value="10"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="Mtyp" value="1"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="250572587"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="7"/>
+			<large id="db_unique_id" value="79344149789827998"/>
+			<unsigned id="property" value="1299478896"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="66656418"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="7"/>
+			<large id="db_unique_id" value="79344149789827998"/>
+			<unsigned id="property" value="1299478896"/>
+			<record id="new_value">
+				<unsigned id="id" value="1299478896"/>
+				<integer id="value" value="6"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="Mtyp" value="1"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="483531146"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="7"/>
+			<large id="db_unique_id" value="79344149789827998"/>
+			<unsigned id="property" value="1299478896"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="559387504"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="7"/>
+			<large id="db_unique_id" value="79344149789827998"/>
+			<unsigned id="property" value="1299478896"/>
+			<record id="new_value">
+				<unsigned id="id" value="1299478896"/>
+				<integer id="value" value="4"/>
+				<integer id="lsop" value="1"/>
+				<record id="olvl">
+					<integer id="Mtyp" value="1"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="596779756"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="1393028737007273054"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<large id="Ttea" value="86111229561662901"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="568945488"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="1393028737007273054"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<large id="Ttea" value="8590941184010561405"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="675351213"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="1393028737007273054"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8590226424142929259"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="985234157"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="1393028737007273054"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8591040689812898301"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="82108629"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="1393028737007273054"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<large id="Ttea" value="86111229561662901"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="764246652"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="1393028737007273054"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8591052140195712103"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="180034472"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="1393028737007273054"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8589978467090938855"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="750691512"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="1393028737007273054"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<large id="Ttea" value="86111229561662901"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="710886237"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="1393028737007273054"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8590956435439433052"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="824869397"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="1393028737007273054"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8590226424142929259"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="50767934"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="86103399836280470"/>
+			<unsigned id="property" value="1131574393"/>
+			<record id="new_value">
+				<integer id="lsop" value="3"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="720575926"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="86103399836280470"/>
+			<unsigned id="property" value="1129542259"/>
+			<record id="new_value">
+				<integer id="lsop" value="3"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="123935036"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422380517378564"/>
+			<unsigned id="property" value="1129542259"/>
+			<record id="new_value">
+				<integer id="lsop" value="3"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="887442334"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422414877116940"/>
+			<unsigned id="property" value="1129542259"/>
+			<record id="new_value">
+				<integer id="lsop" value="3"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="846301088"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590941201190430593"/>
+			<unsigned id="property" value="1131241831"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="926800287"/>
+			<integer id="odvl" value="19"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590941201190430593"/>
+			<unsigned id="property" value="1131307373"/>
+			<string id="new_value" value="Nova Soccer "/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="619654358"/>
+			<string id="odvl" value="Nova Soccer Academy"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590941201190430593"/>
+			<unsigned id="property" value="1131307373"/>
+			<string id="new_value" value="Nova Soccer Club"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="434054768"/>
+			<string id="odvl" value="Nova Soccer "/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590941201190430593"/>
+			<unsigned id="property" value="1131638381"/>
+			<string id="new_value" value="Nova SC"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="439555265"/>
+			<string id="odvl" value="Nova SA"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590941201190430593"/>
+			<unsigned id="property" value="1130443630"/>
+			<string id="new_value" value="NSC"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="253808800"/>
+			<string id="odvl" value="NSA"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590957096864396790"/>
+			<unsigned id="property" value="1131241831"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="619541102"/>
+			<integer id="odvl" value="18"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="1393028737007273054"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="85971849282940657"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="192803420"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="85971849282940657"/>
+			<unsigned id="property" value="1129542259"/>
+			<record id="new_value">
+				<integer id="lsop" value="3"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="208511249"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422500776462880"/>
+			<unsigned id="property" value="1129542259"/>
+			<record id="new_value">
+				<integer id="lsop" value="3"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="711246554"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422500776462880"/>
+			<unsigned id="property" value="1131241831"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="27369223"/>
+			<integer id="odvl" value="18"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422500776462880"/>
+			<unsigned id="property" value="1131307367"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="61494101"/>
+			<integer id="odvl" value="15"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="386921741087055686"/>
+			<unsigned id="property" value="1130657385"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="264303026"/>
+			<record id="odvl">
+				<large id="competition" value="1393028737007273054"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="1393028737007273054"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="2"/>
+				<record id="olvl">
+					<large id="Ttea" value="386921741087055686"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="873357619"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="386921741087055686"/>
+			<unsigned id="property" value="1130657385"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="919480751"/>
+			<record id="odvl">
+				<large id="competition" value="1393028737007273054"/>
+			</record>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="86040431320739153"/>
+			<unsigned id="property" value="1131574393"/>
+			<record id="new_value">
+				<integer id="lsop" value="3"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="153272625"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="1393028737007273054"/>
+			<unsigned id="property" value="1668574579"/>
+			<record id="new_value">
+				<integer id="lsop" value="0"/>
+				<record id="value">
+					<large id="Ttea" value="8591294891747338543"/>
+				</record>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="199075547"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590941196895463296"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309332826154268817"/>
+				<integer id="DBID" value="72022161"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="822223560"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8591052140195712103"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="519382613"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8591052140195712103"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="86107132162861563"/>
+				<integer id="DBID" value="20048379"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="803173023"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590121506681798143"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309348507079870164"/>
+				<integer id="DBID" value="72025812"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="300152087"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590152709619210848"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="87008089"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590152709619210848"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309283588649176009"/>
+				<integer id="DBID" value="72010697"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="427265265"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620624831382513"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="75461401"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620624831382513"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309340454016188289"/>
+				<integer id="DBID" value="72023937"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="885882926"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620629126349810"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="278121946"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620629126349810"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309318841740749785"/>
+				<integer id="DBID" value="72018905"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="429449551"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620637716284404"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="964013812"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620637716284404"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309349091195422556"/>
+				<integer id="DBID" value="72025948"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="332368161"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620642011251701"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="332835838"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620642011251701"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309319056489114635"/>
+				<integer id="DBID" value="72018955"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="695020515"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590941188305528702"/>
+			<unsigned id="property" value="1131241831"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="709847235"/>
+			<integer id="odvl" value="19"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590941188305528702"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="215583064"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590941188305528702"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="85965694594804056"/>
+				<integer id="DBID" value="20015448"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="748552386"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590957071094593008"/>
+			<unsigned id="property" value="1131307373"/>
+			<string id="new_value" value="Bellevue United"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="690840435"/>
+			<string id="odvl" value="Bellevue Rush"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590957071094593008"/>
+			<unsigned id="property" value="1131638381"/>
+			<string id="new_value" value="Bellevue United"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="632170330"/>
+			<string id="odvl" value="Bellevue Rush"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590957071094593008"/>
+			<unsigned id="property" value="1131640942"/>
+			<string id="new_value" value="BELLU"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="67682177"/>
+			<string id="odvl" value="BELLR"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590957071094593008"/>
+			<unsigned id="property" value="1130443630"/>
+			<string id="new_value" value="BELU"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="826531400"/>
+			<string id="odvl" value="BELR"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590957071094593008"/>
+			<unsigned id="property" value="1131164526"/>
+			<string id="new_value" value="BELU"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="953542827"/>
+			<string id="odvl" value="BELL"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590957071094593008"/>
+			<unsigned id="property" value="1131241831"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="677156079"/>
+			<integer id="odvl" value="19"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590957071094593008"/>
+			<unsigned id="property" value="1952605036"/>
+			<colour id="new_value" red="0" green="0" blue="0" alpha="255"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="926200481"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590957071094593008"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="346725942"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590957071094593008"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309340187728215875"/>
+				<integer id="DBID" value="72023875"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="327861250"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620650601186295"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="469481764"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620650601186295"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590309531760126209"/>
+				<integer id="DBID" value="2000087297"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="81956530"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620998493537352"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="301514750"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620998493537352"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309348773367842578"/>
+				<integer id="DBID" value="72025874"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="129894719"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590621007083471946"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="908824772"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590621007083471946"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590307135168374483"/>
+				<integer id="DBID" value="2000086739"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="544777325"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191729397104093"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="810600775"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191729397104093"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590944508315249283"/>
+				<integer id="DBID" value="2000235139"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="662238409"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620659191120889"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309348313806341799"/>
+				<integer id="DBID" value="72025767"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="673538281"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620663486088186"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="4020597"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620663486088186"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309348721828235014"/>
+				<integer id="DBID" value="72025862"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="768410557"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620667781055483"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="17311744"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620667781055483"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590307075038832325"/>
+				<integer id="DBID" value="2000086725"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="203980784"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191742282005984"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="86030166348899323"/>
+				<integer id="DBID" value="20030459"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="793624395"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590224027551177533"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590307027794192058"/>
+				<integer id="DBID" value="2000086714"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="865673106"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620680665957374"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="20"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="764588120"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620680665957374"/>
+			<unsigned id="property" value="1132030317"/>
+			<integer id="new_value" value="20"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="735647792"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620680665957374"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="440770156"/>
+			<integer id="odvl" value="20"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620680665957374"/>
+			<unsigned id="property" value="1132030317"/>
+			<integer id="new_value" value="0"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="749116074"/>
+			<integer id="odvl" value="20"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620680665957374"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309340071764098856"/>
+				<integer id="DBID" value="72023848"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="546124548"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191862541090300"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309263591281441177"/>
+				<integer id="DBID" value="72006041"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="862967689"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590621011378439243"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="234444430"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590621011378439243"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309348769072875281"/>
+				<integer id="DBID" value="72025873"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="620676336"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590621019968373837"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="540558781"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590621019968373837"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="4214947761289593"/>
+				<integer id="DBID" value="981369"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="313081135"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191836771286518"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="484092748"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191836771286518"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590963745473772546"/>
+				<integer id="DBID" value="2000239618"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="228284585"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191656382660044"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="212164610"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191656382660044"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="85965720364607838"/>
+				<integer id="DBID" value="20015454"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="557624929"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620710730728453"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="202959213"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620710730728453"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590310047156201849"/>
+				<integer id="DBID" value="2000087417"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="634214465"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620719320663047"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="846521937"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620719320663047"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590307075038832325"/>
+				<integer id="DBID" value="2000086725"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="474239996"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8589978467090938855"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="186918032"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620732205564938"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="299729077"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620732205564938"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309348305216407205"/>
+				<integer id="DBID" value="72025765"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="730881259"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620972723733570"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="21256203"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620972723733570"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309348515669804758"/>
+				<integer id="DBID" value="72025814"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="41867212"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422414877116940"/>
+			<unsigned id="property" value="1132029538"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="130273750"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422414877116940"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309349091195422556"/>
+				<integer id="DBID" value="72025948"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="788428874"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422436351953425"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="306114864"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422436351953425"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590882145390096843"/>
+				<integer id="DBID" value="2000220619"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="693263395"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422500776462880"/>
+			<unsigned id="property" value="1130591353"/>
+			<record id="new_value">
+				<large id="city" value="309349344598493079"/>
+				<integer id="DBID" value="72026007"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="601419300"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422500776462880"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="48575265"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422500776462880"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309348489900000976"/>
+				<integer id="DBID" value="72025808"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="829142784"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590061969845127129"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="122111700"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590061969845127129"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="85965698889771353"/>
+				<integer id="DBID" value="20015449"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="747640912"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590121223213956541"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="930719371"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590121223213956541"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309249636932693224"/>
+				<integer id="DBID" value="72002792"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="20789413"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590121261868662214"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="313813042"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590121261868662214"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309348670288627450"/>
+				<integer id="DBID" value="72025850"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="284957138"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590121373537811936"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309318841740749785"/>
+				<integer id="DBID" value="72018905"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="922287035"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590121429372386797"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="787795693"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590121429372386797"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="86102626742167010"/>
+				<integer id="DBID" value="20047330"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="589666318"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590152731094047333"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309263634231114147"/>
+				<integer id="DBID" value="72006051"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="848269402"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590159134890287160"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="86049029845267747"/>
+				<integer id="DBID" value="20034851"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="10475742"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590185381435439127"/>
+			<unsigned id="property" value="1131307373"/>
+			<string id="new_value" value="Phoenix Rising FC"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="712738086"/>
+			<string id="odvl" value="Phoenix Rising FC Professional Academy"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590185381435439127"/>
+			<unsigned id="property" value="1131638381"/>
+			<string id="new_value" value="Phoenix Rising FC"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="630205689"/>
+			<string id="odvl" value="Phoenix Academy"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590185381435439127"/>
+			<unsigned id="property" value="1131241831"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="994983081"/>
+			<integer id="odvl" value="19"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590185381435439127"/>
+			<unsigned id="property" value="1131307367"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="331744482"/>
+			<integer id="odvl" value="12"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590185381435439127"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590309261177186498"/>
+				<integer id="DBID" value="2000087234"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="575659255"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191634907823559"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="708673181"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191634907823559"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="4214969236126078"/>
+				<integer id="DBID" value="981374"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="473911118"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191647792725450"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="513672577"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191647792725450"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309340243562790736"/>
+				<integer id="DBID" value="72023888"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="307591975"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191660677627341"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="189524920"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191660677627341"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590309514580257021"/>
+				<integer id="DBID" value="2000087293"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="992881689"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191669267561935"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="114366776"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191669267561935"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309340020224491292"/>
+				<integer id="DBID" value="72023836"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="265780325"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8591294891747338543"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="782050142"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8591294891747338543"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590872670692239661"/>
+				<integer id="DBID" value="2000218413"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="742404453"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590226424142929259"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="205521225"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590226424142929259"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309348507079870164"/>
+				<integer id="DBID" value="72025812"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="918244646"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590956435439433052"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="315598429"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590956435439433052"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590234679070074093"/>
+				<integer id="DBID" value="2000069869"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="66159665"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8591040689812898301"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="870390075"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8591040689812898301"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590309256882219201"/>
+				<integer id="DBID" value="2000087233"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="745758140"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620607651513325"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="798797737"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620607651513325"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309347798410266159"/>
+				<integer id="DBID" value="72025647"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="414017694"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191725102136796"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590944508315249283"/>
+				<integer id="DBID" value="2000235139"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="491404026"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191819591417330"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309249598277987551"/>
+				<integer id="DBID" value="72002783"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="639651858"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620745090466829"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="311795631"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620745090466829"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590307075038832325"/>
+				<integer id="DBID" value="2000086725"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="273446573"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620968428766273"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="662404857"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620968428766273"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8589937673491551949"/>
+				<integer id="DBID" value="2000000717"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="277359890"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620964133798976"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="332899564"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620964133798976"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="5914169967969"/>
+				<integer id="DBID" value="1377"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="323909235"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191789526646251"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="360611544"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191789526646251"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590307083628766919"/>
+				<integer id="DBID" value="2000086727"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="80221109"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191823886384627"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="309900819"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191823886384627"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309249598277987551"/>
+				<integer id="DBID" value="72002783"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="962203460"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620757975368720"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="310897942"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620757975368720"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309348756187973390"/>
+				<integer id="DBID" value="72025870"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="847968558"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191686447431123"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="317234297"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191686447431123"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590942713018919137"/>
+				<integer id="DBID" value="2000234721"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="166659689"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191733692071390"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="832675411"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191733692071390"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590133635669444871"/>
+				<integer id="DBID" value="2000046343"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="622538977"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191798116580845"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="150782407"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191798116580845"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309340385296711537"/>
+				<integer id="DBID" value="72023921"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="421502322"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191832476319221"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="888635835"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191832476319221"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309249598277987551"/>
+				<integer id="DBID" value="72002783"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="187258909"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620766565303314"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="165604095"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620766565303314"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309348769072875281"/>
+				<integer id="DBID" value="72025873"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="213941424"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620981313668164"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="524397514"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620981313668164"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590309746508491059"/>
+				<integer id="DBID" value="2000087347"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="615048676"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590621032853275728"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="52028391"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590621032853275728"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309348618749019886"/>
+				<integer id="DBID" value="72025838"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="412885681"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191690742398420"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="261020939"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191690742398420"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309348532849673946"/>
+				<integer id="DBID" value="72025818"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="187930877"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191802411548142"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="583124082"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191802411548142"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309340282217496409"/>
+				<integer id="DBID" value="72023897"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="626326346"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620775155237908"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="507033497"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620775155237908"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309263574101571989"/>
+				<integer id="DBID" value="72006037"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="836228358"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620989903602758"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="854711405"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620989903602758"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590307096513668810"/>
+				<integer id="DBID" value="2000086730"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="565256024"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191695037365717"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="207557413"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191695037365717"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="86102536547853773"/>
+				<integer id="DBID" value="20047309"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="582571636"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620779450205205"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="399540022"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620779450205205"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590864514549342658"/>
+				<integer id="DBID" value="2000216514"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="982231844"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620994198570055"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="53223906"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620994198570055"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590309746508491059"/>
+				<integer id="DBID" value="2000087347"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="625162170"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191759461875172"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="161092286"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191759461875172"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590942786033363186"/>
+				<integer id="DBID" value="2000234738"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="570232016"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191811001482736"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="566104051"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191811001482736"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309263608461310365"/>
+				<integer id="DBID" value="72006045"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="944593892"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191853951155706"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="667577907"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191853951155706"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309348528554706649"/>
+				<integer id="DBID" value="72025817"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="940789744"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620959838831679"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="443139416"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590620959838831679"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309348700353398529"/>
+				<integer id="DBID" value="72025857"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="827920609"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191716512202202"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="479302815"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191716512202202"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="86102536547853773"/>
+				<integer id="DBID" value="20047309"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="725932368"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191776641744360"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="668540136"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191776641744360"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309348395410720442"/>
+				<integer id="DBID" value="72025786"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="887638985"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590941192600495999"/>
+			<unsigned id="property" value="1131241831"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="155029139"/>
+			<integer id="odvl" value="19"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590941192600495999"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="803394318"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590941192600495999"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309348919396730676"/>
+				<integer id="DBID" value="72025908"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="588428739"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590957088274462196"/>
+			<unsigned id="property" value="1131241831"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="736455938"/>
+			<integer id="odvl" value="18"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590957088274462196"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="546194892"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590957088274462196"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309340054584229668"/>
+				<integer id="DBID" value="72023844"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="707142170"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590941175420626811"/>
+			<unsigned id="property" value="1131241831"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="975814937"/>
+			<integer id="odvl" value="19"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590941175420626811"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="230608320"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590941175420626811"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309348708943333123"/>
+				<integer id="DBID" value="72025859"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="17802450"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590957096864396790"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="129829892"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590957096864396790"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309340179138281281"/>
+				<integer id="DBID" value="72023873"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="738372302"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590941201190430593"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="651378093"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590941201190430593"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590309548939995397"/>
+				<integer id="DBID" value="2000087301"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="850737521"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590956564288451962"/>
+			<unsigned id="property" value="1131241831"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="138640593"/>
+			<integer id="odvl" value="19"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590956564288451962"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="404453681"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590956564288451962"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309340209203052360"/>
+				<integer id="DBID" value="72023880"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="703391965"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590957092569429493"/>
+			<unsigned id="property" value="1131241831"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="232615400"/>
+			<integer id="odvl" value="18"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590957092569429493"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="256939750"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590957092569429493"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="309249516673608908"/>
+				<integer id="DBID" value="72002764"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="573691147"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590956577173353853"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="210723724"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590956577173353853"/>
+			<unsigned id="property" value="1131639913"/>
+			<record id="new_value">
+				<large id="stad" value="8590051533074595419"/>
+				<integer id="DBID" value="2000027227"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="729359371"/>
+			<null id="odvl"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="85971849282940657"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="212570619"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="4216743057619739"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="169958795"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="4216863316704055"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="929384237"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="4216777417358115"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="817612542"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="4216807482129194"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="312038364"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="4216721582783254"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="827153670"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="4216751647554333"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="524459168"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="4216841841867570"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="485095884"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191742282005984"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="127938678"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="4216755942521630"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="337049308"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="4216786007292709"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="624187263"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590191845361221112"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="853417569"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="4216760237488927"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="809373992"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="4216820367031085"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="867996096"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="4200847383653542"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="20845044"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="4216764532456224"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="778837283"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="4216824661998382"/>
+			<unsigned id="property" value="1132030317"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="920516522"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="4216824661998382"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="136778196"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="4216824661998382"/>
+			<unsigned id="property" value="1132030317"/>
+			<integer id="new_value" value="0"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="78502691"/>
+			<integer id="odvl" value="3"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="4216854726769461"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="10693798"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590121489501928955"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="233854294"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309263440957585782"/>
+			<unsigned id="property" value="1131241831"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="661094823"/>
+			<integer id="odvl" value="18"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309263440957585782"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="668463894"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="133307169194482218"/>
+			<unsigned id="property" value="1131241831"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="315074316"/>
+			<integer id="odvl" value="20"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="133307169194482218"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="466325546"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="133307177784416812"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="88565531"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8591376723759248284"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="163960778"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422414877116940"/>
+			<unsigned id="property" value="1131241831"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="914399137"/>
+			<integer id="odvl" value="18"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422414877116940"/>
+			<unsigned id="property" value="1131307367"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="189932697"/>
+			<integer id="odvl" value="15"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422414877116940"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="899951173"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="85974417673384263"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="876796042"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="86072261323377220"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="42393684"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="86111272511335871"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="611546618"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422380517378564"/>
+			<unsigned id="property" value="1131241831"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="332921209"/>
+			<integer id="odvl" value="18"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422380517378564"/>
+			<unsigned id="property" value="1131307367"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="376834572"/>
+			<integer id="odvl" value="14"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422380517378564"/>
+			<unsigned id="property" value="1132030317"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="573214552"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422380517378564"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="757596662"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422380517378564"/>
+			<unsigned id="property" value="1132030317"/>
+			<integer id="new_value" value="0"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="683860427"/>
+			<integer id="odvl" value="3"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422359042542079"/>
+			<unsigned id="property" value="1131241831"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="262340815"/>
+			<integer id="odvl" value="18"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422359042542079"/>
+			<unsigned id="property" value="1131307367"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="314091696"/>
+			<integer id="odvl" value="15"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422359042542079"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="581676676"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590062047154538475"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="85550886"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="86111276806303168"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="380446874"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590121433667354094"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="352640028"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="86050198076372531"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="799092731"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422337567705594"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="12226465"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590062008499832802"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="946876880"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590941179715594108"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="208612054"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="86040431320739153"/>
+			<unsigned id="property" value="1131570018"/>
+			<integer id="new_value" value="3"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="457057803"/>
+			<integer id="odvl" value="0"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590941179715594108"/>
+			<unsigned id="property" value="1131241831"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="336822060"/>
+			<integer id="odvl" value="23"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590941196895463296"/>
+			<unsigned id="property" value="1131241831"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="219924768"/>
+			<integer id="odvl" value="19"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422337567705594"/>
+			<unsigned id="property" value="1131241831"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="579158179"/>
+			<integer id="odvl" value="18"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422337567705594"/>
+			<unsigned id="property" value="1131307367"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="871384976"/>
+			<integer id="odvl" value="14"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422436351953425"/>
+			<unsigned id="property" value="1131241831"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="616165421"/>
+			<integer id="odvl" value="18"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="309422436351953425"/>
+			<unsigned id="property" value="1131307367"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="321047046"/>
+			<integer id="odvl" value="15"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590956435439433052"/>
+			<unsigned id="property" value="1131307367"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="191296608"/>
+			<integer id="odvl" value="15"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="3"/>
+			<large id="db_unique_id" value="8590956435439433052"/>
+			<unsigned id="property" value="1131241831"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="900029008"/>
+			<integer id="odvl" value="18"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="1393028737007273054"/>
+			<unsigned id="property" value="1664314478"/>
+			<string id="new_value" value="DRL2"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="92325808"/>
+			<string id="odvl" value="DrL2"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="25"/>
+			<large id="db_unique_id" value="3639283984136586335"/>
+			<unsigned id="property" value="1668509293"/>
+			<string id="new_value" value="DRL2 Shield"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="182894570"/>
+			<string id="odvl" value="DRL2 Shigeld"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1744604537835655996"/>
+			<unsigned id="property" value="1145392197"/>
+			<boolean id="new_value" value="true"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="564409058"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3860448329997128514"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="10"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="511025021"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3860448329997128514"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="20"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="2901388"/>
+			<integer id="odvl" value="10"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3856179974318494533"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="10"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="377164938"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3856179974318494533"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="20"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="196388637"/>
+			<integer id="odvl" value="10"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2938277357866881866"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="10"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="938847609"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2938277357866881866"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="20"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="706851911"/>
+			<integer id="odvl" value="10"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3226275075640169292"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="10"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="290392501"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3226275075640169292"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="20"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="9849515"/>
+			<integer id="odvl" value="10"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1130765582803309374"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="10"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="499732253"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1130765582803309374"/>
+			<unsigned id="property" value="1096251489"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="536219864"/>
+			<integer id="odvl" value="10"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3116233499506021181"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="10"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="340798868"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3116233499506021181"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="20"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="825164007"/>
+			<integer id="odvl" value="10"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2630140190550299451"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="10"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="179483095"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2630140190550299451"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="29"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="804373182"/>
+			<integer id="odvl" value="10"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1158230459847185217"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="10"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="647399690"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1158230459847185217"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="20"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="402414472"/>
+			<integer id="odvl" value="10"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1430755661015847747"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="10"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="703132508"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1430755661015847747"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="20"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="700421076"/>
+			<integer id="odvl" value="10"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="215235089674179396"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="10"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="988355220"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="215235089674179396"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="20"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="562147208"/>
+			<integer id="odvl" value="10"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1967943000436413247"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="10"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="310291087"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1967943000436413247"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="20"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="457090782"/>
+			<integer id="odvl" value="10"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="753009001368294214"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="10"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="379028776"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="753009001368294214"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="20"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="882958638"/>
+			<integer id="odvl" value="10"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2048336589124965191"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="10"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="425182240"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2048336589124965191"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="20"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="678273204"/>
+			<integer id="odvl" value="10"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1894046941352465224"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="10"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="432447743"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1894046941352465224"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="20"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="498837277"/>
+			<integer id="odvl" value="10"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="1894046941352465224"/>
+			<unsigned id="property" value="1096251489"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="964026056"/>
+			<integer id="odvl" value="20"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="390912351730832203"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="10"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="913978887"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="390912351730832203"/>
+			<unsigned id="property" value="1096251489"/>
+			<integer id="new_value" value="20"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="718099325"/>
+			<integer id="odvl" value="10"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="2938277357866881866"/>
+			<unsigned id="property" value="1129271385"/>
+			<record id="new_value">
+				<integer id="database_table_type" value="0"/>
+				<integer id="dcty" value="0"/>
+				<large id="db_unique_id" value="3674001235582292816"/>
+			</record>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="423523111"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3674001235582292816"/>
+			<unsigned id="property" value="1096248929"/>
+			<string id="new_value" value="Dev. Regional League 2  Veteran Influence Award"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="553381110"/>
+			<string id="odvl" value="Dev. Regional League 2  Most Valuable Player"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3674001235582292816"/>
+			<unsigned id="property" value="1096250222"/>
+			<string id="new_value" value="DRL2 Veteran Influence Aw"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="681597263"/>
+			<string id="odvl" value="DRL2 Most Valuable Player"/>
+			<boolean id="is_client_field" value="true"/>
+			<boolean id="is_language_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3674001235582292816"/>
+			<unsigned id="property" value="1096251489"/>
+			<null id="new_value"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="67544768"/>
+			<integer id="odvl" value="20"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3674001235582292816"/>
+			<unsigned id="property" value="1096248673"/>
+			<integer id="new_value" value="10"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="181081171"/>
+			<null id="odvl"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
+		<record>
+			<integer id="database_table_type" value="0"/>
+			<large id="db_unique_id" value="3674001235582292816"/>
+			<unsigned id="property" value="1096248673"/>
+			<integer id="new_value" value="21"/>
+			<integer id="version" value="3569"/>
+			<integer id="db_random_id" value="715933551"/>
+			<integer id="odvl" value="10"/>
+			<boolean id="is_client_field" value="true"/>
+		</record>
 	</list>
 	<list id="Coms">
 		<string value="database_record/c3ln"/>
 		<string value="Comment"/>
 		<string value="database_record/crep"/>
+		<string value="Comment"/>
+		<string value="database_record/Csti"/>
+		<string value="Comment"/>
+		<string value="database_record/cusn"/>
 		<string value="Comment"/>
 		<string value="files/0/division_levels/division_levels"/>
 		<string value="Comment"/>
