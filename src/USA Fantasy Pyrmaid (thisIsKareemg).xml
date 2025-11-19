@@ -9674,8 +9674,8 @@
 					<string id="stage_finished_actions" value="add_history_record"/>
 					<integer id="index" value="2"/>
 					<record id="competition">
-						<large id="competition" value="1393028737007273054"/>
-						<integer id="DBID" value="2000340062"/>
+						<large id="competition" value="3639283984136586335"/>
+						<integer id="DBID" value="2000340063"/>
 					</record>
 					<boolean id="store_league_history" value="true"/>
 				</record>
@@ -9882,6 +9882,10 @@
 						<string id="type" value="under_18_players_in_11"/>
 						<string id="compare_type" value="more_than"/>
 						<integer id="value" value="8"/>
+					</record>
+					<record>
+						<string id="type" value="over_33_players_in_match_squad"/>
+						<string id="compare_type" value="less_than"/>
 					</record>
 				</list>
 				<list id="squad_selection_deadline_date">
@@ -10265,9 +10269,9 @@
 		<list id="secondary_league_comps"/>
 		<list id="cup_comps"/>
 	</record>
-	<integer id="XSvC" value="1012"/>
+	<integer id="XSvC" value="1027"/>
 	<string id="EdBr" value="main"/>
-	<date id="EdDt" day="19" month="11" year="2025" time="1315"/>
+	<date id="EdDt" day="19" month="11" year="2025" time="1500"/>
 	<integer id="version" value="3569"/>
 	<integer id="rule_group_version" value="1536"/>
 	<boolean id="beta" value="false"/>
